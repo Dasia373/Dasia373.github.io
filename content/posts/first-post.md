@@ -2,7 +2,7 @@
 title: "GitHub+Hugo 博客搭建记录"
 date: 2026-03-04
 draft: false
-tags: ["Linux", "WSL2", "环境搭建"]
+tags: ["Github", "Hugo", "博客搭建"]
 ---
 
 ## 环境准备
