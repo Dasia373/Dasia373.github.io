@@ -1,0 +1,11 @@
+baseURL = "https://dasia373.github.io/"
+languageCode = "zh-cn"
+title = "学习日常"
+theme = "PaperMod"
+
+[params]
+  author = "工蜂"
+  description = "科研&嵌入式Linux学习记录"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
