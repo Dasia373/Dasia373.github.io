@@ -1,13 +1,11 @@
-+++
-date = '2026-03-10T21:31:33+08:00'
-draft = false
-title = 'Linux基本操作指令'
-
+---
+title: "Linux基本操作"
+date: 2026-03-10
+draft: false
 tags: ["Linux"]
+---
 
-+++
-
-# Linux基本操作：
+## Linux基本操作：
 
 ### 1. 目录与文件操作命令
 
