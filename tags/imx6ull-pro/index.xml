@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IMX6ULL-PRO on Shrond's Log</title><link>https://dasia373.github.io/tags/imx6ull-pro/</link><description>Recent content in IMX6ULL-PRO on Shrond's Log</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2026 工蜂</copyright><lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dasia373.github.io/tags/imx6ull-pro/index.xml" rel="self" type="application/rss+xml"/><item><title>韦东山IMX6ULL-PRO入门学习日志（二）替换与编译内核</title><link>https://dasia373.github.io/posts/imx6ull_make_20260313/</link><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate><guid>https://dasia373.github.io/posts/imx6ull_make_20260313/</guid><description>&lt;h2 class="relative group"&gt;1. 清理源码目录
+ &lt;div id="1-清理源码目录" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e6%b8%85%e7%90%86%e6%ba%90%e7%a0%81%e7%9b%ae%e5%bd%95" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;make mrproper&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;h2 class="relative group"&gt;2. 加载默认配置
+ &lt;div id="2-加载默认配置" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-%e5%8a%a0%e8%bd%bd%e9%bb%98%e8%ae%a4%e9%85%8d%e7%bd%ae" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;make 100ask_imx6ull_defconfig&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;h2 class="relative group"&gt;3. 编译内核镜像
+ &lt;div id="3-编译内核镜像" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#3-%e7%bc%96%e8%af%91%e5%86%85%e6%a0%b8%e9%95%9c%e5%83%8f" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;make zImage -j4&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;这里 &lt;code&gt;-j4&lt;/code&gt; 表示使用 4 个线程并行编译。&lt;/p&gt;</description></item><item><title>韦东山IMX6ULL-PRO入门学习日志（一）WSL2与ADB的识别</title><link>https://dasia373.github.io/posts/wsl2_adb_20260313/</link><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate><guid>https://dasia373.github.io/posts/wsl2_adb_20260313/</guid><description>记录在 WSL2 环境下配置与识别 ADB 的过程，以及韦东山 IMX6ULL-PRO 入门学习中的相关踩坑。</description></item></channel></rss>
