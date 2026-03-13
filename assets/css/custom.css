@@ -1,0 +1,398 @@
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --surface-soft: rgba(255, 255, 255, 0.78);
+
+  --text: #1f2937;
+  --muted: #6b7280;
+  --line: rgba(15, 23, 42, 0.08);
+  --link: #2563eb;
+
+  --shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  --shadow-hover: 0 14px 30px rgba(15, 23, 42, 0.10);
+
+  --bg-dark: #0f172a;
+  --surface-dark: #111827;
+  --surface-soft-dark: rgba(17, 24, 39, 0.82);
+
+  --text-dark: #e5e7eb;
+  --muted-dark: #94a3b8;
+  --line-dark: rgba(148, 163, 184, 0.16);
+  --link-dark: #60a5fa;
+
+  --shadow-dark: 0 10px 24px rgba(0, 0, 0, 0.30);
+  --shadow-hover-dark: 0 14px 30px rgba(0, 0, 0, 0.36);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+body::before,
+body::after {
+  content: none !important;
+}
+
+/* 顶部导航 */
+header {
+  background: rgba(246, 247, 251, 0.82) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line) !important;
+  box-shadow: none !important;
+}
+
+/* 主内容外层：不要额外面板 */
+main,
+main > *,
+main > div,
+main > section {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+main {
+  max-width: 100% !important;
+  margin: 0 auto;
+  padding: 4.5rem 1rem 4rem !important;
+}
+
+/* 首页结构 */
+.home-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0;
+  background: transparent !important;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1.75rem;
+  background: transparent !important;
+}
+
+/* 头像 */
+.avatar {
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 9999px !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin: 0 auto 1rem !important;
+  border: 4px solid rgba(255, 255, 255, 0.95) !important;
+  background: #fff !important;
+  box-shadow: 0 10px 28px rgba(37, 99, 235, 0.10) !important;
+}
+
+/* 首页标题 */
+.site-title {
+  font-size: 2.8rem !important;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: var(--text) !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+
+/* 首页副标题 */
+.site-subtitle {
+  margin: 0.55rem 0 0;
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: #334155 !important;
+  opacity: 1 !important;
+}
+
+/* 首页简介 */
+.site-desc {
+  margin: 1rem auto 0;
+  max-width: 620px;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--muted) !important;
+  opacity: 1 !important;
+}
+
+/* 文章列表 */
+.post-list {
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: transparent !important;
+}
+
+/* 卡片 */
+.post-card {
+  background: var(--surface-soft) !important;
+  border: 1px solid rgba(255, 255, 255, 0.72) !important;
+  border-radius: 18px;
+  padding: 1.35rem 1.35rem 1.2rem;
+  box-shadow: var(--shadow) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover) !important;
+  border-color: rgba(37, 99, 235, 0.16) !important;
+}
+
+.post-title {
+  margin: 0 0 0.55rem;
+  font-size: 1.45rem !important;
+  line-height: 1.3;
+}
+
+.post-title a {
+  color: var(--text) !important;
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  color: var(--link) !important;
+}
+
+.post-meta {
+  color: var(--muted) !important;
+  font-size: 0.92rem;
+  margin-bottom: 0.85rem;
+}
+
+.post-summary {
+  color: #374151 !important;
+  line-height: 1.8;
+  margin: 0 0 0.95rem;
+}
+
+.read-more {
+  display: inline-block;
+  color: var(--link) !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  opacity: 0.92;
+}
+
+/* 正文页 */
+.single_hero_content,
+article .prose {
+  background: rgba(255, 255, 255, 0.78) !important;
+  border: 1px solid rgba(255, 255, 255, 0.72) !important;
+  border-radius: 20px;
+  box-shadow: var(--shadow) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  padding: 1.4rem !important;
+}
+
+.prose,
+article .prose {
+  color: var(--text) !important;
+}
+
+.prose a,
+article .prose a {
+  color: var(--link) !important;
+}
+
+pre {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* 你自定义的重复 footer 不显示 */
+.custom-footer {
+  display: none !important;
+}
+
+footer {
+  background: transparent !important;
+  border-top: none !important;
+  box-shadow: none !important;
+}
+
+/* ===== 黑暗模式修正 ===== */
+html.dark,
+body.dark {
+  background: var(--bg-dark) !important;
+  color: var(--text-dark) !important;
+}
+
+html.dark body,
+body.dark {
+  background: var(--bg-dark) !important;
+  color: var(--text-dark) !important;
+}
+
+html.dark header,
+body.dark header {
+  background: rgba(15, 23, 42, 0.82) !important;
+  border-bottom: 1px solid var(--line-dark) !important;
+}
+
+/* 关键：黑暗模式下主容器也必须是深色背景，不要保留浅灰 */
+html.dark main,
+body.dark main,
+html.dark main > *,
+body.dark main > *,
+html.dark main > div,
+body.dark main > div,
+html.dark main > section,
+body.dark main > section {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* 黑暗模式标题/简介修正 */
+html.dark .site-title,
+body.dark .site-title {
+  color: var(--text-dark) !important;
+  opacity: 1 !important;
+}
+
+html.dark .site-subtitle,
+body.dark .site-subtitle {
+  color: #cbd5e1 !important;
+  opacity: 1 !important;
+}
+
+html.dark .site-desc,
+body.dark .site-desc {
+  color: var(--muted-dark) !important;
+  opacity: 1 !important;
+}
+
+/* 黑暗模式卡片 */
+html.dark .post-card,
+body.dark .post-card {
+  background: var(--surface-soft-dark) !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  box-shadow: var(--shadow-dark) !important;
+}
+
+html.dark .post-card:hover,
+body.dark .post-card:hover {
+  box-shadow: var(--shadow-hover-dark) !important;
+}
+
+html.dark .post-title a,
+body.dark .post-title a {
+  color: var(--text-dark) !important;
+}
+
+html.dark .post-title a:hover,
+body.dark .post-title a:hover,
+html.dark .read-more,
+body.dark .read-more {
+  color: var(--link-dark) !important;
+}
+
+html.dark .post-meta,
+body.dark .post-meta {
+  color: var(--muted-dark) !important;
+}
+
+html.dark .post-summary,
+body.dark .post-summary {
+  color: #cbd5e1 !important;
+}
+
+/* 黑暗模式正文页 */
+html.dark .single_hero_content,
+body.dark .single_hero_content,
+html.dark article .prose,
+body.dark article .prose {
+  background: rgba(17, 24, 39, 0.82) !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  box-shadow: var(--shadow-dark) !important;
+}
+
+html.dark .prose,
+body.dark .prose,
+html.dark article .prose,
+body.dark article .prose {
+  color: var(--text-dark) !important;
+}
+
+html.dark .prose a,
+body.dark .prose a,
+html.dark article .prose a,
+body.dark article .prose a {
+  color: var(--link-dark) !important;
+}
+
+html.dark .avatar,
+body.dark .avatar {
+  border-color: rgba(255, 255, 255, 0.14) !important;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28) !important;
+}
+
+/* 移动端 */
+@media (max-width: 768px) {
+  main {
+    padding: 3rem 1rem 3rem !important;
+  }
+
+  .home-wrap {
+    max-width: 100%;
+  }
+
+  .post-list {
+    max-width: 100%;
+  }
+
+  .site-title {
+    font-size: 2.15rem !important;
+  }
+
+  .site-subtitle {
+    font-size: 1rem;
+  }
+
+  .site-desc {
+    font-size: 0.95rem;
+  }
+
+  .avatar {
+    width: 92px !important;
+    height: 92px !important;
+  }
+
+  .post-card {
+    padding: 1.05rem 1rem;
+    border-radius: 16px;
+  }
+
+  .post-title {
+    font-size: 1.22rem !important;
+  }
+
+  .single_hero_content,
+  article .prose {
+    padding: 1rem !important;
+    border-radius: 16px;
+  }
+}

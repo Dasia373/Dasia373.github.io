@@ -1,0 +1,5 @@
+theme = "blowfish"
+baseURL = "https://dasia373.github.io/"
+defaultContentLanguage = "zh-cn"
+enableRobotsTXT = true
+summaryLength = 30

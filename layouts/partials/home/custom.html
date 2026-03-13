@@ -1,0 +1,37 @@
+<section class="home-wrap">
+  <div class="hero">
+    <img class="avatar" src="/images/avatar.jpg" alt="avatar" />
+    <h1 class="site-title">{{ .Site.Title }}</h1>
+    <p class="site-subtitle">嵌入式 Linux / 科研 / 学习记录</p>
+    <p class="site-desc">在这里记录嵌入式 Linux、科研过程和一些阶段性的思考。</p>
+  </div>
+
+  <div class="post-list">
+    {{ $pages := where site.RegularPages "Section" "posts" }}
+    {{ range first 10 ($pages.ByDate.Reverse) }}
+      <article class="post-card">
+        <h2 class="post-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+
+        <div class="post-meta">
+          <span>{{ .Date.Format "2006-01-02" }}</span>
+          {{ with .Params.categories }}
+            <span>· {{ index . 0 }}</span>
+          {{ end }}
+          <span>· {{ .ReadingTime }} 分钟</span>
+        </div>
+
+        <p class="post-summary">
+          {{ with .Summary }}
+            {{ . | plainify | truncate 120 }}
+          {{ else }}
+            {{ .Plain | truncate 120 }}
+          {{ end }}
+        </p>
+
+        <a class="read-more" href="{{ .RelPermalink }}">Read More →</a>
+      </article>
+    {{ end }}
+  </div>
+</section>

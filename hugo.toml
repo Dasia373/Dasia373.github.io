@@ -1,11 +1,38 @@
 baseURL = "https://dasia373.github.io/"
 languageCode = "zh-cn"
-title = "工蜂亡命天涯"
-theme = "PaperMod"
+title = "Shrond's Log"
+theme = "blowfish"
 
 [params]
-  author = "工蜂"
-  description = "科研&嵌入式Linux学习记录 24岁是学生"
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowCodeCopyButtons = true
+  description = "嵌入式 Linux / 科研 / 学习记录"
+
+[params.author]
+  name = "工蜂"
+  headline = "嵌入式 Linux / 科研 / 学习记录"
+
+mainSections = ["posts"]
+
+[[menu.main]]
+  name = "Posts"
+  pageRef = "/posts"
+  weight = 10
+
+[[menu.main]]
+  name = "Tags"
+  pageRef = "/tags"
+  weight = 20
+
+[[menu.main]]
+  name = "Categories"
+  pageRef = "/categories"
+  weight = 30
+
+[[menu.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 40
+
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/dasia373"
+  weight = 50
