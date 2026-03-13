@@ -1,57 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on 工蜂亡命天涯</title><link>https://dasia373.github.io/posts/</link><description>Recent content in Posts on 工蜂亡命天涯</description><generator>Hugo -- 0.157.0</generator><language>zh-cn</language><lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dasia373.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux基本操作</title><link>https://dasia373.github.io/posts/linux%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4/</link><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate><guid>https://dasia373.github.io/posts/linux%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4/</guid><description>&lt;h2 id="linux基本操作"&gt;Linux基本操作：&lt;/h2&gt;
-&lt;h3 id="1-目录与文件操作命令"&gt;1. 目录与文件操作命令&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Shrond's Log</title><link>https://dasia373.github.io/posts/</link><description>Recent content in Posts on Shrond's Log</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2026 工蜂</copyright><lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dasia373.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux基本操作</title><link>https://dasia373.github.io/posts/linux%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4/</link><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate><guid>https://dasia373.github.io/posts/linux%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4/</guid><description>&lt;h2 class="relative group"&gt;Linux基本操作：
+ &lt;div id="linux基本操作" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#linux%e5%9f%ba%e6%9c%ac%e6%93%8d%e4%bd%9c" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;1. 目录与文件操作命令
+ &lt;div id="1-目录与文件操作命令" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e7%9b%ae%e5%bd%95%e4%b8%8e%e6%96%87%e4%bb%b6%e6%93%8d%e4%bd%9c%e5%91%bd%e4%bb%a4" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;pwd&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例场景&lt;/strong&gt;: 执行 &lt;code&gt;pwd&lt;/code&gt; 可以显示当前所在路径，例如输出 &lt;code&gt;/home/book&lt;/code&gt; 。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;cd&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例场景&lt;/strong&gt;: 执行 &lt;code&gt;cd /home/&lt;/code&gt; 可以切换到 &lt;code&gt;/home&lt;/code&gt; 路径 。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;mkdir&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例场景 1&lt;/strong&gt;: 执行 &lt;code&gt;mkdir dir0&lt;/code&gt; 创建一个目录 。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例场景 2&lt;/strong&gt;: 执行 &lt;code&gt;mkdir -p dir1/dir2&lt;/code&gt; 创建目录及子目录 。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;rmdir&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例场景&lt;/strong&gt;: 执行 &lt;code&gt;rmdir dir1&lt;/code&gt; 删除一个空目录 。注意，不能删除一个非空目录 。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;ls&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例场景 1&lt;/strong&gt;: 执行 &lt;code&gt;ls&lt;/code&gt; 显示当前目录下文件 。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例场景 2&lt;/strong&gt;: 执行 &lt;code&gt;ls -l&lt;/code&gt; 显示文件更完整信息 。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例场景 3&lt;/strong&gt;: 执行 &lt;code&gt;ls -a&lt;/code&gt; 显示当前目录下文件及隐藏文件 。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例场景 4&lt;/strong&gt;: 执行 &lt;code&gt;ls -lh&lt;/code&gt;，文件大小会以 K/M/G 等可读方式列出来 。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;cp&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例场景&lt;/strong&gt;: 执行 &lt;code&gt;cp -r dir1/ dir2&lt;/code&gt; 复制 dir1 文件夹 。&lt;/p&gt;</description></item><item><title>GitHub+Hugo 博客搭建记录</title><link>https://dasia373.github.io/posts/first-post/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate><guid>https://dasia373.github.io/posts/first-post/</guid><description>&lt;h2 id="环境准备"&gt;环境准备&lt;/h2&gt;
-&lt;h3 id="安装-git"&gt;安装 Git&lt;/h3&gt;
-&lt;p&gt;PowerShell 中运行：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget install Git.Git
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装完成后重启终端，配置身份信息：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git config --global user.name &lt;span style="color:#e6db74"&gt;&amp;#34;名字&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git config --global user.email &lt;span style="color:#e6db74"&gt;&amp;#34;邮箱&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;验证安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git --version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="安装-hugo"&gt;安装 Hugo&lt;/h3&gt;
-&lt;p&gt;推荐使用 winget 安装 Hugo Extended 版本（Extended 版支持 SCSS，很多主题需要）：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget install Hugo.Hugo.Extended
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;踩坑记录：&lt;/strong&gt; 检索msstore源然后报错了&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;我的解决方式：手动下载&lt;/strong&gt;：去 Hugo 的 &lt;a href="https://github.com/gohugoio/hugo/releases"&gt;GitHub Releases&lt;/a&gt; 页面下载 &lt;code&gt;hugo_extended_xxx_windows-amd64.zip&lt;/code&gt;，解压到 &lt;code&gt;C:\hugo\&lt;/code&gt;，然后把这个路径添加到系统环境变量 PATH 中&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;安装完重开终端，确认版本：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建-hugo-站点"&gt;创建 Hugo 站点&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new site myblog
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd myblog
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这会生成一个 Hugo 项目的标准目录结构。&lt;/p&gt;
-&lt;h3 id="安装主题"&gt;安装主题&lt;/h3&gt;
-&lt;p&gt;可用 PaperMod 主题&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git submodule add https&lt;span style="color:#960050;background-color:#1e0010"&gt;:&lt;/span&gt;//github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="配置站点"&gt;配置站点&lt;/h3&gt;
-&lt;p&gt;编辑项目根目录下的 &lt;code&gt;hugo.toml&lt;/code&gt; 文件：&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;pwd&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>GitHub+Hugo 博客搭建记录</title><link>https://dasia373.github.io/posts/first-post/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate><guid>https://dasia373.github.io/posts/first-post/</guid><description>&lt;h2 class="relative group"&gt;环境准备
+ &lt;div id="环境准备" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e7%8e%af%e5%a2%83%e5%87%86%e5%a4%87" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;安装 Git
+ &lt;div id="安装-git" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%ae%89%e8%a3%85-git" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;PowerShell 中运行：&lt;/p&gt;</description></item></channel></rss>

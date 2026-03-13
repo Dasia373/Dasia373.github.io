@@ -1,28 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Github on 工蜂亡命天涯</title><link>https://dasia373.github.io/tags/github/</link><description>Recent content in Github on 工蜂亡命天涯</description><generator>Hugo -- 0.157.0</generator><language>zh-cn</language><lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dasia373.github.io/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub+Hugo 博客搭建记录</title><link>https://dasia373.github.io/posts/first-post/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate><guid>https://dasia373.github.io/posts/first-post/</guid><description>&lt;h2 id="环境准备"&gt;环境准备&lt;/h2&gt;
-&lt;h3 id="安装-git"&gt;安装 Git&lt;/h3&gt;
-&lt;p&gt;PowerShell 中运行：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget install Git.Git
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装完成后重启终端，配置身份信息：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git config --global user.name &lt;span style="color:#e6db74"&gt;&amp;#34;名字&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git config --global user.email &lt;span style="color:#e6db74"&gt;&amp;#34;邮箱&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;验证安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git --version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="安装-hugo"&gt;安装 Hugo&lt;/h3&gt;
-&lt;p&gt;推荐使用 winget 安装 Hugo Extended 版本（Extended 版支持 SCSS，很多主题需要）：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget install Hugo.Hugo.Extended
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;踩坑记录：&lt;/strong&gt; 检索msstore源然后报错了&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;我的解决方式：手动下载&lt;/strong&gt;：去 Hugo 的 &lt;a href="https://github.com/gohugoio/hugo/releases"&gt;GitHub Releases&lt;/a&gt; 页面下载 &lt;code&gt;hugo_extended_xxx_windows-amd64.zip&lt;/code&gt;，解压到 &lt;code&gt;C:\hugo\&lt;/code&gt;，然后把这个路径添加到系统环境变量 PATH 中&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;安装完重开终端，确认版本：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建-hugo-站点"&gt;创建 Hugo 站点&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new site myblog
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd myblog
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这会生成一个 Hugo 项目的标准目录结构。&lt;/p&gt;
-&lt;h3 id="安装主题"&gt;安装主题&lt;/h3&gt;
-&lt;p&gt;可用 PaperMod 主题&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git submodule add https&lt;span style="color:#960050;background-color:#1e0010"&gt;:&lt;/span&gt;//github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="配置站点"&gt;配置站点&lt;/h3&gt;
-&lt;p&gt;编辑项目根目录下的 &lt;code&gt;hugo.toml&lt;/code&gt; 文件：&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Shrond's Log</title><link>https://dasia373.github.io/tags/github/</link><description>Recent content in Github on Shrond's Log</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2026 工蜂</copyright><lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dasia373.github.io/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub+Hugo 博客搭建记录</title><link>https://dasia373.github.io/posts/first-post/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate><guid>https://dasia373.github.io/posts/first-post/</guid><description>&lt;h2 class="relative group"&gt;环境准备
+ &lt;div id="环境准备" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e7%8e%af%e5%a2%83%e5%87%86%e5%a4%87" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;安装 Git
+ &lt;div id="安装-git" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%ae%89%e8%a3%85-git" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;PowerShell 中运行：&lt;/p&gt;</description></item></channel></rss>
