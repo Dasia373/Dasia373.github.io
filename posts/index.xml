@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Shrond's Log</title><link>https://dasia373.github.io/posts/</link><description>Recent content in Posts on Shrond's Log</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2026 工蜂</copyright><lastBuildDate>Mon, 23 Mar 2026 21:34:18 +0800</lastBuildDate><atom:link href="https://dasia373.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>力扣100-移动零</title><link>https://dasia373.github.io/posts/20260323/</link><pubDate>Mon, 23 Mar 2026 21:34:18 +0800</pubDate><guid>https://dasia373.github.io/posts/20260323/</guid><description>&lt;p&gt;&lt;a href="https://leetcode.cn/problems/move-zeroes/" target="_blank" rel="noreferrer"&gt;283. 移动零&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Shrond's Log</title><link>https://dasia373.github.io/posts/</link><description>Recent content in Posts on Shrond's Log</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2026 工蜂</copyright><lastBuildDate>Mon, 06 Apr 2026 20:08:27 +0800</lastBuildDate><atom:link href="https://dasia373.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>力扣100-盛最多的水</title><link>https://dasia373.github.io/posts/20260406/</link><pubDate>Mon, 06 Apr 2026 20:08:27 +0800</pubDate><guid>https://dasia373.github.io/posts/20260406/</guid><description>&lt;p&gt;&lt;a href="https://leetcode.cn/problems/container-with-most-water/" target="_blank" rel="noreferrer"&gt;11. 盛最多水的容器&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;给定一个长度为 &lt;code&gt;n&lt;/code&gt; 的整数数组 &lt;code&gt;height&lt;/code&gt; 。有 &lt;code&gt;n&lt;/code&gt; 条垂线，第 &lt;code&gt;i&lt;/code&gt; 条线的两个端点是 &lt;code&gt;(i, 0)&lt;/code&gt; 和 &lt;code&gt;(i, height[i])&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;找出其中的两条线，使得它们与 &lt;code&gt;x&lt;/code&gt; 轴共同构成的容器可以容纳最多的水。&lt;/p&gt;
+&lt;p&gt;返回容器可以储存的最大水量。&lt;/p&gt;
+&lt;p&gt;**说明：**你不能倾斜容器。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例 1：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img
+ class="my-0 rounded-md"
+ loading="lazy"
+ decoding="async"
+ fetchpriority="low"
+ alt="img"
+ src="https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/uploads/2018/07/25/question_11.jpg"
+ &gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;输入：[1,8,6,2,5,4,8,3,7]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;输出：49 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;示例 2：&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>力扣100-移动零</title><link>https://dasia373.github.io/posts/20260323/</link><pubDate>Mon, 23 Mar 2026 21:34:18 +0800</pubDate><guid>https://dasia373.github.io/posts/20260323/</guid><description>&lt;p&gt;&lt;a href="https://leetcode.cn/problems/move-zeroes/" target="_blank" rel="noreferrer"&gt;283. 移动零&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;给定一个数组 &lt;code&gt;nums&lt;/code&gt;，编写一个函数将所有 &lt;code&gt;0&lt;/code&gt; 移动到数组的末尾，同时保持非零元素的相对顺序。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;请注意&lt;/strong&gt; ，必须在不复制数组的情况下原地对数组进行操作。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;示例 1:&lt;/strong&gt;&lt;/p&gt;
