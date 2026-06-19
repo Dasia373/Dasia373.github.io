@@ -1,0 +1,835 @@
+Streaming config:
+  RTMP    : 0 (rtmp://192.168.137.1/live/livestream)
+  RTSP    : 1 (rtsp://192.168.137.1:8554/mystream)
+  GB28181 : 0 (/home/quark/My_Projects/IMX415optimizer/gb28181.conf)
+
+StreamLoaderManager created
+H.264 extradata from MPP, size: 37 bytes
+Streaming started
+VIDIOC_S_PARM failed, errno=25
+IMX415 opened: /dev/video33, 1920x1080, format=0x3231564e, plane=1
+rga_api version 1.10.1_[0]
+[IMX415] total=90, fps=28.1795, read_avg_ms=20.2186 ms, read_max_ms=198.456 ms, dqbuf_avg_ms=17.6415, dqbuf_max_ms=192.745, cvt_avg_ms=2.36537, cvt_max_ms=5.52434, qbuf_avg_ms=0.203121, qbuf_max_ms=0.411847
+[RTSP_WORKER] total=90, fps=27.8377, wait_avg_ms=17.6898, wait_max_ms=23.6832, clone_avg_ms=1.31863, clone_max_ms=4.59127, draw_avg_ms=0.657392, draw_max_ms=1.16379, resize_avg_ms=8.13248, resize_max_ms=16.8177, last_clone_avg_ms=0.517818, last_clone_max_ms=2.15286, encode_avg_ms=4.90577, encode_max_ms=7.59699, write_avg_ms=0.0831008, write_max_ms=1.29271, total_avg_ms=33.3156, total_max_ms=45.4265, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 100 to RTSP (MPP encoded, size=379 bytes)
+[IMX415] total=180, fps=29.7481, read_avg_ms=2.84983 ms, read_max_ms=6.85251 ms, dqbuf_avg_ms=0.138128, dqbuf_max_ms=3.47678, cvt_avg_ms=2.49417, cvt_max_ms=4.54898, qbuf_avg_ms=0.208842, qbuf_max_ms=0.416514
+[RTSP_WORKER] total=180, fps=29.7195, wait_avg_ms=18.3148, wait_max_ms=23.7304, clone_avg_ms=1.18282, clone_max_ms=1.89618, draw_avg_ms=0.625459, draw_max_ms=1.18829, resize_avg_ms=8.23499, resize_max_ms=17.3036, last_clone_avg_ms=0.44679, last_clone_max_ms=0.798317, encode_avg_ms=4.75849, encode_max_ms=5.99306, write_avg_ms=0.0668294, write_max_ms=0.707314, total_avg_ms=33.641, total_max_ms=41.6362, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 200 to RTSP (MPP encoded, size=359 bytes)
+[IMX415] total=270, fps=29.751, read_avg_ms=2.4656 ms, read_max_ms=4.30426 ms, dqbuf_avg_ms=0.0126101, dqbuf_max_ms=0.075544, cvt_avg_ms=2.23981, cvt_max_ms=3.96417, qbuf_avg_ms=0.204831, qbuf_max_ms=0.413888
+[RTSP_WORKER] total=270, fps=29.7852, wait_avg_ms=18.2006, wait_max_ms=23.4935, clone_avg_ms=1.20661, clone_max_ms=2.18044, draw_avg_ms=0.640725, draw_max_ms=1.1457, resize_avg_ms=8.16994, resize_max_ms=19.8398, last_clone_avg_ms=0.473302, last_clone_max_ms=0.721315, encode_avg_ms=4.79867, encode_max_ms=5.89056, write_avg_ms=0.0650922, write_max_ms=0.52385, total_avg_ms=33.5655, total_max_ms=45.1458, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 300 to RTSP (MPP encoded, size=391 bytes)
+[IMX415] total=360, fps=29.7778, read_avg_ms=2.74285 ms, read_max_ms=7.0181 ms, dqbuf_avg_ms=0.0137606, dqbuf_max_ms=0.044043, cvt_avg_ms=2.50551, cvt_max_ms=6.68559, qbuf_avg_ms=0.215174, qbuf_max_ms=0.415638
+[RTSP_WORKER] total=360, fps=29.7851, wait_avg_ms=18.2443, wait_max_ms=26.301, clone_avg_ms=1.18477, clone_max_ms=1.78564, draw_avg_ms=0.648525, draw_max_ms=1.25146, resize_avg_ms=8.08512, resize_max_ms=13.4104, last_clone_avg_ms=0.488462, last_clone_max_ms=2.47225, encode_avg_ms=4.84227, encode_max_ms=6.06607, write_avg_ms=0.0626455, write_max_ms=0.446264, total_avg_ms=33.5664, total_max_ms=42.9284, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 400 to RTSP (MPP encoded, size=494 bytes)
+[IMX415] total=450, fps=29.784, read_avg_ms=2.57517 ms, read_max_ms=4.40751 ms, dqbuf_avg_ms=0.0128421, dqbuf_max_ms=0.030042, cvt_avg_ms=2.34556, cvt_max_ms=3.97087, qbuf_avg_ms=0.207864, qbuf_max_ms=0.415055
+[RTSP_WORKER] total=450, fps=29.7818, wait_avg_ms=18.4351, wait_max_ms=23.777, clone_avg_ms=1.20679, clone_max_ms=1.77151, draw_avg_ms=0.610457, draw_max_ms=1.1312, resize_avg_ms=7.93871, resize_max_ms=13.6094, last_clone_avg_ms=0.445634, last_clone_max_ms=0.712272, encode_avg_ms=4.85352, encode_max_ms=6.45187, write_avg_ms=0.0698693, write_max_ms=0.419722, total_avg_ms=33.5702, total_max_ms=45.4362, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 500 to RTSP (MPP encoded, size=313 bytes)
+[IMX415] total=540, fps=29.7577, read_avg_ms=2.7696 ms, read_max_ms=5.44492 ms, dqbuf_avg_ms=0.0140717, dqbuf_max_ms=0.047835, cvt_avg_ms=2.52245, cvt_max_ms=5.15791, qbuf_avg_ms=0.224136, qbuf_max_ms=0.410388
+[RTSP_WORKER] total=540, fps=29.7185, wait_avg_ms=18.3672, wait_max_ms=23.3161, clone_avg_ms=1.18318, clone_max_ms=2.33632, draw_avg_ms=0.603591, draw_max_ms=1.04041, resize_avg_ms=8.09987, resize_max_ms=14.4396, last_clone_avg_ms=0.459423, last_clone_max_ms=0.825151, encode_avg_ms=4.85321, encode_max_ms=5.91723, write_avg_ms=0.0638284, write_max_ms=0.527641, total_avg_ms=33.641, total_max_ms=42.3814, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 600 to RTSP (MPP encoded, size=399 bytes)
+[IMX415] total=630, fps=29.7665, read_avg_ms=2.60702 ms, read_max_ms=5.98781 ms, dqbuf_avg_ms=0.0131546, dqbuf_max_ms=0.022459, cvt_avg_ms=2.37267, cvt_max_ms=5.53397, qbuf_avg_ms=0.212707, qbuf_max_ms=0.417096
+[RTSP_WORKER] total=630, fps=29.8173, wait_avg_ms=18.3184, wait_max_ms=24.5264, clone_avg_ms=1.19485, clone_max_ms=1.8931, draw_avg_ms=0.614817, draw_max_ms=1.34142, resize_avg_ms=8.04403, resize_max_ms=12.5351, last_clone_avg_ms=0.445285, last_clone_max_ms=0.883195, encode_avg_ms=4.83303, encode_max_ms=6.71613, write_avg_ms=0.0695499, write_max_ms=0.629562, total_avg_ms=33.5305, total_max_ms=40.9265, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 700 to RTSP (MPP encoded, size=556 bytes)
+[IMX415] total=720, fps=29.8034, read_avg_ms=2.68297 ms, read_max_ms=5.13174 ms, dqbuf_avg_ms=0.0130921, dqbuf_max_ms=0.033834, cvt_avg_ms=2.44049, cvt_max_ms=4.66419, qbuf_avg_ms=0.22059, qbuf_max_ms=0.432847
+[RTSP_WORKER] total=720, fps=29.7879, wait_avg_ms=17.869, wait_max_ms=25.4843, clone_avg_ms=1.2408, clone_max_ms=1.81889, draw_avg_ms=0.657403, draw_max_ms=1.63047, resize_avg_ms=8.4008, resize_max_ms=14.1617, last_clone_avg_ms=0.480804, last_clone_max_ms=1.16408, encode_avg_ms=4.83369, encode_max_ms=6.60646, write_avg_ms=0.0694124, write_max_ms=0.525892, total_avg_ms=33.5634, total_max_ms=45.8619, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 800 to RTSP (MPP encoded, size=427 bytes)
+[IMX415] total=810, fps=29.6948, read_avg_ms=2.70705 ms, read_max_ms=4.82694 ms, dqbuf_avg_ms=0.0129147, dqbuf_max_ms=0.031792, cvt_avg_ms=2.4697, cvt_max_ms=4.65486, qbuf_avg_ms=0.216021, qbuf_max_ms=0.527933
+[RTSP_WORKER] total=810, fps=29.6627, wait_avg_ms=18.0091, wait_max_ms=23.397, clone_avg_ms=1.21707, clone_max_ms=2.00881, draw_avg_ms=0.631569, draw_max_ms=1.23787, resize_avg_ms=8.47455, resize_max_ms=13.5873, last_clone_avg_ms=0.458484, last_clone_max_ms=0.872402, encode_avg_ms=4.84121, encode_max_ms=6.08036, write_avg_ms=0.0618038, write_max_ms=0.417388, total_avg_ms=33.7045, total_max_ms=41.8344, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=900, fps=29.7767, read_avg_ms=2.56977 ms, read_max_ms=4.37864 ms, dqbuf_avg_ms=0.0125518, dqbuf_max_ms=0.021293, cvt_avg_ms=2.33676, cvt_max_ms=3.90146, qbuf_avg_ms=0.211993, qbuf_max_ms=0.444222
+Added frame to streaming queue, queue size: 1
+Sent frame 900 to RTSP (MPP encoded, size=344 bytes)
+[RTSP_WORKER] total=900, fps=29.7968, wait_avg_ms=18.3075, wait_max_ms=24.2851, clone_avg_ms=1.25239, clone_max_ms=2.38299, draw_avg_ms=0.680076, draw_max_ms=1.30204, resize_avg_ms=7.92033, resize_max_ms=14.9356, last_clone_avg_ms=0.463259, last_clone_max_ms=0.914112, encode_avg_ms=4.84595, encode_max_ms=6.12336, write_avg_ms=0.0715319, write_max_ms=0.737065, total_avg_ms=33.5523, total_max_ms=45.4907, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=990, fps=29.7905, read_avg_ms=2.63826 ms, read_max_ms=4.44252 ms, dqbuf_avg_ms=0.0128565, dqbuf_max_ms=0.026834, cvt_avg_ms=2.40178, cvt_max_ms=4.08463, qbuf_avg_ms=0.212467, qbuf_max_ms=0.425264
+[RTSP_WORKER] total=990, fps=29.8225, wait_avg_ms=18.418, wait_max_ms=23.9978, clone_avg_ms=1.23696, clone_max_ms=1.96852, draw_avg_ms=0.641484, draw_max_ms=1.19266, resize_avg_ms=7.8867, resize_max_ms=14.7743, last_clone_avg_ms=0.454613, last_clone_max_ms=0.843777, encode_avg_ms=4.8096, encode_max_ms=6.10828, write_avg_ms=0.0668813, write_max_ms=0.575477, total_avg_ms=33.5246, total_max_ms=42.0674, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 1000 to RTSP (MPP encoded, size=379 bytes)
+[IMX415] total=1080, fps=29.7861, read_avg_ms=2.58623 ms, read_max_ms=4.41685 ms, dqbuf_avg_ms=0.0125647, dqbuf_max_ms=0.03996, cvt_avg_ms=2.3557, cvt_max_ms=4.06946, qbuf_avg_ms=0.208469, qbuf_max_ms=0.395804
+[RTSP_WORKER] total=1080, fps=29.7642, wait_avg_ms=18.2909, wait_max_ms=23.7291, clone_avg_ms=1.20801, clone_max_ms=1.98352, draw_avg_ms=0.638452, draw_max_ms=1.33996, resize_avg_ms=8.00708, resize_max_ms=13.3063, last_clone_avg_ms=0.489034, last_clone_max_ms=1.07249, encode_avg_ms=4.87395, encode_max_ms=6.50683, write_avg_ms=0.070331, write_max_ms=0.522391, total_avg_ms=33.5887, total_max_ms=41.6151, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 1100 to RTSP (MPP encoded, size=363 bytes)
+[IMX415] total=1170, fps=29.747, read_avg_ms=2.64173 ms, read_max_ms=5.20291 ms, dqbuf_avg_ms=0.0123897, dqbuf_max_ms=0.022751, cvt_avg_ms=2.4186, cvt_max_ms=4.93136, qbuf_avg_ms=0.202368, qbuf_max_ms=0.440722
+[RTSP_WORKER] total=1170, fps=29.6568, wait_avg_ms=18.2019, wait_max_ms=22.7811, clone_avg_ms=1.22263, clone_max_ms=1.85593, draw_avg_ms=0.653562, draw_max_ms=1.15766, resize_avg_ms=8.12356, resize_max_ms=15.952, last_clone_avg_ms=0.489768, last_clone_max_ms=0.95903, encode_avg_ms=4.93186, encode_max_ms=6.07165, write_avg_ms=0.0770154, write_max_ms=0.911487, total_avg_ms=33.7119, total_max_ms=43.1942, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 1200 to RTSP (MPP encoded, size=449 bytes)
+[IMX415] total=1260, fps=29.7598, read_avg_ms=2.6556 ms, read_max_ms=5.51734 ms, dqbuf_avg_ms=0.012923, dqbuf_max_ms=0.021001, cvt_avg_ms=2.42244, cvt_max_ms=5.16908, qbuf_avg_ms=0.211186, qbuf_max_ms=0.368387
+[RTSP_WORKER] total=1260, fps=29.8387, wait_avg_ms=17.9351, wait_max_ms=23.6612, clone_avg_ms=1.22307, clone_max_ms=1.75297, draw_avg_ms=0.660403, draw_max_ms=1.27754, resize_avg_ms=8.25461, resize_max_ms=14.438, last_clone_avg_ms=0.464959, last_clone_max_ms=0.794233, encode_avg_ms=4.89251, encode_max_ms=5.83527, write_avg_ms=0.0642432, write_max_ms=0.419722, total_avg_ms=33.5065, total_max_ms=44.1274, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 1300 to RTSP (MPP encoded, size=480 bytes)
+[IMX415] total=1350, fps=29.7444, read_avg_ms=2.61431 ms, read_max_ms=5.22887 ms, dqbuf_avg_ms=0.0127721, dqbuf_max_ms=0.03296, cvt_avg_ms=2.39504, cvt_max_ms=4.92728, qbuf_avg_ms=0.19775, qbuf_max_ms=0.414763
+[RTSP_WORKER] total=1350, fps=29.7681, wait_avg_ms=18.0673, wait_max_ms=25.1392, clone_avg_ms=1.26799, clone_max_ms=1.89502, draw_avg_ms=0.635599, draw_max_ms=1.08183, resize_avg_ms=8.11084, resize_max_ms=15.8505, last_clone_avg_ms=0.474573, last_clone_max_ms=1.0422, encode_avg_ms=4.93953, encode_max_ms=6.37391, write_avg_ms=0.0775284, write_max_ms=0.478056, total_avg_ms=33.5846, total_max_ms=43.6645, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 1400 to RTSP (MPP encoded, size=415 bytes)
+[IMX415] total=1440, fps=29.7787, read_avg_ms=2.60803 ms, read_max_ms=5.01157 ms, dqbuf_avg_ms=0.0125495, dqbuf_max_ms=0.032668, cvt_avg_ms=2.37836, cvt_max_ms=4.67877, qbuf_avg_ms=0.208132, qbuf_max_ms=0.321136
+[RTSP_WORKER] total=1440, fps=29.7557, wait_avg_ms=18.2777, wait_max_ms=25.867, clone_avg_ms=1.23803, clone_max_ms=1.81393, draw_avg_ms=0.655766, draw_max_ms=1.23583, resize_avg_ms=7.88127, resize_max_ms=13.5927, last_clone_avg_ms=0.494062, last_clone_max_ms=0.757191, encode_avg_ms=4.97319, encode_max_ms=6.69463, write_avg_ms=0.0686572, write_max_ms=0.566143, total_avg_ms=33.5996, total_max_ms=43.1812, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 1500 to RTSP (MPP encoded, size=406 bytes)
+[IMX415] total=1530, fps=29.7799, read_avg_ms=2.57725 ms, read_max_ms=5.54309 ms, dqbuf_avg_ms=0.0128435, dqbuf_max_ms=0.035876, cvt_avg_ms=2.35277, cvt_max_ms=5.37188, qbuf_avg_ms=0.20333, qbuf_max_ms=0.41593
+[RTSP_WORKER] total=1530, fps=29.7801, wait_avg_ms=18.5875, wait_max_ms=24.0073, clone_avg_ms=1.19348, clone_max_ms=1.76026, draw_avg_ms=0.604016, draw_max_ms=1.30408, resize_avg_ms=7.78466, resize_max_ms=12.7328, last_clone_avg_ms=0.455654, last_clone_max_ms=1.0337, encode_avg_ms=4.86976, encode_max_ms=6.51883, write_avg_ms=0.0656132, write_max_ms=0.510141, total_avg_ms=33.5712, total_max_ms=42.2055, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 1600 to RTSP (MPP encoded, size=343 bytes)
+[IMX415] total=1620, fps=29.8106, read_avg_ms=2.57973 ms, read_max_ms=4.35372 ms, dqbuf_avg_ms=0.011654, dqbuf_max_ms=0.018084, cvt_avg_ms=2.36113, cvt_max_ms=4.053, qbuf_avg_ms=0.198481, qbuf_max_ms=0.32726
+[RTSP_WORKER] total=1620, fps=29.8263, wait_avg_ms=17.8457, wait_max_ms=23.4818, clone_avg_ms=1.2528, clone_max_ms=1.80068, draw_avg_ms=0.660807, draw_max_ms=1.34579, resize_avg_ms=8.28997, resize_max_ms=13.8006, last_clone_avg_ms=0.482072, last_clone_max_ms=0.910028, encode_avg_ms=4.91211, encode_max_ms=6.82646, write_avg_ms=0.0666697, write_max_ms=0.576934, total_avg_ms=33.5213, total_max_ms=39.8948, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 1700 to RTSP (MPP encoded, size=323 bytes)
+[IMX415] total=1710, fps=29.7427, read_avg_ms=2.65875 ms, read_max_ms=4.88907 ms, dqbuf_avg_ms=0.0123703, dqbuf_max_ms=0.030042, cvt_avg_ms=2.43502, cvt_max_ms=4.43114, qbuf_avg_ms=0.203086, qbuf_max_ms=0.438972
+[RTSP_WORKER] total=1710, fps=29.725, wait_avg_ms=18.3123, wait_max_ms=24.6313, clone_avg_ms=1.18913, clone_max_ms=1.81335, draw_avg_ms=0.620745, draw_max_ms=1.15912, resize_avg_ms=8.12041, resize_max_ms=19.4434, last_clone_avg_ms=0.464918, last_clone_max_ms=0.844985, encode_avg_ms=4.84936, encode_max_ms=6.19403, write_avg_ms=0.0671308, write_max_ms=0.553017, total_avg_ms=33.6345, total_max_ms=41.2469, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=1800, fps=29.7901, read_avg_ms=2.55374 ms, read_max_ms=7.37357 ms, dqbuf_avg_ms=0.0123282, dqbuf_max_ms=0.023334, cvt_avg_ms=2.33299, cvt_max_ms=7.04164, qbuf_avg_ms=0.200121, qbuf_max_ms=0.415346
+Added frame to streaming queue, queue size: 1
+Sent frame 1800 to RTSP (MPP encoded, size=672 bytes)
+[RTSP_WORKER] total=1800, fps=29.7847, wait_avg_ms=18.559, wait_max_ms=22.8814, clone_avg_ms=1.1288, clone_max_ms=1.76435, draw_avg_ms=0.62733, draw_max_ms=2.40253, resize_avg_ms=8.0302, resize_max_ms=13.3707, last_clone_avg_ms=0.40433, last_clone_max_ms=0.700897, encode_avg_ms=4.73064, encode_max_ms=6.66334, write_avg_ms=0.0766622, write_max_ms=0.78665, total_avg_ms=33.5673, total_max_ms=42.4092, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=1890, fps=29.7448, read_avg_ms=2.56449 ms, read_max_ms=4.33547 ms, dqbuf_avg_ms=0.0126847, dqbuf_max_ms=0.020418, cvt_avg_ms=2.33612, cvt_max_ms=4.00033, qbuf_avg_ms=0.207207, qbuf_max_ms=0.413596
+[RTSP_WORKER] total=1890, fps=29.7566, wait_avg_ms=17.9662, wait_max_ms=23.3121, clone_avg_ms=1.23222, clone_max_ms=2.12486, draw_avg_ms=0.648374, draw_max_ms=1.30875, resize_avg_ms=8.36679, resize_max_ms=16.6792, last_clone_avg_ms=0.454622, last_clone_max_ms=0.918195, encode_avg_ms=4.85597, encode_max_ms=6.42562, write_avg_ms=0.064496, write_max_ms=0.513641, total_avg_ms=33.5994, total_max_ms=44.808, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 1900 to RTSP (MPP encoded, size=426 bytes)
+[IMX415] total=1980, fps=29.7621, read_avg_ms=2.51109 ms, read_max_ms=3.83787 ms, dqbuf_avg_ms=0.0123023, dqbuf_max_ms=0.025084, cvt_avg_ms=2.27947, cvt_max_ms=3.53511, qbuf_avg_ms=0.210645, qbuf_max_ms=0.449764
+[RTSP_WORKER] total=1980, fps=29.7457, wait_avg_ms=18.6662, wait_max_ms=23.9323, clone_avg_ms=1.16557, clone_max_ms=1.73793, draw_avg_ms=0.601164, draw_max_ms=1.188, resize_avg_ms=7.90673, resize_max_ms=11.838, last_clone_avg_ms=0.44382, last_clone_max_ms=0.714606, encode_avg_ms=4.75474, encode_max_ms=5.86152, write_avg_ms=0.0623112, write_max_ms=0.514808, total_avg_ms=33.6107, total_max_ms=40.6477, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 2000 to RTSP (MPP encoded, size=305 bytes)
+[IMX415] total=2070, fps=29.7893, read_avg_ms=2.55144 ms, read_max_ms=5.12679 ms, dqbuf_avg_ms=0.012875, dqbuf_max_ms=0.024209, cvt_avg_ms=2.32533, cvt_max_ms=4.79078, qbuf_avg_ms=0.20519, qbuf_max_ms=0.410388
+[RTSP_WORKER] total=2070, fps=29.839, wait_avg_ms=17.8831, wait_max_ms=25.4107, clone_avg_ms=1.17533, clone_max_ms=1.86452, draw_avg_ms=0.642301, draw_max_ms=1.19704, resize_avg_ms=8.30936, resize_max_ms=18.6016, last_clone_avg_ms=0.480608, last_clone_max_ms=0.911487, encode_avg_ms=4.93416, encode_max_ms=6.75275, write_avg_ms=0.0691781, write_max_ms=0.749607, total_avg_ms=33.5054, total_max_ms=45.942, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 2100 to RTSP (MPP encoded, size=344 bytes)
+[IMX415] total=2160, fps=29.7391, read_avg_ms=2.53594 ms, read_max_ms=7.22031 ms, dqbuf_avg_ms=0.0129115, dqbuf_max_ms=0.061544, cvt_avg_ms=2.30667, cvt_max_ms=6.78542, qbuf_avg_ms=0.207605, qbuf_max_ms=0.619811
+[RTSP_WORKER] total=2160, fps=29.6787, wait_avg_ms=18.4853, wait_max_ms=22.9108, clone_avg_ms=1.22495, clone_max_ms=1.7836, draw_avg_ms=0.650571, draw_max_ms=1.2885, resize_avg_ms=7.97655, resize_max_ms=14.1847, last_clone_avg_ms=0.470614, last_clone_max_ms=0.920737, encode_avg_ms=4.79839, encode_max_ms=6.49746, write_avg_ms=0.069517, write_max_ms=0.800942, total_avg_ms=33.6867, total_max_ms=40.585, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 2200 to RTSP (MPP encoded, size=627 bytes)
+[IMX415] total=2250, fps=29.7883, read_avg_ms=2.60331 ms, read_max_ms=8.63719 ms, dqbuf_avg_ms=0.0122907, dqbuf_max_ms=0.022167, cvt_avg_ms=2.37676, cvt_max_ms=8.35718, qbuf_avg_ms=0.205692, qbuf_max_ms=0.415054
+[RTSP_WORKER] total=2250, fps=29.8142, wait_avg_ms=17.6579, wait_max_ms=24.2951, clone_avg_ms=1.23381, clone_max_ms=2.06273, draw_avg_ms=0.614865, draw_max_ms=1.20375, resize_avg_ms=8.56854, resize_max_ms=14.8936, last_clone_avg_ms=0.467518, last_clone_max_ms=0.744356, encode_avg_ms=4.90792, encode_max_ms=6.17215, write_avg_ms=0.0717036, write_max_ms=0.512766, total_avg_ms=33.5333, total_max_ms=44.3077, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 2300 to RTSP (MPP encoded, size=455 bytes)
+[IMX415] total=2340, fps=29.7739, read_avg_ms=2.61163 ms, read_max_ms=7.36152 ms, dqbuf_avg_ms=0.0123199, dqbuf_max_ms=0.022167, cvt_avg_ms=2.3786, cvt_max_ms=7.10835, qbuf_avg_ms=0.212042, qbuf_max_ms=0.452972
+[RTSP_WORKER] total=2340, fps=29.8113, wait_avg_ms=18.513, wait_max_ms=23.3824, clone_avg_ms=1.1493, clone_max_ms=1.86527, draw_avg_ms=0.586905, draw_max_ms=1.05237, resize_avg_ms=7.88083, resize_max_ms=12.9817, last_clone_avg_ms=0.472141, last_clone_max_ms=0.863069, encode_avg_ms=4.85178, encode_max_ms=6.29257, write_avg_ms=0.0720439, write_max_ms=0.603185, total_avg_ms=33.5366, total_max_ms=43.0466, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 2400 to RTSP (MPP encoded, size=716 bytes)
+[IMX415] total=2430, fps=29.7617, read_avg_ms=2.72744 ms, read_max_ms=4.16951 ms, dqbuf_avg_ms=0.0139745, dqbuf_max_ms=0.033543, cvt_avg_ms=2.48438, cvt_max_ms=3.81395, qbuf_avg_ms=0.220481, qbuf_max_ms=0.451514
+[RTSP_WORKER] total=2430, fps=29.7122, wait_avg_ms=18.2076, wait_max_ms=23.1202, clone_avg_ms=1.17073, clone_max_ms=1.89677, draw_avg_ms=0.607095, draw_max_ms=1.07658, resize_avg_ms=8.34806, resize_max_ms=14.7504, last_clone_avg_ms=0.43713, last_clone_max_ms=0.865403, encode_avg_ms=4.80457, encode_max_ms=5.97323, write_avg_ms=0.0635757, write_max_ms=0.255216, total_avg_ms=33.6494, total_max_ms=41.7726, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 2500 to RTSP (MPP encoded, size=482 bytes)
+[IMX415] total=2520, fps=29.7299, read_avg_ms=2.62343 ms, read_max_ms=5.46046 ms, dqbuf_avg_ms=0.0130314, dqbuf_max_ms=0.030626, cvt_avg_ms=2.39951, cvt_max_ms=5.10258, qbuf_avg_ms=0.201947, qbuf_max_ms=0.353219
+[RTSP_WORKER] total=2520, fps=29.715, wait_avg_ms=18.6786, wait_max_ms=24.2601, clone_avg_ms=1.24807, clone_max_ms=2.761, draw_avg_ms=0.633387, draw_max_ms=1.43942, resize_avg_ms=7.79107, resize_max_ms=14.9633, last_clone_avg_ms=0.450843, last_clone_max_ms=0.873569, encode_avg_ms=4.77127, encode_max_ms=6.0899, write_avg_ms=0.062007, write_max_ms=0.396096, total_avg_ms=33.6459, total_max_ms=41.4315, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 2600 to RTSP (MPP encoded, size=333 bytes)
+[IMX415] total=2610, fps=29.7631, read_avg_ms=2.59316 ms, read_max_ms=4.98036 ms, dqbuf_avg_ms=0.0121319, dqbuf_max_ms=0.02246, cvt_avg_ms=2.36752, cvt_max_ms=4.51689, qbuf_avg_ms=0.204518, qbuf_max_ms=0.430222
+[RTSP_WORKER] total=2610, fps=29.7275, wait_avg_ms=17.7947, wait_max_ms=23.745, clone_avg_ms=1.20477, clone_max_ms=1.9589, draw_avg_ms=0.638071, draw_max_ms=1.10545, resize_avg_ms=8.56033, resize_max_ms=18.0707, last_clone_avg_ms=0.481048, last_clone_max_ms=0.876194, encode_avg_ms=4.87761, encode_max_ms=6.24157, write_avg_ms=0.0647878, write_max_ms=0.352053, total_avg_ms=33.6318, total_max_ms=43.8943, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=2700, fps=29.7863, read_avg_ms=2.44804 ms, read_max_ms=4.38768 ms, dqbuf_avg_ms=0.0126911, dqbuf_max_ms=0.039376, cvt_avg_ms=2.2222, cvt_max_ms=3.91896, qbuf_avg_ms=0.203074, qbuf_max_ms=0.434013
+Added frame to streaming queue, queue size: 1
+Sent frame 2700 to RTSP (MPP encoded, size=289 bytes)
+[RTSP_WORKER] total=2700, fps=29.8824, wait_avg_ms=18.2066, wait_max_ms=23.1363, clone_avg_ms=1.27064, clone_max_ms=2.0674, draw_avg_ms=0.713513, draw_max_ms=1.06316, resize_avg_ms=7.92458, resize_max_ms=13.2567, last_clone_avg_ms=0.461357, last_clone_max_ms=0.940363, encode_avg_ms=4.80608, encode_max_ms=5.69205, write_avg_ms=0.063127, write_max_ms=0.42118, total_avg_ms=33.457, total_max_ms=39.3158, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=2790, fps=29.6967, read_avg_ms=2.5728 ms, read_max_ms=4.64844 ms, dqbuf_avg_ms=0.0127624, dqbuf_max_ms=0.024501, cvt_avg_ms=2.34241, cvt_max_ms=4.45272, qbuf_avg_ms=0.208249, qbuf_max_ms=0.420596
+[RTSP_WORKER] total=2790, fps=29.6543, wait_avg_ms=17.893, wait_max_ms=25.1055, clone_avg_ms=1.16836, clone_max_ms=1.88977, draw_avg_ms=0.616586, draw_max_ms=1.36446, resize_avg_ms=8.73801, resize_max_ms=15.4737, last_clone_avg_ms=0.430696, last_clone_max_ms=0.728023, encode_avg_ms=4.79958, encode_max_ms=6.08232, write_avg_ms=0.0584745, write_max_ms=0.342428, total_avg_ms=33.7151, total_max_ms=42.0275, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 2800 to RTSP (MPP encoded, size=279 bytes)
+[IMX415] total=2880, fps=29.745, read_avg_ms=2.64178 ms, read_max_ms=6.07048 ms, dqbuf_avg_ms=0.0127592, dqbuf_max_ms=0.030918, cvt_avg_ms=2.41722, cvt_max_ms=5.78406, qbuf_avg_ms=0.203431, qbuf_max_ms=0.352053
+[RTSP_WORKER] total=2880, fps=29.8036, wait_avg_ms=18.0277, wait_max_ms=23.859, clone_avg_ms=1.24655, clone_max_ms=1.82647, draw_avg_ms=0.666864, draw_max_ms=1.26092, resize_avg_ms=8.24073, resize_max_ms=15.1739, last_clone_avg_ms=0.448928, last_clone_max_ms=0.747856, encode_avg_ms=4.84083, encode_max_ms=6.30037, write_avg_ms=0.0645349, write_max_ms=0.511891, total_avg_ms=33.5467, total_max_ms=41.199, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 2900 to RTSP (MPP encoded, size=383 bytes)
+[IMX415] total=2970, fps=29.7519, read_avg_ms=2.62676 ms, read_max_ms=4.28472 ms, dqbuf_avg_ms=0.0129556, dqbuf_max_ms=0.035293, cvt_avg_ms=2.38983, cvt_max_ms=3.94229, qbuf_avg_ms=0.214831, qbuf_max_ms=0.409513
+[RTSP_WORKER] total=2970, fps=29.7417, wait_avg_ms=18.4149, wait_max_ms=25.2117, clone_avg_ms=1.16307, clone_max_ms=2.10386, draw_avg_ms=0.598372, draw_max_ms=1.01328, resize_avg_ms=7.99948, resize_max_ms=18.6121, last_clone_avg_ms=0.488902, last_clone_max_ms=0.897195, encode_avg_ms=4.87709, encode_max_ms=6.29874, write_avg_ms=0.0621519, write_max_ms=0.564017, total_avg_ms=33.6144, total_max_ms=46.2419, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 3000 to RTSP (MPP encoded, size=338 bytes)
+[IMX415] total=3060, fps=29.7698, read_avg_ms=2.61891 ms, read_max_ms=4.42676 ms, dqbuf_avg_ms=0.0129957, dqbuf_max_ms=0.022168, cvt_avg_ms=2.37659, cvt_max_ms=4.14267, qbuf_avg_ms=0.220402, qbuf_max_ms=0.534642
+[RTSP_WORKER] total=3060, fps=29.7381, wait_avg_ms=17.9753, wait_max_ms=24.007, clone_avg_ms=1.2474, clone_max_ms=2.4422, draw_avg_ms=0.689282, draw_max_ms=1.19646, resize_avg_ms=8.17572, resize_max_ms=14.6208, last_clone_avg_ms=0.493176, last_clone_max_ms=0.888736, encode_avg_ms=4.9571, encode_max_ms=6.63417, write_avg_ms=0.0696878, write_max_ms=0.59006, total_avg_ms=33.6187, total_max_ms=40.2256, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 3100 to RTSP (MPP encoded, size=347 bytes)
+[IMX415] total=3150, fps=29.7123, read_avg_ms=2.55192 ms, read_max_ms=4.34422 ms, dqbuf_avg_ms=0.0122652, dqbuf_max_ms=0.021001, cvt_avg_ms=2.32891, cvt_max_ms=3.99975, qbuf_avg_ms=0.202664, qbuf_max_ms=0.619228
+[RTSP_WORKER] total=3150, fps=29.7308, wait_avg_ms=18.2298, wait_max_ms=24.9394, clone_avg_ms=1.22767, clone_max_ms=2.30745, draw_avg_ms=0.645208, draw_max_ms=1.43904, resize_avg_ms=8.11127, resize_max_ms=18.0381, last_clone_avg_ms=0.469917, last_clone_max_ms=0.911487, encode_avg_ms=4.85978, encode_max_ms=6.08669, write_avg_ms=0.0750593, write_max_ms=0.558559, total_avg_ms=33.6291, total_max_ms=42.6157, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 3200 to RTSP (MPP encoded, size=361 bytes)
+[IMX415] total=3240, fps=29.7846, read_avg_ms=2.55504 ms, read_max_ms=4.84882 ms, dqbuf_avg_ms=0.0126912, dqbuf_max_ms=0.019542, cvt_avg_ms=2.3296, cvt_max_ms=4.57319, qbuf_avg_ms=0.204482, qbuf_max_ms=0.479223
+[RTSP_WORKER] total=3240, fps=29.7561, wait_avg_ms=18.0851, wait_max_ms=23.9516, clone_avg_ms=1.21182, clone_max_ms=1.89706, draw_avg_ms=0.625872, draw_max_ms=1.26354, resize_avg_ms=8.37948, resize_max_ms=15.5382, last_clone_avg_ms=0.435828, last_clone_max_ms=0.89457, encode_avg_ms=4.78536, encode_max_ms=6.23361, write_avg_ms=0.0653257, write_max_ms=0.555059, total_avg_ms=33.599, total_max_ms=42.6097, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 3300 to RTSP (MPP encoded, size=370 bytes)
+[IMX415] total=3330, fps=29.7337, read_avg_ms=2.60712 ms, read_max_ms=4.50143 ms, dqbuf_avg_ms=0.0118245, dqbuf_max_ms=0.022459, cvt_avg_ms=2.38108, cvt_max_ms=4.09863, qbuf_avg_ms=0.205211, qbuf_max_ms=0.428472
+[RTSP_WORKER] total=3330, fps=29.7426, wait_avg_ms=18.4856, wait_max_ms=23.8192, clone_avg_ms=1.18136, clone_max_ms=2.1129, draw_avg_ms=0.597783, draw_max_ms=1.01691, resize_avg_ms=8.01438, resize_max_ms=14.5768, last_clone_avg_ms=0.450025, last_clone_max_ms=0.891069, encode_avg_ms=4.80664, encode_max_ms=6.08186, write_avg_ms=0.0679693, write_max_ms=0.714898, total_avg_ms=33.6142, total_max_ms=42.1467, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 3400 to RTSP (MPP encoded, size=391 bytes)
+[IMX415] total=3420, fps=29.801, read_avg_ms=2.53876 ms, read_max_ms=4.55131 ms, dqbuf_avg_ms=0.0125809, dqbuf_max_ms=0.030626, cvt_avg_ms=2.30876, cvt_max_ms=4.11876, qbuf_avg_ms=0.208306, qbuf_max_ms=0.408929
+[RTSP_WORKER] total=3420, fps=29.8301, wait_avg_ms=18.5989, wait_max_ms=25.3019, clone_avg_ms=1.16999, clone_max_ms=1.85156, draw_avg_ms=0.629457, draw_max_ms=1.15445, resize_avg_ms=7.79448, resize_max_ms=13.2704, last_clone_avg_ms=0.429387, last_clone_max_ms=0.747274, encode_avg_ms=4.81498, encode_max_ms=6.37691, write_avg_ms=0.069117, write_max_ms=0.744648, total_avg_ms=33.5164, total_max_ms=40.7395, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 3500 to RTSP (MPP encoded, size=445 bytes)
+[IMX415] total=3510, fps=29.8317, read_avg_ms=2.55793 ms, read_max_ms=4.23655 ms, dqbuf_avg_ms=0.012475, dqbuf_max_ms=0.018959, cvt_avg_ms=2.33231, cvt_max_ms=4.0598, qbuf_avg_ms=0.204818, qbuf_max_ms=0.413596
+[RTSP_WORKER] total=3510, fps=29.8071, wait_avg_ms=18.0985, wait_max_ms=22.6949, clone_avg_ms=1.23618, clone_max_ms=2.36432, draw_avg_ms=0.643758, draw_max_ms=1.22008, resize_avg_ms=8.2644, resize_max_ms=13.4334, last_clone_avg_ms=0.427347, last_clone_max_ms=0.912945, encode_avg_ms=4.80345, encode_max_ms=6.2587, write_avg_ms=0.0576852, write_max_ms=0.341553, total_avg_ms=33.5415, total_max_ms=39.2099, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=3600, fps=29.7005, read_avg_ms=2.61929 ms, read_max_ms=5.80631 ms, dqbuf_avg_ms=0.0125064, dqbuf_max_ms=0.021292, cvt_avg_ms=2.3922, cvt_max_ms=5.60068, qbuf_avg_ms=0.205506, qbuf_max_ms=0.322593
+Added frame to streaming queue, queue size: 1
+Sent frame 3600 to RTSP (MPP encoded, size=296 bytes)
+[RTSP_WORKER] total=3600, fps=29.673, wait_avg_ms=18.4796, wait_max_ms=25.5456, clone_avg_ms=1.24845, clone_max_ms=2.39837, draw_avg_ms=0.656344, draw_max_ms=1.13549, resize_avg_ms=7.85083, resize_max_ms=13.5463, last_clone_avg_ms=0.479027, last_clone_max_ms=1.07103, encode_avg_ms=4.88991, encode_max_ms=6.94114, write_avg_ms=0.077626, write_max_ms=1.00086, total_avg_ms=33.6933, total_max_ms=41.1437, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=3690, fps=29.7587, read_avg_ms=2.59893 ms, read_max_ms=5.11308 ms, dqbuf_avg_ms=0.0120235, dqbuf_max_ms=0.019834, cvt_avg_ms=2.37856, cvt_max_ms=4.82957, qbuf_avg_ms=0.199959, qbuf_max_ms=0.462472
+[RTSP_WORKER] total=3690, fps=29.8022, wait_avg_ms=18.19, wait_max_ms=22.3039, clone_avg_ms=1.17248, clone_max_ms=1.80314, draw_avg_ms=0.636843, draw_max_ms=1.12179, resize_avg_ms=8.18982, resize_max_ms=15.7734, last_clone_avg_ms=0.451818, last_clone_max_ms=0.884944, encode_avg_ms=4.82478, encode_max_ms=5.87302, write_avg_ms=0.0712142, write_max_ms=0.632353, total_avg_ms=33.5482, total_max_ms=40.4483, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 3700 to RTSP (MPP encoded, size=378 bytes)
+[IMX415] total=3780, fps=29.7235, read_avg_ms=2.71121 ms, read_max_ms=5.05999 ms, dqbuf_avg_ms=0.0128273, dqbuf_max_ms=0.020126, cvt_avg_ms=2.47235, cvt_max_ms=4.59594, qbuf_avg_ms=0.217536, qbuf_max_ms=0.432555
+[RTSP_WORKER] total=3780, fps=29.7357, wait_avg_ms=18.1536, wait_max_ms=26.0049, clone_avg_ms=1.23422, clone_max_ms=2.36433, draw_avg_ms=0.630657, draw_max_ms=1.06141, resize_avg_ms=8.18922, resize_max_ms=13.3408, last_clone_avg_ms=0.475409, last_clone_max_ms=0.791024, encode_avg_ms=4.85975, encode_max_ms=5.9181, write_avg_ms=0.0687221, write_max_ms=0.514808, total_avg_ms=33.6228, total_max_ms=43.4233, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 3800 to RTSP (MPP encoded, size=308 bytes)
+[IMX415] total=3870, fps=29.777, read_avg_ms=2.60655 ms, read_max_ms=3.88846 ms, dqbuf_avg_ms=0.0124092, dqbuf_max_ms=0.019834, cvt_avg_ms=2.37749, cvt_max_ms=3.58616, qbuf_avg_ms=0.208105, qbuf_max_ms=0.416221
+[RTSP_WORKER] total=3870, fps=29.7434, wait_avg_ms=18.1666, wait_max_ms=23.7857, clone_avg_ms=1.26931, clone_max_ms=2.27936, draw_avg_ms=0.612669, draw_max_ms=1.11587, resize_avg_ms=8.12795, resize_max_ms=13.6641, last_clone_avg_ms=0.466844, last_clone_max_ms=0.948822, encode_avg_ms=4.89245, encode_max_ms=6.63125, write_avg_ms=0.0671373, write_max_ms=0.781983, total_avg_ms=33.6137, total_max_ms=43.5132, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 3900 to RTSP (MPP encoded, size=400 bytes)
+[IMX415] total=3960, fps=29.7264, read_avg_ms=2.62027 ms, read_max_ms=4.83511 ms, dqbuf_avg_ms=0.0132907, dqbuf_max_ms=0.062711, cvt_avg_ms=2.39088, cvt_max_ms=4.58777, qbuf_avg_ms=0.207728, qbuf_max_ms=0.42468
+[RTSP_WORKER] total=3960, fps=29.7549, wait_avg_ms=18.1967, wait_max_ms=26.4834, clone_avg_ms=1.25998, clone_max_ms=3.04305, draw_avg_ms=0.650688, draw_max_ms=1.45138, resize_avg_ms=8.07672, resize_max_ms=14.704, last_clone_avg_ms=0.47434, last_clone_max_ms=1.71301, encode_avg_ms=4.86535, encode_max_ms=6.97689, write_avg_ms=0.0664924, write_max_ms=0.530851, total_avg_ms=33.601, total_max_ms=46.0138, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 4000 to RTSP (MPP encoded, size=893 bytes)
+[IMX415] total=4050, fps=29.7767, read_avg_ms=2.6495 ms, read_max_ms=4.31039 ms, dqbuf_avg_ms=0.0128546, dqbuf_max_ms=0.03471, cvt_avg_ms=2.41374, cvt_max_ms=3.96242, qbuf_avg_ms=0.214462, qbuf_max_ms=0.438972
+[RTSP_WORKER] total=4050, fps=29.7511, wait_avg_ms=18.4451, wait_max_ms=24.7732, clone_avg_ms=1.20775, clone_max_ms=2.25961, draw_avg_ms=0.61563, draw_max_ms=1.19237, resize_avg_ms=7.89751, resize_max_ms=14.3801, last_clone_avg_ms=0.479852, last_clone_max_ms=0.907696, encode_avg_ms=4.87696, encode_max_ms=5.96402, write_avg_ms=0.0704313, write_max_ms=0.575018, total_avg_ms=33.6043, total_max_ms=44.3498, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 4100 to RTSP (MPP encoded, size=760 bytes)
+[IMX415] total=4140, fps=29.723, read_avg_ms=2.64246 ms, read_max_ms=4.47197 ms, dqbuf_avg_ms=0.0125203, dqbuf_max_ms=0.022751, cvt_avg_ms=2.42186, cvt_max_ms=4.2048, qbuf_avg_ms=0.199813, qbuf_max_ms=0.428472
+[RTSP_WORKER] total=4140, fps=29.7014, wait_avg_ms=17.9112, wait_max_ms=22.9963, clone_avg_ms=1.21866, clone_max_ms=2.2917, draw_avg_ms=0.629009, draw_max_ms=1.2335, resize_avg_ms=8.4869, resize_max_ms=14.6978, last_clone_avg_ms=0.463669, last_clone_max_ms=0.990531, encode_avg_ms=4.86946, encode_max_ms=6.01769, write_avg_ms=0.0715675, write_max_ms=0.527349, total_avg_ms=33.6613, total_max_ms=43.7941, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 4200 to RTSP (MPP encoded, size=351 bytes)
+[IMX415] total=4230, fps=29.7652, read_avg_ms=2.69638 ms, read_max_ms=5.6168 ms, dqbuf_avg_ms=0.0129666, dqbuf_max_ms=0.024501, cvt_avg_ms=2.45706, cvt_max_ms=5.1612, qbuf_avg_ms=0.217448, qbuf_max_ms=0.420013
+[RTSP_WORKER] total=4230, fps=29.7445, wait_avg_ms=17.7074, wait_max_ms=23.2683, clone_avg_ms=1.25823, clone_max_ms=2.26732, draw_avg_ms=0.615797, draw_max_ms=1.11537, resize_avg_ms=8.62772, resize_max_ms=16.3391, last_clone_avg_ms=0.452011, last_clone_max_ms=0.857819, encode_avg_ms=4.87152, encode_max_ms=6.37245, write_avg_ms=0.0678057, write_max_ms=0.490599, total_avg_ms=33.6114, total_max_ms=43.164, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 4300 to RTSP (MPP encoded, size=414 bytes)
+[IMX415] total=4320, fps=29.7595, read_avg_ms=2.57001 ms, read_max_ms=5.05999 ms, dqbuf_avg_ms=0.012918, dqbuf_max_ms=0.079628, cvt_avg_ms=2.33253, cvt_max_ms=4.71261, qbuf_avg_ms=0.215874, qbuf_max_ms=0.491182
+[RTSP_WORKER] total=4320, fps=29.8171, wait_avg_ms=18.3133, wait_max_ms=25.6056, clone_avg_ms=1.20341, clone_max_ms=2.03677, draw_avg_ms=0.59518, draw_max_ms=1.17383, resize_avg_ms=8.03271, resize_max_ms=16.7122, last_clone_avg_ms=0.466202, last_clone_max_ms=0.789858, encode_avg_ms=4.84494, encode_max_ms=6.12261, write_avg_ms=0.063971, write_max_ms=0.544851, total_avg_ms=33.5301, total_max_ms=48.2247, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 4400 to RTSP (MPP encoded, size=336 bytes)
+[IMX415] total=4410, fps=29.7654, read_avg_ms=2.71733 ms, read_max_ms=4.47635 ms, dqbuf_avg_ms=0.0128532, dqbuf_max_ms=0.028584, cvt_avg_ms=2.49043, cvt_max_ms=4.13567, qbuf_avg_ms=0.205683, qbuf_max_ms=0.403096
+[RTSP_WORKER] total=4410, fps=29.73, wait_avg_ms=18.1967, wait_max_ms=23.4235, clone_avg_ms=1.23261, clone_max_ms=2.60204, draw_avg_ms=0.626922, draw_max_ms=1.31196, resize_avg_ms=8.08044, resize_max_ms=13.8084, last_clone_avg_ms=0.491511, last_clone_max_ms=1.0547, encode_avg_ms=4.91772, encode_max_ms=6.66521, write_avg_ms=0.0713472, write_max_ms=0.801817, total_avg_ms=33.6285, total_max_ms=43.8, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=4500, fps=29.7576, read_avg_ms=2.58952 ms, read_max_ms=4.78407 ms, dqbuf_avg_ms=0.013043, dqbuf_max_ms=0.078461, cvt_avg_ms=2.36787, cvt_max_ms=4.33605, qbuf_avg_ms=0.200483, qbuf_max_ms=0.413888
+Added frame to streaming queue, queue size: 1
+Sent frame 4500 to RTSP (MPP encoded, size=369 bytes)
+[RTSP_WORKER] total=4500, fps=29.7572, wait_avg_ms=18.0956, wait_max_ms=25.5701, clone_avg_ms=1.19792, clone_max_ms=2.25611, draw_avg_ms=0.614725, draw_max_ms=1.02612, resize_avg_ms=8.36463, resize_max_ms=20.2575, last_clone_avg_ms=0.46587, last_clone_max_ms=0.880403, encode_avg_ms=4.78378, encode_max_ms=6.44283, write_avg_ms=0.0636177, write_max_ms=0.499349, total_avg_ms=33.5978, total_max_ms=47.8475, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=4590, fps=29.7355, read_avg_ms=2.71015 ms, read_max_ms=4.12809 ms, dqbuf_avg_ms=0.012931, dqbuf_max_ms=0.021876, cvt_avg_ms=2.4744, cvt_max_ms=3.87929, qbuf_avg_ms=0.214272, qbuf_max_ms=0.426138
+[RTSP_WORKER] total=4590, fps=29.7943, wait_avg_ms=18.1723, wait_max_ms=23.9523, clone_avg_ms=1.23141, clone_max_ms=2.0146, draw_avg_ms=0.616905, draw_max_ms=1.12849, resize_avg_ms=8.15371, resize_max_ms=15.9778, last_clone_avg_ms=0.4456, last_clone_max_ms=0.879111, encode_avg_ms=4.86105, encode_max_ms=6.05811, write_avg_ms=0.0655201, write_max_ms=0.732398, total_avg_ms=33.5572, total_max_ms=41.53, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 4600 to RTSP (MPP encoded, size=354 bytes)
+[IMX415] total=4680, fps=29.7779, read_avg_ms=2.54784 ms, read_max_ms=4.87674 ms, dqbuf_avg_ms=0.0120883, dqbuf_max_ms=0.018668, cvt_avg_ms=2.32026, cvt_max_ms=4.53314, qbuf_avg_ms=0.206819, qbuf_max_ms=0.352053
+[RTSP_WORKER] total=4680, fps=29.73, wait_avg_ms=18.6869, wait_max_ms=23.9056, clone_avg_ms=1.21548, clone_max_ms=1.82297, draw_avg_ms=0.602232, draw_max_ms=1.12983, resize_avg_ms=7.78093, resize_max_ms=17.5318, last_clone_avg_ms=0.477154, last_clone_max_ms=0.889611, encode_avg_ms=4.78456, encode_max_ms=5.74731, write_avg_ms=0.0707736, write_max_ms=0.743773, total_avg_ms=33.6289, total_max_ms=46.3592, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 4700 to RTSP (MPP encoded, size=812 bytes)
+[IMX415] total=4770, fps=29.8014, read_avg_ms=2.65916 ms, read_max_ms=4.33709 ms, dqbuf_avg_ms=0.0124286, dqbuf_max_ms=0.017792, cvt_avg_ms=2.43505, cvt_max_ms=4.17055, qbuf_avg_ms=0.203169, qbuf_max_ms=0.450639
+[RTSP_WORKER] total=4770, fps=29.7945, wait_avg_ms=17.9694, wait_max_ms=23.3998, clone_avg_ms=1.26492, clone_max_ms=2.25611, draw_avg_ms=0.671263, draw_max_ms=1.15124, resize_avg_ms=8.17825, resize_max_ms=14.219, last_clone_avg_ms=0.491657, last_clone_max_ms=0.933655, encode_avg_ms=4.88882, encode_max_ms=6.23982, write_avg_ms=0.0804118, write_max_ms=0.772649, total_avg_ms=33.5558, total_max_ms=45.057, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 4800 to RTSP (MPP encoded, size=518 bytes)
+[IMX415] total=4860, fps=29.7516, read_avg_ms=2.668 ms, read_max_ms=5.01653 ms, dqbuf_avg_ms=0.0123605, dqbuf_max_ms=0.023626, cvt_avg_ms=2.43949, cvt_max_ms=4.67119, qbuf_avg_ms=0.207223, qbuf_max_ms=0.348553
+[RTSP_WORKER] total=4860, fps=29.7603, wait_avg_ms=18.264, wait_max_ms=23.8062, clone_avg_ms=1.21448, clone_max_ms=1.78022, draw_avg_ms=0.641896, draw_max_ms=1.21679, resize_avg_ms=8.18079, resize_max_ms=16.3328, last_clone_avg_ms=0.446093, last_clone_max_ms=0.750606, encode_avg_ms=4.76174, encode_max_ms=6.10273, write_avg_ms=0.0752792, write_max_ms=0.84236, total_avg_ms=33.5947, total_max_ms=44.9629, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 4900 to RTSP (MPP encoded, size=11258 bytes)
+[IMX415] total=4950, fps=29.7918, read_avg_ms=2.66128 ms, read_max_ms=5.00737 ms, dqbuf_avg_ms=0.0120106, dqbuf_max_ms=0.021876, cvt_avg_ms=2.43274, cvt_max_ms=4.76498, qbuf_avg_ms=0.207975, qbuf_max_ms=0.420305
+[RTSP_WORKER] total=4950, fps=29.7595, wait_avg_ms=18.2896, wait_max_ms=24.3572, clone_avg_ms=1.20039, clone_max_ms=1.79239, draw_avg_ms=0.568922, draw_max_ms=1.11449, resize_avg_ms=8.10905, resize_max_ms=16.8692, last_clone_avg_ms=0.458975, last_clone_max_ms=0.736482, encode_avg_ms=4.83551, encode_max_ms=6.21695, write_avg_ms=0.12077, write_max_ms=0.366053, total_avg_ms=33.5943, total_max_ms=47.475, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 5000 to RTSP (MPP encoded, size=848 bytes)
+[IMX415] total=5040, fps=29.8051, read_avg_ms=2.5197 ms, read_max_ms=5.4493 ms, dqbuf_avg_ms=0.0127916, dqbuf_max_ms=0.028876, cvt_avg_ms=2.29678, cvt_max_ms=5.25183, qbuf_avg_ms=0.202151, qbuf_max_ms=0.41593
+[RTSP_WORKER] total=5040, fps=29.8304, wait_avg_ms=18.369, wait_max_ms=24.0563, clone_avg_ms=1.18196, clone_max_ms=1.92273, draw_avg_ms=0.637657, draw_max_ms=1.07978, resize_avg_ms=7.84099, resize_max_ms=14.1129, last_clone_avg_ms=0.470919, last_clone_max_ms=1.00161, encode_avg_ms=4.90442, encode_max_ms=6.81617, write_avg_ms=0.0979073, write_max_ms=0.899237, total_avg_ms=33.5137, total_max_ms=44.2127, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 5100 to RTSP (MPP encoded, size=333 bytes)
+[IMX415] total=5130, fps=29.7994, read_avg_ms=2.68463 ms, read_max_ms=7.34365 ms, dqbuf_avg_ms=0.0116702, dqbuf_max_ms=0.027126, cvt_avg_ms=2.46767, cvt_max_ms=7.15931, qbuf_avg_ms=0.196758, qbuf_max_ms=0.441597
+[RTSP_WORKER] total=5130, fps=29.811, wait_avg_ms=17.9751, wait_max_ms=25.1017, clone_avg_ms=1.27224, clone_max_ms=1.81889, draw_avg_ms=0.638797, draw_max_ms=1.18041, resize_avg_ms=8.17479, resize_max_ms=16.7922, last_clone_avg_ms=0.463602, last_clone_max_ms=1.03078, encode_avg_ms=4.93506, encode_max_ms=6.73888, write_avg_ms=0.0660205, write_max_ms=0.537267, total_avg_ms=33.5366, total_max_ms=45.0643, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 5200 to RTSP (MPP encoded, size=350 bytes)
+[IMX415] total=5220, fps=29.7673, read_avg_ms=2.66616 ms, read_max_ms=4.34539 ms, dqbuf_avg_ms=0.0126685, dqbuf_max_ms=0.029751, cvt_avg_ms=2.42253, cvt_max_ms=4.00004, qbuf_avg_ms=0.222571, qbuf_max_ms=0.809692
+[RTSP_WORKER] total=5220, fps=29.7842, wait_avg_ms=18.1911, wait_max_ms=23.3686, clone_avg_ms=1.21599, clone_max_ms=1.93527, draw_avg_ms=0.666041, draw_max_ms=1.15349, resize_avg_ms=8.11351, resize_max_ms=16.2165, last_clone_avg_ms=0.465978, last_clone_max_ms=0.925779, encode_avg_ms=4.83175, encode_max_ms=6.08232, write_avg_ms=0.0721241, write_max_ms=0.494391, total_avg_ms=33.568, total_max_ms=41.374, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 5300 to RTSP (MPP encoded, size=358 bytes)
+[IMX415] total=5310, fps=29.8077, read_avg_ms=2.60298 ms, read_max_ms=4.43872 ms, dqbuf_avg_ms=0.0128466, dqbuf_max_ms=0.022167, cvt_avg_ms=2.37528, cvt_max_ms=3.99042, qbuf_avg_ms=0.206607, qbuf_max_ms=0.413596
+[RTSP_WORKER] total=5310, fps=29.784, wait_avg_ms=18.3357, wait_max_ms=25.5633, clone_avg_ms=1.21699, clone_max_ms=2.02861, draw_avg_ms=0.633285, draw_max_ms=1.3735, resize_avg_ms=8.04371, resize_max_ms=13.4416, last_clone_avg_ms=0.440178, last_clone_max_ms=0.810693, encode_avg_ms=4.81762, encode_max_ms=6.455, write_avg_ms=0.0682567, write_max_ms=0.771191, total_avg_ms=33.5663, total_max_ms=43.5333, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=5400, fps=29.7523, read_avg_ms=2.69916 ms, read_max_ms=4.42056 ms, dqbuf_avg_ms=0.0129796, dqbuf_max_ms=0.027417, cvt_avg_ms=2.46175, cvt_max_ms=4.09834, qbuf_avg_ms=0.216028, qbuf_max_ms=0.431972
+Added frame to streaming queue, queue size: 1
+Sent frame 5400 to RTSP (MPP encoded, size=327 bytes)
+[RTSP_WORKER] total=5400, fps=29.8094, wait_avg_ms=17.6641, wait_max_ms=23.6526, clone_avg_ms=1.25636, clone_max_ms=1.96448, draw_avg_ms=0.678973, draw_max_ms=1.2895, resize_avg_ms=8.54008, resize_max_ms=16.3805, last_clone_avg_ms=0.47224, last_clone_max_ms=1.49338, encode_avg_ms=4.83886, encode_max_ms=6.32878, write_avg_ms=0.0769732, write_max_ms=0.805609, total_avg_ms=33.5384, total_max_ms=42.1054, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=5490, fps=29.7153, read_avg_ms=2.69983 ms, read_max_ms=5.62643 ms, dqbuf_avg_ms=0.012699, dqbuf_max_ms=0.023625, cvt_avg_ms=2.46782, cvt_max_ms=5.25425, qbuf_avg_ms=0.210831, qbuf_max_ms=0.400471
+[RTSP_WORKER] total=5490, fps=29.6616, wait_avg_ms=18.1359, wait_max_ms=26.6318, clone_avg_ms=1.18859, clone_max_ms=1.82181, draw_avg_ms=0.650766, draw_max_ms=1.1565, resize_avg_ms=8.35619, resize_max_ms=17.2809, last_clone_avg_ms=0.468034, last_clone_max_ms=0.875902, encode_avg_ms=4.83468, encode_max_ms=6.33491, write_avg_ms=0.0619812, write_max_ms=0.40893, total_avg_ms=33.7066, total_max_ms=45.9834, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 5500 to RTSP (MPP encoded, size=381 bytes)
+[IMX415] total=5580, fps=29.75, read_avg_ms=2.65511 ms, read_max_ms=5.36829 ms, dqbuf_avg_ms=0.0131023, dqbuf_max_ms=0.023917, cvt_avg_ms=2.41986, cvt_max_ms=5.00224, qbuf_avg_ms=0.213545, qbuf_max_ms=0.431097
+[RTSP_WORKER] total=5580, fps=29.7789, wait_avg_ms=18.253, wait_max_ms=23.7945, clone_avg_ms=1.18984, clone_max_ms=2.02336, draw_avg_ms=0.60633, draw_max_ms=1.24866, resize_avg_ms=8.24538, resize_max_ms=18.4812, last_clone_avg_ms=0.454648, last_clone_max_ms=0.862777, encode_avg_ms=4.75053, encode_max_ms=5.82652, write_avg_ms=0.0638089, write_max_ms=0.541934, total_avg_ms=33.5736, total_max_ms=46.3147, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 5600 to RTSP (MPP encoded, size=536 bytes)
+[IMX415] total=5670, fps=29.7025, read_avg_ms=2.78836 ms, read_max_ms=7.81954 ms, dqbuf_avg_ms=0.0129374, dqbuf_max_ms=0.02421, cvt_avg_ms=2.54826, cvt_max_ms=7.49636, qbuf_avg_ms=0.218539, qbuf_max_ms=0.407763
+[RTSP_WORKER] total=5670, fps=29.6497, wait_avg_ms=18.76, wait_max_ms=26.7896, clone_avg_ms=1.18111, clone_max_ms=2.36462, draw_avg_ms=0.625697, draw_max_ms=1.06258, resize_avg_ms=7.82993, resize_max_ms=14.9503, last_clone_avg_ms=0.455255, last_clone_max_ms=0.816984, encode_avg_ms=4.79168, encode_max_ms=6.22874, write_avg_ms=0.0656303, write_max_ms=0.42818, total_avg_ms=33.7198, total_max_ms=45.0291, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 5700 to RTSP (MPP encoded, size=1718 bytes)
+[IMX415] total=5760, fps=29.7548, read_avg_ms=2.7983 ms, read_max_ms=6.1144 ms, dqbuf_avg_ms=0.0135532, dqbuf_max_ms=0.025667, cvt_avg_ms=2.54124, cvt_max_ms=5.66901, qbuf_avg_ms=0.234118, qbuf_max_ms=0.809692
+[RTSP_WORKER] total=5760, fps=29.8041, wait_avg_ms=18.1253, wait_max_ms=24.4308, clone_avg_ms=1.20596, clone_max_ms=1.95935, draw_avg_ms=0.652882, draw_max_ms=1.06062, resize_avg_ms=8.28065, resize_max_ms=14.7212, last_clone_avg_ms=0.420966, last_clone_max_ms=0.706731, encode_avg_ms=4.77639, encode_max_ms=6.40812, write_avg_ms=0.0722022, write_max_ms=0.413597, total_avg_ms=33.5447, total_max_ms=43.1158, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 5800 to RTSP (MPP encoded, size=529 bytes)
+[IMX415] total=5850, fps=29.7802, read_avg_ms=2.66714 ms, read_max_ms=5.97265 ms, dqbuf_avg_ms=0.0121337, dqbuf_max_ms=0.022167, cvt_avg_ms=2.44445, cvt_max_ms=5.62293, qbuf_avg_ms=0.202157, qbuf_max_ms=0.415055
+[RTSP_WORKER] total=5850, fps=29.7271, wait_avg_ms=18.2883, wait_max_ms=24.0738, clone_avg_ms=1.24845, clone_max_ms=1.96385, draw_avg_ms=0.641151, draw_max_ms=1.23029, resize_avg_ms=8.16462, resize_max_ms=12.5733, last_clone_avg_ms=0.44454, last_clone_max_ms=0.710231, encode_avg_ms=4.77028, encode_max_ms=5.91139, write_avg_ms=0.0646483, write_max_ms=0.728023, total_avg_ms=33.6327, total_max_ms=42.0841, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 5900 to RTSP (MPP encoded, size=426 bytes)
+[IMX415] total=5940, fps=29.6754, read_avg_ms=2.56547 ms, read_max_ms=4.83744 ms, dqbuf_avg_ms=0.0126814, dqbuf_max_ms=0.034709, cvt_avg_ms=2.33388, cvt_max_ms=4.60994, qbuf_avg_ms=0.210501, qbuf_max_ms=0.41418
+[RTSP_WORKER] total=5940, fps=29.6966, wait_avg_ms=18.5668, wait_max_ms=24.5498, clone_avg_ms=1.14607, clone_max_ms=1.78272, draw_avg_ms=0.565101, draw_max_ms=1.00191, resize_avg_ms=8.03025, resize_max_ms=17.6112, last_clone_avg_ms=0.437937, last_clone_max_ms=0.885236, encode_avg_ms=4.84185, encode_max_ms=6.67033, write_avg_ms=0.068599, write_max_ms=0.869194, total_avg_ms=33.667, total_max_ms=42.2278, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 6000 to RTSP (MPP encoded, size=354 bytes)
+[IMX415] total=6030, fps=29.7175, read_avg_ms=2.55278 ms, read_max_ms=4.0933 ms, dqbuf_avg_ms=0.0123087, dqbuf_max_ms=0.028876, cvt_avg_ms=2.32688, cvt_max_ms=3.75678, qbuf_avg_ms=0.205463, qbuf_max_ms=0.41068
+[RTSP_WORKER] total=6030, fps=29.7234, wait_avg_ms=18.1901, wait_max_ms=23.8622, clone_avg_ms=1.20588, clone_max_ms=2.0181, draw_avg_ms=0.640306, draw_max_ms=1.21191, resize_avg_ms=8.15022, resize_max_ms=14.8051, last_clone_avg_ms=0.472248, last_clone_max_ms=0.918196, encode_avg_ms=4.89725, encode_max_ms=5.97248, write_avg_ms=0.0684466, write_max_ms=0.619811, total_avg_ms=33.6349, total_max_ms=40.3265, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 6100 to RTSP (MPP encoded, size=455 bytes)
+[IMX415] total=6120, fps=29.7671, read_avg_ms=2.63565 ms, read_max_ms=4.35414 ms, dqbuf_avg_ms=0.0126296, dqbuf_max_ms=0.035292, cvt_avg_ms=2.41179, cvt_max_ms=3.93354, qbuf_avg_ms=0.203021, qbuf_max_ms=0.42118
+[RTSP_WORKER] total=6120, fps=29.7801, wait_avg_ms=18.0168, wait_max_ms=23.497, clone_avg_ms=1.25122, clone_max_ms=1.7451, draw_avg_ms=0.689355, draw_max_ms=1.276, resize_avg_ms=8.2152, resize_max_ms=19.0954, last_clone_avg_ms=0.472716, last_clone_max_ms=1.37583, encode_avg_ms=4.84981, encode_max_ms=6.05636, write_avg_ms=0.0653418, write_max_ms=0.527933, total_avg_ms=33.5716, total_max_ms=45.6904, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 6200 to RTSP (MPP encoded, size=480 bytes)
+[IMX415] total=6210, fps=29.7592, read_avg_ms=2.68539 ms, read_max_ms=4.23063 ms, dqbuf_avg_ms=0.0130379, dqbuf_max_ms=0.026542, cvt_avg_ms=2.46019, cvt_max_ms=3.9275, qbuf_avg_ms=0.203716, qbuf_max_ms=0.407179
+[RTSP_WORKER] total=6210, fps=29.7879, wait_avg_ms=18.1782, wait_max_ms=22.5425, clone_avg_ms=1.23053, clone_max_ms=1.73635, draw_avg_ms=0.678787, draw_max_ms=1.40363, resize_avg_ms=8.19279, resize_max_ms=13.8842, last_clone_avg_ms=0.425766, last_clone_max_ms=0.728315, encode_avg_ms=4.78195, encode_max_ms=5.74281, write_avg_ms=0.0646742, write_max_ms=0.546892, total_avg_ms=33.5635, total_max_ms=41.2306, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=6300, fps=29.7126, read_avg_ms=2.63687 ms, read_max_ms=4.40081 ms, dqbuf_avg_ms=0.0128045, dqbuf_max_ms=0.023334, cvt_avg_ms=2.40667, cvt_max_ms=3.95483, qbuf_avg_ms=0.208634, qbuf_max_ms=0.412429
+Added frame to streaming queue, queue size: 1
+Sent frame 6300 to RTSP (MPP encoded, size=509 bytes)
+[RTSP_WORKER] total=6300, fps=29.6885, wait_avg_ms=18.3158, wait_max_ms=24.4666, clone_avg_ms=1.25684, clone_max_ms=2.34799, draw_avg_ms=0.635545, draw_max_ms=1.24225, resize_avg_ms=8.01431, resize_max_ms=12.2699, last_clone_avg_ms=0.482221, last_clone_max_ms=1.07249, encode_avg_ms=4.89289, encode_max_ms=6.69804, write_avg_ms=0.0671082, write_max_ms=0.534059, total_avg_ms=33.6756, total_max_ms=42.6434, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=6390, fps=29.7671, read_avg_ms=2.7329 ms, read_max_ms=5.50205 ms, dqbuf_avg_ms=0.0209864, dqbuf_max_ms=0.781691, cvt_avg_ms=2.49137, cvt_max_ms=5.20775, qbuf_avg_ms=0.211586, qbuf_max_ms=0.413304
+[RTSP_WORKER] total=6390, fps=29.7532, wait_avg_ms=18.4066, wait_max_ms=23.6109, clone_avg_ms=1.20971, clone_max_ms=2.39378, draw_avg_ms=0.602171, draw_max_ms=1.26587, resize_avg_ms=8.06185, resize_max_ms=13.9309, last_clone_avg_ms=0.457105, last_clone_max_ms=0.904778, encode_avg_ms=4.78734, encode_max_ms=6.09061, write_avg_ms=0.0670789, write_max_ms=0.775566, total_avg_ms=33.6027, total_max_ms=41.9233, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 6400 to RTSP (MPP encoded, size=441 bytes)
+[IMX415] total=6480, fps=29.7428, read_avg_ms=2.65949 ms, read_max_ms=5.291 ms, dqbuf_avg_ms=0.0129892, dqbuf_max_ms=0.050751, cvt_avg_ms=2.42452, cvt_max_ms=5.05853, qbuf_avg_ms=0.213437, qbuf_max_ms=0.436638
+[RTSP_WORKER] total=6480, fps=29.7534, wait_avg_ms=17.966, wait_max_ms=26.0242, clone_avg_ms=1.24335, clone_max_ms=2.2494, draw_avg_ms=0.667888, draw_max_ms=1.39479, resize_avg_ms=8.31904, resize_max_ms=17.7728, last_clone_avg_ms=0.472128, last_clone_max_ms=1.04216, encode_avg_ms=4.84786, encode_max_ms=6.69775, write_avg_ms=0.0729481, write_max_ms=0.953197, total_avg_ms=33.6009, total_max_ms=46.5123, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 6500 to RTSP (MPP encoded, size=356 bytes)
+[IMX415] total=6570, fps=29.7875, read_avg_ms=2.81465 ms, read_max_ms=7.52661 ms, dqbuf_avg_ms=0.013844, dqbuf_max_ms=0.052793, cvt_avg_ms=2.57742, cvt_max_ms=7.19118, qbuf_avg_ms=0.214589, qbuf_max_ms=0.415638
+[RTSP_WORKER] total=6570, fps=29.7383, wait_avg_ms=17.942, wait_max_ms=24.3854, clone_avg_ms=1.29727, clone_max_ms=2.593, draw_avg_ms=0.68555, draw_max_ms=1.17399, resize_avg_ms=8.2297, resize_max_ms=18.595, last_clone_avg_ms=0.48599, last_clone_max_ms=0.940363, encode_avg_ms=4.90059, encode_max_ms=6.92293, write_avg_ms=0.066622, write_max_ms=0.511016, total_avg_ms=33.6191, total_max_ms=42.2279, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 6600 to RTSP (MPP encoded, size=367 bytes)
+[IMX415] total=6660, fps=29.759, read_avg_ms=2.68728 ms, read_max_ms=5.06853 ms, dqbuf_avg_ms=0.0126328, dqbuf_max_ms=0.021876, cvt_avg_ms=2.44548, cvt_max_ms=4.88449, qbuf_avg_ms=0.220492, qbuf_max_ms=0.461723
+[RTSP_WORKER] total=6660, fps=29.8067, wait_avg_ms=18.2146, wait_max_ms=24.7738, clone_avg_ms=1.21988, clone_max_ms=2.37541, draw_avg_ms=0.625901, draw_max_ms=1.12433, resize_avg_ms=8.02528, resize_max_ms=14.7256, last_clone_avg_ms=0.473807, last_clone_max_ms=0.797442, encode_avg_ms=4.90415, encode_max_ms=6.01086, write_avg_ms=0.0667841, write_max_ms=0.535225, total_avg_ms=33.5411, total_max_ms=42.2862, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 6700 to RTSP (MPP encoded, size=353 bytes)
+[IMX415] total=6750, fps=29.7553, read_avg_ms=2.66171 ms, read_max_ms=4.29326 ms, dqbuf_avg_ms=0.0127333, dqbuf_max_ms=0.023334, cvt_avg_ms=2.42173, cvt_max_ms=4.01063, qbuf_avg_ms=0.218559, qbuf_max_ms=0.515975
+[RTSP_WORKER] total=6750, fps=29.7498, wait_avg_ms=18.6752, wait_max_ms=25.306, clone_avg_ms=1.19972, clone_max_ms=2.97422, draw_avg_ms=0.594395, draw_max_ms=1.38954, resize_avg_ms=7.86744, resize_max_ms=12.3766, last_clone_avg_ms=0.446388, last_clone_max_ms=0.769441, encode_avg_ms=4.74704, encode_max_ms=5.96648, write_avg_ms=0.065358, write_max_ms=0.535516, total_avg_ms=33.6059, total_max_ms=42.331, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 6800 to RTSP (MPP encoded, size=317 bytes)
+[IMX415] total=6840, fps=29.7909, read_avg_ms=2.49253 ms, read_max_ms=6.00281 ms, dqbuf_avg_ms=0.0122082, dqbuf_max_ms=0.022459, cvt_avg_ms=2.27406, cvt_max_ms=5.8001, qbuf_avg_ms=0.19775, qbuf_max_ms=0.410971
+[RTSP_WORKER] total=6840, fps=29.8082, wait_avg_ms=18.4629, wait_max_ms=24.7905, clone_avg_ms=1.21633, clone_max_ms=2.50725, draw_avg_ms=0.622592, draw_max_ms=1.18012, resize_avg_ms=7.94894, resize_max_ms=13.5422, last_clone_avg_ms=0.459916, last_clone_max_ms=0.994323, encode_avg_ms=4.74927, encode_max_ms=7.1271, write_avg_ms=0.069448, write_max_ms=0.595894, total_avg_ms=33.5398, total_max_ms=43.3966, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 6900 to RTSP (MPP encoded, size=387 bytes)
+[IMX415] total=6930, fps=29.7108, read_avg_ms=2.56648 ms, read_max_ms=3.93179 ms, dqbuf_avg_ms=0.0128046, dqbuf_max_ms=0.021876, cvt_avg_ms=2.32892, cvt_max_ms=3.66695, qbuf_avg_ms=0.215079, qbuf_max_ms=0.46814
+[RTSP_WORKER] total=6930, fps=29.6767, wait_avg_ms=19.0019, wait_max_ms=25.8402, clone_avg_ms=1.20125, clone_max_ms=2.32291, draw_avg_ms=0.601626, draw_max_ms=1.16349, resize_avg_ms=7.55216, resize_max_ms=12.4501, last_clone_avg_ms=0.446768, last_clone_max_ms=1.02028, encode_avg_ms=4.80986, encode_max_ms=5.95719, write_avg_ms=0.0656326, write_max_ms=0.536392, total_avg_ms=33.6894, total_max_ms=43.7242, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 7000 to RTSP (MPP encoded, size=545 bytes)
+[IMX415] total=7020, fps=29.762, read_avg_ms=2.60452 ms, read_max_ms=4.73761 ms, dqbuf_avg_ms=0.0124254, dqbuf_max_ms=0.023043, cvt_avg_ms=2.37863, cvt_max_ms=4.47977, qbuf_avg_ms=0.205123, qbuf_max_ms=0.412721
+[RTSP_WORKER] total=7020, fps=29.7598, wait_avg_ms=18.2745, wait_max_ms=24.2211, clone_avg_ms=1.19262, clone_max_ms=2.41458, draw_avg_ms=0.619888, draw_max_ms=1.21775, resize_avg_ms=8.03595, resize_max_ms=13.4692, last_clone_avg_ms=0.45562, last_clone_max_ms=0.731815, encode_avg_ms=4.9329, encode_max_ms=6.07532, write_avg_ms=0.072569, write_max_ms=0.557101, total_avg_ms=33.5947, total_max_ms=42.1552, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 7100 to RTSP (MPP encoded, size=403 bytes)
+[IMX415] total=7110, fps=29.7214, read_avg_ms=2.70943 ms, read_max_ms=4.16951 ms, dqbuf_avg_ms=0.0127777, dqbuf_max_ms=0.022167, cvt_avg_ms=2.48653, cvt_max_ms=3.85508, qbuf_avg_ms=0.201554, qbuf_max_ms=0.436347
+[RTSP_WORKER] total=7110, fps=29.7689, wait_avg_ms=18.5732, wait_max_ms=23.9466, clone_avg_ms=1.27039, clone_max_ms=2.11261, draw_avg_ms=0.663766, draw_max_ms=1.02845, resize_avg_ms=7.62557, resize_max_ms=16.1774, last_clone_avg_ms=0.474871, last_clone_max_ms=0.908445, encode_avg_ms=4.88527, encode_max_ms=6.18774, write_avg_ms=0.0806646, write_max_ms=0.464931, total_avg_ms=33.5847, total_max_ms=46.5547, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=7200, fps=29.7835, read_avg_ms=2.62315 ms, read_max_ms=4.42793 ms, dqbuf_avg_ms=0.0125745, dqbuf_max_ms=0.0245, cvt_avg_ms=2.39719, cvt_max_ms=4.0925, qbuf_avg_ms=0.205163, qbuf_max_ms=0.353511
+Added frame to streaming queue, queue size: 1
+Sent frame 7200 to RTSP (MPP encoded, size=365 bytes)
+[RTSP_WORKER] total=7200, fps=29.7635, wait_avg_ms=17.8406, wait_max_ms=24.3316, clone_avg_ms=1.23828, clone_max_ms=1.86702, draw_avg_ms=0.669548, draw_max_ms=1.19295, resize_avg_ms=8.31385, resize_max_ms=14.0235, last_clone_avg_ms=0.508014, last_clone_max_ms=2.49033, encode_avg_ms=4.94148, encode_max_ms=6.58079, write_avg_ms=0.0686087, write_max_ms=0.556518, total_avg_ms=33.5913, total_max_ms=45.5767, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=7290, fps=29.7602, read_avg_ms=2.6369 ms, read_max_ms=4.18742 ms, dqbuf_avg_ms=0.0125032, dqbuf_max_ms=0.021001, cvt_avg_ms=2.40075, cvt_max_ms=3.98442, qbuf_avg_ms=0.214741, qbuf_max_ms=0.410679
+[RTSP_WORKER] total=7290, fps=29.7488, wait_avg_ms=18.1209, wait_max_ms=24.9835, clone_avg_ms=1.24091, clone_max_ms=1.86002, draw_avg_ms=0.653241, draw_max_ms=1.16874, resize_avg_ms=8.1812, resize_max_ms=12.8014, last_clone_avg_ms=0.46985, last_clone_max_ms=0.915863, encode_avg_ms=4.8702, encode_max_ms=6.00756, write_avg_ms=0.0608761, write_max_ms=0.42468, total_avg_ms=33.6081, total_max_ms=45.6212, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 7300 to RTSP (MPP encoded, size=373 bytes)
+[IMX415] total=7380, fps=29.7883, read_avg_ms=2.56279 ms, read_max_ms=4.82219 ms, dqbuf_avg_ms=0.0127647, dqbuf_max_ms=0.039959, cvt_avg_ms=2.33619, cvt_max_ms=4.55502, qbuf_avg_ms=0.20521, qbuf_max_ms=0.415055
+[RTSP_WORKER] total=7380, fps=29.7876, wait_avg_ms=18.4035, wait_max_ms=25.0782, clone_avg_ms=1.18492, clone_max_ms=1.90589, draw_avg_ms=0.631105, draw_max_ms=1.04012, resize_avg_ms=7.99009, resize_max_ms=13.4649, last_clone_avg_ms=0.462783, last_clone_max_ms=0.894278, encode_avg_ms=4.81523, encode_max_ms=5.99444, write_avg_ms=0.0656766, write_max_ms=0.5186, total_avg_ms=33.5639, total_max_ms=45.5632, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 7400 to RTSP (MPP encoded, size=598 bytes)
+[IMX415] total=7470, fps=29.7053, read_avg_ms=2.62984 ms, read_max_ms=4.69015 ms, dqbuf_avg_ms=0.0130217, dqbuf_max_ms=0.024209, cvt_avg_ms=2.3933, cvt_max_ms=4.24884, qbuf_avg_ms=0.214966, qbuf_max_ms=0.413596
+[RTSP_WORKER] total=7470, fps=29.7076, wait_avg_ms=18.4828, wait_max_ms=24.2021, clone_avg_ms=1.1717, clone_max_ms=1.88277, draw_avg_ms=0.622048, draw_max_ms=1.2755, resize_avg_ms=8.03098, resize_max_ms=18.8816, last_clone_avg_ms=0.448234, last_clone_max_ms=0.925779, encode_avg_ms=4.79669, encode_max_ms=6.11848, write_avg_ms=0.0901431, write_max_ms=0.787816, total_avg_ms=33.6537, total_max_ms=42.937, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 7500 to RTSP (MPP encoded, size=368 bytes)
+[IMX415] total=7560, fps=29.7144, read_avg_ms=2.70994 ms, read_max_ms=6.31653 ms, dqbuf_avg_ms=0.0124286, dqbuf_max_ms=0.023918, cvt_avg_ms=2.47341, cvt_max_ms=5.89564, qbuf_avg_ms=0.215286, qbuf_max_ms=0.47864
+[RTSP_WORKER] total=7560, fps=29.6914, wait_avg_ms=18.0556, wait_max_ms=26.1968, clone_avg_ms=1.20924, clone_max_ms=1.80693, draw_avg_ms=0.630603, draw_max_ms=1.16145, resize_avg_ms=8.38929, resize_max_ms=15.2456, last_clone_avg_ms=0.449744, last_clone_max_ms=0.880569, encode_avg_ms=4.85713, encode_max_ms=6.1914, write_avg_ms=0.070443, write_max_ms=0.556226, total_avg_ms=33.6725, total_max_ms=50.7903, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 7600 to RTSP (MPP encoded, size=395 bytes)
+[IMX415] total=7650, fps=29.7756, read_avg_ms=2.59615 ms, read_max_ms=4.87332 ms, dqbuf_avg_ms=0.012999, dqbuf_max_ms=0.031793, cvt_avg_ms=2.36647, cvt_max_ms=4.6741, qbuf_avg_ms=0.208435, qbuf_max_ms=0.351177
+[RTSP_WORKER] total=7650, fps=29.809, wait_avg_ms=18.0359, wait_max_ms=24.0803, clone_avg_ms=1.23245, clone_max_ms=1.89748, draw_avg_ms=0.671092, draw_max_ms=1.21133, resize_avg_ms=8.27475, resize_max_ms=14.1439, last_clone_avg_ms=0.443633, last_clone_max_ms=0.907112, encode_avg_ms=4.80018, encode_max_ms=6.07152, write_avg_ms=0.0698124, write_max_ms=0.553601, total_avg_ms=33.5391, total_max_ms=42.8338, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 7700 to RTSP (MPP encoded, size=386 bytes)
+[IMX415] total=7740, fps=29.7118, read_avg_ms=2.64704 ms, read_max_ms=4.2598 ms, dqbuf_avg_ms=0.0122245, dqbuf_max_ms=0.02275, cvt_avg_ms=2.42038, cvt_max_ms=3.92671, qbuf_avg_ms=0.205796, qbuf_max_ms=0.411555
+[RTSP_WORKER] total=7740, fps=29.7095, wait_avg_ms=18.2356, wait_max_ms=25.3071, clone_avg_ms=1.21783, clone_max_ms=1.81072, draw_avg_ms=0.65419, draw_max_ms=1.14308, resize_avg_ms=8.14676, resize_max_ms=13.8049, last_clone_avg_ms=0.458915, last_clone_max_ms=0.775274, encode_avg_ms=4.86551, encode_max_ms=6.22057, write_avg_ms=0.0613783, write_max_ms=0.302468, total_avg_ms=33.6508, total_max_ms=42.8214, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 7800 to RTSP (MPP encoded, size=442 bytes)
+[IMX415] total=7830, fps=29.7531, read_avg_ms=2.74969 ms, read_max_ms=5.11395 ms, dqbuf_avg_ms=0.013174, dqbuf_max_ms=0.051919, cvt_avg_ms=2.50804, cvt_max_ms=4.87536, qbuf_avg_ms=0.219626, qbuf_max_ms=0.73269
+[RTSP_WORKER] total=7830, fps=29.7735, wait_avg_ms=18.1177, wait_max_ms=24.4981, clone_avg_ms=1.17178, clone_max_ms=2.20244, draw_avg_ms=0.626267, draw_max_ms=1.22066, resize_avg_ms=8.27972, resize_max_ms=19.3372, last_clone_avg_ms=0.467619, last_clone_max_ms=0.874445, encode_avg_ms=4.84404, encode_max_ms=6.22174, write_avg_ms=0.062427, write_max_ms=0.539309, total_avg_ms=33.5796, total_max_ms=47.334, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 7900 to RTSP (MPP encoded, size=406 bytes)
+[IMX415] total=7920, fps=29.7669, read_avg_ms=2.59259 ms, read_max_ms=5.18191 ms, dqbuf_avg_ms=0.013486, dqbuf_max_ms=0.086336, cvt_avg_ms=2.36112, cvt_max_ms=4.69452, qbuf_avg_ms=0.209757, qbuf_max_ms=0.458223
+[RTSP_WORKER] total=7920, fps=29.7489, wait_avg_ms=18.3704, wait_max_ms=24.9872, clone_avg_ms=1.29002, clone_max_ms=3.05822, draw_avg_ms=0.664412, draw_max_ms=1.45284, resize_avg_ms=7.98315, resize_max_ms=15.1268, last_clone_avg_ms=0.461539, last_clone_max_ms=1.07862, encode_avg_ms=4.75681, encode_max_ms=6.26132, write_avg_ms=0.0694933, write_max_ms=0.512766, total_avg_ms=33.6069, total_max_ms=43.2751, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 8000 to RTSP (MPP encoded, size=498 bytes)
+[IMX415] total=8010, fps=29.7663, read_avg_ms=2.66059 ms, read_max_ms=4.38855 ms, dqbuf_avg_ms=0.0133588, dqbuf_max_ms=0.035293, cvt_avg_ms=2.42121, cvt_max_ms=4.05925, qbuf_avg_ms=0.216883, qbuf_max_ms=0.398137
+[RTSP_WORKER] total=8010, fps=29.8019, wait_avg_ms=18.1631, wait_max_ms=24.3078, clone_avg_ms=1.21841, clone_max_ms=2.36928, draw_avg_ms=0.634367, draw_max_ms=1.32421, resize_avg_ms=8.18567, resize_max_ms=15.6835, last_clone_avg_ms=0.466358, last_clone_max_ms=0.84236, encode_avg_ms=4.79615, encode_max_ms=6.44341, write_avg_ms=0.0727375, write_max_ms=0.936279, total_avg_ms=33.5472, total_max_ms=41.091, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=8100, fps=29.762, read_avg_ms=2.60667 ms, read_max_ms=4.80207 ms, dqbuf_avg_ms=0.0120268, dqbuf_max_ms=0.025084, cvt_avg_ms=2.37613, cvt_max_ms=4.47722, qbuf_avg_ms=0.210215, qbuf_max_ms=0.342428
+Added frame to streaming queue, queue size: 1
+Sent frame 8100 to RTSP (MPP encoded, size=401 bytes)
+[RTSP_WORKER] total=8100, fps=29.672, wait_avg_ms=18.0811, wait_max_ms=24.7698, clone_avg_ms=1.26115, clone_max_ms=1.87839, draw_avg_ms=0.701861, draw_max_ms=1.1947, resize_avg_ms=8.24511, resize_max_ms=14.1094, last_clone_avg_ms=0.453607, last_clone_max_ms=0.899528, encode_avg_ms=4.87451, encode_max_ms=6.09253, write_avg_ms=0.0668201, write_max_ms=0.76244, total_avg_ms=33.695, total_max_ms=47.5088, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=8190, fps=29.8146, read_avg_ms=2.62303 ms, read_max_ms=4.28414 ms, dqbuf_avg_ms=0.0127582, dqbuf_max_ms=0.023334, cvt_avg_ms=2.3965, cvt_max_ms=4.00033, qbuf_avg_ms=0.205604, qbuf_max_ms=0.414763
+[RTSP_WORKER] total=8190, fps=29.8471, wait_avg_ms=17.9481, wait_max_ms=23.6463, clone_avg_ms=1.20735, clone_max_ms=1.9341, draw_avg_ms=0.667917, draw_max_ms=1.28746, resize_avg_ms=8.3443, resize_max_ms=15.6058, last_clone_avg_ms=0.469298, last_clone_max_ms=1.0827, encode_avg_ms=4.78702, encode_max_ms=6.53762, write_avg_ms=0.0627524, write_max_ms=0.549225, total_avg_ms=33.497, total_max_ms=44.2665, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 8200 to RTSP (MPP encoded, size=350 bytes)
+[IMX415] total=8280, fps=29.7672, read_avg_ms=2.61325 ms, read_max_ms=4.99611 ms, dqbuf_avg_ms=0.0122375, dqbuf_max_ms=0.023042, cvt_avg_ms=2.38778, cvt_max_ms=4.54519, qbuf_avg_ms=0.204664, qbuf_max_ms=0.449473
+[RTSP_WORKER] total=8280, fps=29.7844, wait_avg_ms=18.0533, wait_max_ms=23.4644, clone_avg_ms=1.23499, clone_max_ms=1.74764, draw_avg_ms=0.659242, draw_max_ms=1.19675, resize_avg_ms=8.25012, resize_max_ms=15.8342, last_clone_avg_ms=0.463504, last_clone_max_ms=0.712273, encode_avg_ms=4.8283, encode_max_ms=6.1609, write_avg_ms=0.0662557, write_max_ms=0.559142, total_avg_ms=33.5665, total_max_ms=42.2012, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 8300 to RTSP (MPP encoded, size=400 bytes)
+[IMX415] total=8370, fps=29.7501, read_avg_ms=2.65971 ms, read_max_ms=5.16616 ms, dqbuf_avg_ms=0.0131027, dqbuf_max_ms=0.034126, cvt_avg_ms=2.41258, cvt_max_ms=4.95032, qbuf_avg_ms=0.223266, qbuf_max_ms=0.462307
+[RTSP_WORKER] total=8370, fps=29.7428, wait_avg_ms=18.0639, wait_max_ms=23.9259, clone_avg_ms=1.22571, clone_max_ms=1.79672, draw_avg_ms=0.666964, draw_max_ms=1.16729, resize_avg_ms=8.3136, resize_max_ms=13.2632, last_clone_avg_ms=0.448239, last_clone_max_ms=0.938613, encode_avg_ms=4.81196, encode_max_ms=6.10186, write_avg_ms=0.0733501, write_max_ms=0.600269, total_avg_ms=33.6141, total_max_ms=44.9759, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 8400 to RTSP (MPP encoded, size=547 bytes)
+[IMX415] total=8460, fps=29.7529, read_avg_ms=2.54792 ms, read_max_ms=5.4415 ms, dqbuf_avg_ms=0.0136018, dqbuf_max_ms=0.08021, cvt_avg_ms=2.31499, cvt_max_ms=5.00312, qbuf_avg_ms=0.210911, qbuf_max_ms=0.43518
+[RTSP_WORKER] total=8460, fps=29.7814, wait_avg_ms=18.2788, wait_max_ms=23.2571, clone_avg_ms=1.14719, clone_max_ms=2.38649, draw_avg_ms=0.612247, draw_max_ms=1.27725, resize_avg_ms=8.18266, resize_max_ms=15.9427, last_clone_avg_ms=0.457613, last_clone_max_ms=1.06082, encode_avg_ms=4.81052, encode_max_ms=6.28457, write_avg_ms=0.0713249, write_max_ms=0.749524, total_avg_ms=33.5712, total_max_ms=42.9635, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 8500 to RTSP (MPP encoded, size=322 bytes)
+[IMX415] total=8550, fps=29.7619, read_avg_ms=2.63519 ms, read_max_ms=5.46046 ms, dqbuf_avg_ms=0.0124147, dqbuf_max_ms=0.022167, cvt_avg_ms=2.40997, cvt_max_ms=5.11249, qbuf_avg_ms=0.204424, qbuf_max_ms=0.413888
+[RTSP_WORKER] total=8550, fps=29.7517, wait_avg_ms=18.228, wait_max_ms=23.6855, clone_avg_ms=1.1497, clone_max_ms=2.47808, draw_avg_ms=0.58474, draw_max_ms=1.30583, resize_avg_ms=8.30465, resize_max_ms=13.1549, last_clone_avg_ms=0.439055, last_clone_max_ms=0.742899, encode_avg_ms=4.82654, encode_max_ms=6.51254, write_avg_ms=0.0614011, write_max_ms=0.403679, total_avg_ms=33.6041, total_max_ms=44.2788, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 8600 to RTSP (MPP encoded, size=441 bytes)
+[IMX415] total=8640, fps=29.7845, read_avg_ms=2.62622 ms, read_max_ms=7.10902 ms, dqbuf_avg_ms=0.0124319, dqbuf_max_ms=0.021584, cvt_avg_ms=2.40501, cvt_max_ms=6.68696, qbuf_avg_ms=0.200469, qbuf_max_ms=0.402513
+[RTSP_WORKER] total=8640, fps=29.7715, wait_avg_ms=18.4444, wait_max_ms=25.3682, clone_avg_ms=1.27136, clone_max_ms=3.03518, draw_avg_ms=0.636881, draw_max_ms=1.47121, resize_avg_ms=7.90785, resize_max_ms=15.3299, last_clone_avg_ms=0.444384, last_clone_max_ms=0.829526, encode_avg_ms=4.7872, encode_max_ms=5.96769, write_avg_ms=0.079229, write_max_ms=0.602602, total_avg_ms=33.5819, total_max_ms=50.5457, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 8700 to RTSP (MPP encoded, size=580 bytes)
+[IMX415] total=8730, fps=29.7854, read_avg_ms=2.62599 ms, read_max_ms=3.89621 ms, dqbuf_avg_ms=0.0173774, dqbuf_max_ms=0.423805, cvt_avg_ms=2.39484, cvt_max_ms=3.6407, qbuf_avg_ms=0.204912, qbuf_max_ms=0.328427
+[RTSP_WORKER] total=8730, fps=29.7739, wait_avg_ms=18.4119, wait_max_ms=23.4121, clone_avg_ms=1.20545, clone_max_ms=1.8676, draw_avg_ms=0.63359, draw_max_ms=1.20091, resize_avg_ms=7.90108, resize_max_ms=15.0441, last_clone_avg_ms=0.485623, last_clone_max_ms=0.879402, encode_avg_ms=4.85143, encode_max_ms=6.75871, write_avg_ms=0.0789306, write_max_ms=0.541933, total_avg_ms=33.5786, total_max_ms=44.0691, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 8800 to RTSP (MPP encoded, size=358 bytes)
+[IMX415] total=8820, fps=29.7611, read_avg_ms=2.70668 ms, read_max_ms=7.84491 ms, dqbuf_avg_ms=0.0126328, dqbuf_max_ms=0.023043, cvt_avg_ms=2.47831, cvt_max_ms=7.65795, qbuf_avg_ms=0.207315, qbuf_max_ms=0.412138
+[RTSP_WORKER] total=8820, fps=29.75, wait_avg_ms=18.1561, wait_max_ms=24.8467, clone_avg_ms=1.23568, clone_max_ms=1.87664, draw_avg_ms=0.669451, draw_max_ms=1.24691, resize_avg_ms=8.17136, resize_max_ms=13.0388, last_clone_avg_ms=0.466277, last_clone_max_ms=1.03282, encode_avg_ms=4.82926, encode_max_ms=6.28357, write_avg_ms=0.0674291, write_max_ms=0.52035, total_avg_ms=33.6065, total_max_ms=40.8464, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 8900 to RTSP (MPP encoded, size=373 bytes)
+[IMX415] total=8910, fps=29.731, read_avg_ms=2.70675 ms, read_max_ms=5.05416 ms, dqbuf_avg_ms=0.0129925, dqbuf_max_ms=0.032084, cvt_avg_ms=2.47264, cvt_max_ms=4.74007, qbuf_avg_ms=0.212646, qbuf_max_ms=0.430222
+[RTSP_WORKER] total=8910, fps=29.7851, wait_avg_ms=18.1865, wait_max_ms=24.0188, clone_avg_ms=1.25611, clone_max_ms=2.35249, draw_avg_ms=0.664639, draw_max_ms=1.29708, resize_avg_ms=8.00089, resize_max_ms=14.5327, last_clone_avg_ms=0.478042, last_clone_max_ms=0.945905, encode_avg_ms=4.88083, encode_max_ms=6.09553, write_avg_ms=0.088112, write_max_ms=0.481557, total_avg_ms=33.5665, total_max_ms=41.6439, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=9000, fps=29.7503, read_avg_ms=2.63625 ms, read_max_ms=5.54913 ms, dqbuf_avg_ms=0.0123605, dqbuf_max_ms=0.033834, cvt_avg_ms=2.40676, cvt_max_ms=5.12941, qbuf_avg_ms=0.208394, qbuf_max_ms=0.410387
+Added frame to streaming queue, queue size: 1
+Sent frame 9000 to RTSP (MPP encoded, size=453 bytes)
+[RTSP_WORKER] total=9000, fps=29.7153, wait_avg_ms=18.464, wait_max_ms=25.2588, clone_avg_ms=1.19597, clone_max_ms=1.73751, draw_avg_ms=0.644632, draw_max_ms=1.61384, resize_avg_ms=8.00679, resize_max_ms=14.8599, last_clone_avg_ms=0.445832, last_clone_max_ms=0.761857, encode_avg_ms=4.813, encode_max_ms=6.17011, write_avg_ms=0.063759, write_max_ms=0.534642, total_avg_ms=33.6443, total_max_ms=43.6093, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=9090, fps=29.7592, read_avg_ms=2.74651 ms, read_max_ms=5.5223 ms, dqbuf_avg_ms=0.0124642, dqbuf_max_ms=0.033543, cvt_avg_ms=2.51402, cvt_max_ms=5.2035, qbuf_avg_ms=0.211014, qbuf_max_ms=0.40368
+[RTSP_WORKER] total=9090, fps=29.7118, wait_avg_ms=18.7354, wait_max_ms=23.6806, clone_avg_ms=1.19391, clone_max_ms=1.90785, draw_avg_ms=0.584128, draw_max_ms=1.13783, resize_avg_ms=7.74672, resize_max_ms=13.2091, last_clone_avg_ms=0.470726, last_clone_max_ms=1.03895, encode_avg_ms=4.82762, encode_max_ms=6.59362, write_avg_ms=0.0798089, write_max_ms=0.438097, total_avg_ms=33.6488, total_max_ms=43.6199, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 9100 to RTSP (MPP encoded, size=559 bytes)
+[IMX415] total=9180, fps=29.7192, read_avg_ms=2.81752 ms, read_max_ms=5.46455 ms, dqbuf_avg_ms=0.0126911, dqbuf_max_ms=0.023626, cvt_avg_ms=2.59239, cvt_max_ms=5.12212, qbuf_avg_ms=0.203869, qbuf_max_ms=0.400763
+[RTSP_WORKER] total=9180, fps=29.7951, wait_avg_ms=18.4558, wait_max_ms=25.1411, clone_avg_ms=1.21205, clone_max_ms=1.85768, draw_avg_ms=0.598411, draw_max_ms=1.13812, resize_avg_ms=7.95602, resize_max_ms=13.4626, last_clone_avg_ms=0.449582, last_clone_max_ms=0.771483, encode_avg_ms=4.80578, encode_max_ms=5.80143, write_avg_ms=0.0668035, write_max_ms=0.467848, total_avg_ms=33.5551, total_max_ms=44.2218, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 9200 to RTSP (MPP encoded, size=295 bytes)
+[IMX415] total=9270, fps=29.7853, read_avg_ms=2.59584 ms, read_max_ms=4.8917 ms, dqbuf_avg_ms=0.0126393, dqbuf_max_ms=0.023917, cvt_avg_ms=2.37527, cvt_max_ms=4.54577, qbuf_avg_ms=0.199445, qbuf_max_ms=0.413305
+[RTSP_WORKER] total=9270, fps=29.7613, wait_avg_ms=18.4328, wait_max_ms=23.3437, clone_avg_ms=1.22772, clone_max_ms=1.82531, draw_avg_ms=0.625215, draw_max_ms=1.14629, resize_avg_ms=7.87032, resize_max_ms=15.4855, last_clone_avg_ms=0.470284, last_clone_max_ms=0.891944, encode_avg_ms=4.89032, encode_max_ms=5.98898, write_avg_ms=0.0655493, write_max_ms=0.491765, total_avg_ms=33.5934, total_max_ms=42.738, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 9300 to RTSP (MPP encoded, size=355 bytes)
+[IMX415] total=9360, fps=29.7615, read_avg_ms=2.58557 ms, read_max_ms=5.97469 ms, dqbuf_avg_ms=0.0120364, dqbuf_max_ms=0.023043, cvt_avg_ms=2.36205, cvt_max_ms=5.53601, qbuf_avg_ms=0.202901, qbuf_max_ms=0.402805
+[RTSP_WORKER] total=9360, fps=29.78, wait_avg_ms=18.5378, wait_max_ms=25.7631, clone_avg_ms=1.18272, clone_max_ms=2.30891, draw_avg_ms=0.590868, draw_max_ms=1.12983, resize_avg_ms=7.79701, resize_max_ms=13.8838, last_clone_avg_ms=0.458195, last_clone_max_ms=0.868903, encode_avg_ms=4.91271, encode_max_ms=6.06169, write_avg_ms=0.0820743, write_max_ms=0.58131, total_avg_ms=33.5719, total_max_ms=43.4721, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 9400 to RTSP (MPP encoded, size=484 bytes)
+[IMX415] total=9450, fps=29.7137, read_avg_ms=2.68161 ms, read_max_ms=7.60103 ms, dqbuf_avg_ms=0.0128369, dqbuf_max_ms=0.023042, cvt_avg_ms=2.44635, cvt_max_ms=7.40765, qbuf_avg_ms=0.213923, qbuf_max_ms=0.48389
+[RTSP_WORKER] total=9450, fps=29.7026, wait_avg_ms=18.324, wait_max_ms=27.7096, clone_avg_ms=1.21121, clone_max_ms=1.81918, draw_avg_ms=0.599768, draw_max_ms=1.10953, resize_avg_ms=8.13101, resize_max_ms=14.8563, last_clone_avg_ms=0.456265, last_clone_max_ms=0.956405, encode_avg_ms=4.85307, encode_max_ms=6.33666, write_avg_ms=0.0743741, write_max_ms=0.544559, total_avg_ms=33.6604, total_max_ms=41.9222, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 9500 to RTSP (MPP encoded, size=375 bytes)
+[IMX415] total=9540, fps=29.7861, read_avg_ms=2.81426 ms, read_max_ms=5.17258 ms, dqbuf_avg_ms=0.013187, dqbuf_max_ms=0.028001, cvt_avg_ms=2.5783, cvt_max_ms=4.84999, qbuf_avg_ms=0.213335, qbuf_max_ms=0.423513
+[RTSP_WORKER] total=9540, fps=29.7753, wait_avg_ms=17.9972, wait_max_ms=23.6575, clone_avg_ms=1.2333, clone_max_ms=1.85593, draw_avg_ms=0.618975, draw_max_ms=1.26821, resize_avg_ms=8.2443, resize_max_ms=13.9231, last_clone_avg_ms=0.472686, last_clone_max_ms=0.862194, encode_avg_ms=4.92663, encode_max_ms=6.3772, write_avg_ms=0.07113, write_max_ms=0.735315, total_avg_ms=33.5755, total_max_ms=40.6149, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 9600 to RTSP (MPP encoded, size=530 bytes)
+[IMX415] total=9630, fps=29.7207, read_avg_ms=2.72968 ms, read_max_ms=6.09398 ms, dqbuf_avg_ms=0.0130023, dqbuf_max_ms=0.023626, cvt_avg_ms=2.48256, cvt_max_ms=5.65793, qbuf_avg_ms=0.225258, qbuf_max_ms=0.433722
+[RTSP_WORKER] total=9630, fps=29.7517, wait_avg_ms=17.9751, wait_max_ms=24.9803, clone_avg_ms=1.25005, clone_max_ms=1.87285, draw_avg_ms=0.642739, draw_max_ms=1.12208, resize_avg_ms=8.44069, resize_max_ms=15.8351, last_clone_avg_ms=0.44734, last_clone_max_ms=0.725398, encode_avg_ms=4.7666, encode_max_ms=6.11382, write_avg_ms=0.0715286, write_max_ms=0.772649, total_avg_ms=33.6044, total_max_ms=45.6844, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 9700 to RTSP (MPP encoded, size=403 bytes)
+[IMX415] total=9720, fps=29.773, read_avg_ms=2.59946 ms, read_max_ms=5.08624 ms, dqbuf_avg_ms=0.013106, dqbuf_max_ms=0.025376, cvt_avg_ms=2.35152, cvt_max_ms=4.74469, qbuf_avg_ms=0.224845, qbuf_max_ms=0.469599
+[RTSP_WORKER] total=9720, fps=29.727, wait_avg_ms=18.7668, wait_max_ms=26.0947, clone_avg_ms=1.29666, clone_max_ms=2.60121, draw_avg_ms=0.636413, draw_max_ms=1.17633, resize_avg_ms=7.59014, resize_max_ms=15.3965, last_clone_avg_ms=0.463211, last_clone_max_ms=0.731523, encode_avg_ms=4.80148, encode_max_ms=5.74893, write_avg_ms=0.0666512, write_max_ms=0.550976, total_avg_ms=33.6319, total_max_ms=44.0499, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 9800 to RTSP (MPP encoded, size=649 bytes)
+[IMX415] total=9810, fps=29.8147, read_avg_ms=2.68146 ms, read_max_ms=8.90311 ms, dqbuf_avg_ms=0.0135533, dqbuf_max_ms=0.071753, cvt_avg_ms=2.45128, cvt_max_ms=8.62719, qbuf_avg_ms=0.208312, qbuf_max_ms=0.373346
+[RTSP_WORKER] total=9810, fps=29.8498, wait_avg_ms=18.3405, wait_max_ms=25.5263, clone_avg_ms=1.1457, clone_max_ms=2.0114, draw_avg_ms=0.584428, draw_max_ms=1.16729, resize_avg_ms=8.02235, resize_max_ms=16.8338, last_clone_avg_ms=0.457554, last_clone_max_ms=0.816984, encode_avg_ms=4.85007, encode_max_ms=6.72196, write_avg_ms=0.0816725, write_max_ms=0.593852, total_avg_ms=33.4935, total_max_ms=46.32, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=9900, fps=29.7486, read_avg_ms=2.59801 ms, read_max_ms=4.58156 ms, dqbuf_avg_ms=0.0135111, dqbuf_max_ms=0.091002, cvt_avg_ms=2.37153, cvt_max_ms=4.3301, qbuf_avg_ms=0.203836, qbuf_max_ms=0.718981
+Added frame to streaming queue, queue size: 1
+Sent frame 9900 to RTSP (MPP encoded, size=961 bytes)
+[RTSP_WORKER] total=9900, fps=29.7048, wait_avg_ms=17.9519, wait_max_ms=23.3695, clone_avg_ms=1.20331, clone_max_ms=1.96952, draw_avg_ms=0.613991, draw_max_ms=1.14474, resize_avg_ms=8.46507, resize_max_ms=25.3213, last_clone_avg_ms=0.44394, last_clone_max_ms=0.879694, encode_avg_ms=4.88507, encode_max_ms=9.33117, write_avg_ms=0.0635561, write_max_ms=0.404554, total_avg_ms=33.6376, total_max_ms=60.005, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=9990, fps=29.797, read_avg_ms=2.59914 ms, read_max_ms=4.46689 ms, dqbuf_avg_ms=0.0129601, dqbuf_max_ms=0.038209, cvt_avg_ms=2.36005, cvt_max_ms=4.17726, qbuf_avg_ms=0.217254, qbuf_max_ms=0.409221
+[RTSP_WORKER] total=9990, fps=29.7988, wait_avg_ms=18.2819, wait_max_ms=25.7257, clone_avg_ms=1.24257, clone_max_ms=2.07223, draw_avg_ms=0.64029, draw_max_ms=1.12529, resize_avg_ms=7.95654, resize_max_ms=14.9458, last_clone_avg_ms=0.487446, last_clone_max_ms=0.988781, encode_avg_ms=4.85884, encode_max_ms=5.82972, write_avg_ms=0.0734968, write_max_ms=0.541934, total_avg_ms=33.5521, total_max_ms=41.7571, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 10000 to RTSP (MPP encoded, size=2385 bytes)
+[IMX415] total=10080, fps=29.7623, read_avg_ms=2.62036 ms, read_max_ms=4.51877 ms, dqbuf_avg_ms=0.0129472, dqbuf_max_ms=0.033543, cvt_avg_ms=2.38618, cvt_max_ms=4.24051, qbuf_avg_ms=0.212802, qbuf_max_ms=0.433139
+[RTSP_WORKER] total=10080, fps=29.7995, wait_avg_ms=17.837, wait_max_ms=23.5184, clone_avg_ms=1.22855, clone_max_ms=1.9449, draw_avg_ms=0.650858, draw_max_ms=1.03166, resize_avg_ms=8.37581, resize_max_ms=18.4859, last_clone_avg_ms=0.482571, last_clone_max_ms=1.04041, encode_avg_ms=4.88603, encode_max_ms=6.16719, write_avg_ms=0.0764741, write_max_ms=0.582768, total_avg_ms=33.5504, total_max_ms=47.8618, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 10100 to RTSP (MPP encoded, size=525 bytes)
+[IMX415] total=10170, fps=29.809, read_avg_ms=2.67689 ms, read_max_ms=4.38905 ms, dqbuf_avg_ms=0.0124351, dqbuf_max_ms=0.0245, cvt_avg_ms=2.45727, cvt_max_ms=4.10234, qbuf_avg_ms=0.198591, qbuf_max_ms=0.319385
+[RTSP_WORKER] total=10170, fps=29.8216, wait_avg_ms=18.1488, wait_max_ms=24.1017, clone_avg_ms=1.2225, clone_max_ms=1.6678, draw_avg_ms=0.616911, draw_max_ms=1.25012, resize_avg_ms=8.00893, resize_max_ms=12.9966, last_clone_avg_ms=0.478104, last_clone_max_ms=0.907696, encode_avg_ms=4.9681, encode_max_ms=6.40053, write_avg_ms=0.0721185, write_max_ms=0.744357, total_avg_ms=33.526, total_max_ms=42.275, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 10200 to RTSP (MPP encoded, size=2955 bytes)
+[IMX415] total=10260, fps=29.7615, read_avg_ms=2.66673 ms, read_max_ms=5.12329 ms, dqbuf_avg_ms=0.0119999, dqbuf_max_ms=0.022168, cvt_avg_ms=2.43827, cvt_max_ms=4.85378, qbuf_avg_ms=0.20745, qbuf_max_ms=0.412138
+[RTSP_WORKER] total=10260, fps=29.7402, wait_avg_ms=17.9952, wait_max_ms=23.4373, clone_avg_ms=1.21242, clone_max_ms=1.78622, draw_avg_ms=0.61977, draw_max_ms=1.38021, resize_avg_ms=8.42579, resize_max_ms=14.1325, last_clone_avg_ms=0.453209, last_clone_max_ms=0.726856, encode_avg_ms=4.82065, encode_max_ms=6.6645, write_avg_ms=0.0801979, write_max_ms=0.57606, total_avg_ms=33.6176, total_max_ms=41.9697, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 10300 to RTSP (MPP encoded, size=354 bytes)
+[IMX415] total=10350, fps=29.7859, read_avg_ms=2.73698 ms, read_max_ms=4.71377 ms, dqbuf_avg_ms=0.0146033, dqbuf_max_ms=0.05921, cvt_avg_ms=2.49502, cvt_max_ms=4.42735, qbuf_avg_ms=0.218165, qbuf_max_ms=0.426722
+[RTSP_WORKER] total=10350, fps=29.8008, wait_avg_ms=18.4602, wait_max_ms=25.5203, clone_avg_ms=1.23784, clone_max_ms=2.64942, draw_avg_ms=0.649106, draw_max_ms=1.10195, resize_avg_ms=7.90898, resize_max_ms=13.6173, last_clone_avg_ms=0.431024, last_clone_max_ms=0.698272, encode_avg_ms=4.78559, encode_max_ms=6.1354, write_avg_ms=0.0658831, write_max_ms=0.766232, total_avg_ms=33.5494, total_max_ms=42.2055, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 10400 to RTSP (MPP encoded, size=364 bytes)
+[IMX415] total=10440, fps=29.7625, read_avg_ms=2.56964 ms, read_max_ms=3.97204 ms, dqbuf_avg_ms=0.0123347, dqbuf_max_ms=0.019542, cvt_avg_ms=2.34619, cvt_max_ms=3.79704, qbuf_avg_ms=0.202775, qbuf_max_ms=0.396388
+[RTSP_WORKER] total=10440, fps=29.754, wait_avg_ms=18.457, wait_max_ms=24.8216, clone_avg_ms=1.22518, clone_max_ms=1.87364, draw_avg_ms=0.61407, draw_max_ms=1.17487, resize_avg_ms=7.89868, resize_max_ms=12.8725, last_clone_avg_ms=0.458966, last_clone_max_ms=0.859277, encode_avg_ms=4.87313, encode_max_ms=6.15553, write_avg_ms=0.0626927, write_max_ms=0.417097, total_avg_ms=33.6011, total_max_ms=41.2744, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 10500 to RTSP (MPP encoded, size=286 bytes)
+[IMX415] total=10530, fps=29.7695, read_avg_ms=2.72148 ms, read_max_ms=4.33518 ms, dqbuf_avg_ms=0.0151639, dqbuf_max_ms=0.138254, cvt_avg_ms=2.47286, cvt_max_ms=3.89183, qbuf_avg_ms=0.223672, qbuf_max_ms=0.440431
+[RTSP_WORKER] total=10530, fps=29.7238, wait_avg_ms=18.1305, wait_max_ms=25.1754, clone_avg_ms=1.22054, clone_max_ms=2.45037, draw_avg_ms=0.629644, draw_max_ms=1.07803, resize_avg_ms=8.3374, resize_max_ms=14.4733, last_clone_avg_ms=0.461208, last_clone_max_ms=1.19733, encode_avg_ms=4.78338, encode_max_ms=5.92219, write_avg_ms=0.0632062, write_max_ms=0.490307, total_avg_ms=33.6363, total_max_ms=43.3207, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 10600 to RTSP (MPP encoded, size=244 bytes)
+[IMX415] total=10620, fps=29.7441, read_avg_ms=2.67266 ms, read_max_ms=5.3225 ms, dqbuf_avg_ms=0.0126652, dqbuf_max_ms=0.052794, cvt_avg_ms=2.44773, cvt_max_ms=5.09674, qbuf_avg_ms=0.203255, qbuf_max_ms=0.431097
+[RTSP_WORKER] total=10620, fps=29.7843, wait_avg_ms=17.8683, wait_max_ms=23.1843, clone_avg_ms=1.22164, clone_max_ms=1.75122, draw_avg_ms=0.644538, draw_max_ms=1.30262, resize_avg_ms=8.33105, resize_max_ms=13.3799, last_clone_avg_ms=0.490485, last_clone_max_ms=0.893695, encode_avg_ms=4.93453, encode_max_ms=6.42095, write_avg_ms=0.0659641, write_max_ms=0.562351, total_avg_ms=33.5674, total_max_ms=42.3277, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 10700 to RTSP (MPP encoded, size=904 bytes)
+[IMX415] total=10710, fps=29.7673, read_avg_ms=2.53858 ms, read_max_ms=4.2538 ms, dqbuf_avg_ms=0.0124675, dqbuf_max_ms=0.032084, cvt_avg_ms=2.31714, cvt_max_ms=3.96446, qbuf_avg_ms=0.200881, qbuf_max_ms=0.398429
+[RTSP_WORKER] total=10710, fps=29.7626, wait_avg_ms=18.1971, wait_max_ms=25.5217, clone_avg_ms=1.20641, clone_max_ms=1.80693, draw_avg_ms=0.628491, draw_max_ms=1.20316, resize_avg_ms=8.27586, resize_max_ms=14.1874, last_clone_avg_ms=0.447927, last_clone_max_ms=0.954363, encode_avg_ms=4.75813, encode_max_ms=6.41191, write_avg_ms=0.0683266, write_max_ms=0.756607, total_avg_ms=33.5926, total_max_ms=43.7983, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=10800, fps=29.7758, read_avg_ms=2.60774 ms, read_max_ms=4.94886 ms, dqbuf_avg_ms=0.0125128, dqbuf_max_ms=0.025084, cvt_avg_ms=2.38205, cvt_max_ms=4.61081, qbuf_avg_ms=0.204682, qbuf_max_ms=0.320552
+Added frame to streaming queue, queue size: 1
+Sent frame 10800 to RTSP (MPP encoded, size=378 bytes)
+[RTSP_WORKER] total=10800, fps=29.8114, wait_avg_ms=18.0416, wait_max_ms=23.8569, clone_avg_ms=1.24953, clone_max_ms=1.76872, draw_avg_ms=0.683345, draw_max_ms=1.19266, resize_avg_ms=8.30256, resize_max_ms=13.5644, last_clone_avg_ms=0.420598, last_clone_max_ms=0.697397, encode_avg_ms=4.76596, encode_max_ms=6.46862, write_avg_ms=0.0623436, write_max_ms=0.433138, total_avg_ms=33.5363, total_max_ms=42.7735, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=10890, fps=29.7513, read_avg_ms=2.50037 ms, read_max_ms=3.97554 ms, dqbuf_avg_ms=0.01198, dqbuf_max_ms=0.019542, cvt_avg_ms=2.2852, cvt_max_ms=3.63932, qbuf_avg_ms=0.195141, qbuf_max_ms=0.46114
+[RTSP_WORKER] total=10890, fps=29.7178, wait_avg_ms=18.241, wait_max_ms=23.3422, clone_avg_ms=1.22895, clone_max_ms=1.9971, draw_avg_ms=0.697544, draw_max_ms=1.36963, resize_avg_ms=8.03423, resize_max_ms=20.7038, last_clone_avg_ms=0.485952, last_clone_max_ms=0.924363, encode_avg_ms=4.88229, encode_max_ms=6.40987, write_avg_ms=0.0623214, write_max_ms=0.564393, total_avg_ms=33.6429, total_max_ms=47.6097, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 10900 to RTSP (MPP encoded, size=371 bytes)
+[IMX415] total=10980, fps=29.7771, read_avg_ms=2.71195 ms, read_max_ms=7.48032 ms, dqbuf_avg_ms=0.0131999, dqbuf_max_ms=0.023043, cvt_avg_ms=2.47816, cvt_max_ms=7.15102, qbuf_avg_ms=0.212093, qbuf_max_ms=0.350302
+[RTSP_WORKER] total=10980, fps=29.7602, wait_avg_ms=18.4012, wait_max_ms=25.8939, clone_avg_ms=1.13042, clone_max_ms=2.02423, draw_avg_ms=0.612256, draw_max_ms=1.31779, resize_avg_ms=8.14187, resize_max_ms=13.7862, last_clone_avg_ms=0.441575, last_clone_max_ms=0.780525, encode_avg_ms=4.7906, encode_max_ms=6.49825, write_avg_ms=0.0665668, write_max_ms=0.529392, total_avg_ms=33.5948, total_max_ms=47.6629, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 11000 to RTSP (MPP encoded, size=352 bytes)
+[IMX415] total=11070, fps=29.7766, read_avg_ms=2.74448 ms, read_max_ms=4.76423 ms, dqbuf_avg_ms=0.0131707, dqbuf_max_ms=0.031501, cvt_avg_ms=2.51018, cvt_max_ms=4.55014, qbuf_avg_ms=0.212268, qbuf_max_ms=0.413596
+[RTSP_WORKER] total=11070, fps=29.7853, wait_avg_ms=18.2764, wait_max_ms=24.8737, clone_avg_ms=1.17755, clone_max_ms=1.79351, draw_avg_ms=0.627929, draw_max_ms=1.4575, resize_avg_ms=8.17059, resize_max_ms=20.0136, last_clone_avg_ms=0.446062, last_clone_max_ms=0.980489, encode_avg_ms=4.79893, encode_max_ms=5.92427, write_avg_ms=0.0590028, write_max_ms=0.35497, total_avg_ms=33.5667, total_max_ms=42.6607, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 11100 to RTSP (MPP encoded, size=402 bytes)
+[IMX415] total=11160, fps=29.7086, read_avg_ms=2.56303 ms, read_max_ms=7.23656 ms, dqbuf_avg_ms=0.0117092, dqbuf_max_ms=0.025376, cvt_avg_ms=2.35697, cvt_max_ms=7.05981, qbuf_avg_ms=0.186298, qbuf_max_ms=0.394346
+[RTSP_WORKER] total=11160, fps=29.7013, wait_avg_ms=18.6138, wait_max_ms=28.6562, clone_avg_ms=1.23828, clone_max_ms=2.04727, draw_avg_ms=0.655891, draw_max_ms=1.27062, resize_avg_ms=7.77303, resize_max_ms=12.6156, last_clone_avg_ms=0.463808, last_clone_max_ms=0.823401, encode_avg_ms=4.84046, encode_max_ms=6.45858, write_avg_ms=0.0651993, write_max_ms=0.553601, total_avg_ms=33.6615, total_max_ms=42.342, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 11200 to RTSP (MPP encoded, size=494 bytes)
+[IMX415] total=11250, fps=29.8267, read_avg_ms=2.51659 ms, read_max_ms=5.14429 ms, dqbuf_avg_ms=0.0121791, dqbuf_max_ms=0.037043, cvt_avg_ms=2.29914, cvt_max_ms=4.69511, qbuf_avg_ms=0.197059, qbuf_max_ms=0.413305
+[RTSP_WORKER] total=11250, fps=29.8546, wait_avg_ms=18.1205, wait_max_ms=22.6971, clone_avg_ms=1.23863, clone_max_ms=3.04093, draw_avg_ms=0.658062, draw_max_ms=1.14658, resize_avg_ms=8.0655, resize_max_ms=12.8349, last_clone_avg_ms=0.465609, last_clone_max_ms=1.00378, encode_avg_ms=4.86599, encode_max_ms=6.05694, write_avg_ms=0.0619469, write_max_ms=0.450181, total_avg_ms=33.4871, total_max_ms=41.693, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 11300 to RTSP (MPP encoded, size=470 bytes)
+[IMX415] total=11340, fps=29.74, read_avg_ms=2.86955 ms, read_max_ms=11.8581 ms, dqbuf_avg_ms=0.0131124, dqbuf_max_ms=0.024209, cvt_avg_ms=2.63441, cvt_max_ms=11.4115, qbuf_avg_ms=0.213606, qbuf_max_ms=0.501099
+[RTSP_WORKER] total=11340, fps=29.6937, wait_avg_ms=17.7401, wait_max_ms=28.6156, clone_avg_ms=1.30181, clone_max_ms=2.97205, draw_avg_ms=0.677682, draw_max_ms=1.18362, resize_avg_ms=8.34542, resize_max_ms=14.3983, last_clone_avg_ms=0.49884, last_clone_max_ms=0.884361, encode_avg_ms=4.97732, encode_max_ms=6.77155, write_avg_ms=0.0743524, write_max_ms=0.576643, total_avg_ms=33.6285, total_max_ms=52.9123, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 11400 to RTSP (MPP encoded, size=311 bytes)
+[IMX415] total=11430, fps=29.7446, read_avg_ms=2.59611 ms, read_max_ms=4.56618 ms, dqbuf_avg_ms=0.0136959, dqbuf_max_ms=0.085752, cvt_avg_ms=2.37175, cvt_max_ms=4.2678, qbuf_avg_ms=0.201894, qbuf_max_ms=0.421179
+[RTSP_WORKER] total=11430, fps=29.7924, wait_avg_ms=18.0754, wait_max_ms=25.271, clone_avg_ms=1.25247, clone_max_ms=1.77322, draw_avg_ms=0.654632, draw_max_ms=1.16087, resize_avg_ms=8.16671, resize_max_ms=13.2809, last_clone_avg_ms=0.452216, last_clone_max_ms=0.802609, encode_avg_ms=4.87161, encode_max_ms=6.20132, write_avg_ms=0.069798, write_max_ms=0.592102, total_avg_ms=33.5533, total_max_ms=43.5502, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 11500 to RTSP (MPP encoded, size=434 bytes)
+[IMX415] total=11520, fps=29.7714, read_avg_ms=2.51785 ms, read_max_ms=4.39993 ms, dqbuf_avg_ms=0.0126231, dqbuf_max_ms=0.02421, cvt_avg_ms=2.29206, cvt_max_ms=4.04992, qbuf_avg_ms=0.20462, qbuf_max_ms=0.406596
+[RTSP_WORKER] total=11520, fps=29.774, wait_avg_ms=18.341, wait_max_ms=24.9334, clone_avg_ms=1.17854, clone_max_ms=2.62333, draw_avg_ms=0.602982, draw_max_ms=1.03224, resize_avg_ms=8.01037, resize_max_ms=14.2174, last_clone_avg_ms=0.494083, last_clone_max_ms=1.14299, encode_avg_ms=4.87861, encode_max_ms=5.95252, write_avg_ms=0.0626876, write_max_ms=0.409222, total_avg_ms=33.5791, total_max_ms=42.3987, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 11600 to RTSP (MPP encoded, size=353 bytes)
+[IMX415] total=11610, fps=29.7421, read_avg_ms=2.74627 ms, read_max_ms=5.19545 ms, dqbuf_avg_ms=0.0128499, dqbuf_max_ms=0.039377, cvt_avg_ms=2.51918, cvt_max_ms=4.92478, qbuf_avg_ms=0.20594, qbuf_max_ms=0.352636
+[RTSP_WORKER] total=11610, fps=29.7394, wait_avg_ms=18.1791, wait_max_ms=25.0721, clone_avg_ms=1.26911, clone_max_ms=1.92614, draw_avg_ms=0.707958, draw_max_ms=1.2227, resize_avg_ms=8.11552, resize_max_ms=14.363, last_clone_avg_ms=0.458785, last_clone_max_ms=1.25712, encode_avg_ms=4.80398, encode_max_ms=6.00356, write_avg_ms=0.0713892, write_max_ms=0.540475, total_avg_ms=33.6169, total_max_ms=42.3737, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=11700, fps=29.7803, read_avg_ms=2.71888 ms, read_max_ms=4.6989 ms, dqbuf_avg_ms=0.0136212, dqbuf_max_ms=0.040835, cvt_avg_ms=2.47664, cvt_max_ms=4.24388, qbuf_avg_ms=0.21988, qbuf_max_ms=0.419722
+Added frame to streaming queue, queue size: 1
+Sent frame 11700 to RTSP (MPP encoded, size=275 bytes)
+[RTSP_WORKER] total=11700, fps=29.759, wait_avg_ms=17.7108, wait_max_ms=25.6492, clone_avg_ms=1.28065, clone_max_ms=1.91485, draw_avg_ms=0.752591, draw_max_ms=1.36621, resize_avg_ms=8.35855, resize_max_ms=15.4505, last_clone_avg_ms=0.482698, last_clone_max_ms=0.941529, encode_avg_ms=4.93125, encode_max_ms=6.96084, write_avg_ms=0.0680479, write_max_ms=0.622436, total_avg_ms=33.5958, total_max_ms=44.0444, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=11790, fps=29.7517, read_avg_ms=2.65338 ms, read_max_ms=4.41726 ms, dqbuf_avg_ms=0.0122429, dqbuf_max_ms=0.025084, cvt_avg_ms=2.4126, cvt_max_ms=4.1498, qbuf_avg_ms=0.218012, qbuf_max_ms=0.411554
+[RTSP_WORKER] total=11790, fps=29.7901, wait_avg_ms=18.1855, wait_max_ms=24.1156, clone_avg_ms=1.21837, clone_max_ms=2.46991, draw_avg_ms=0.657693, draw_max_ms=1.14687, resize_avg_ms=8.16119, resize_max_ms=13.6739, last_clone_avg_ms=0.448042, last_clone_max_ms=1.03341, encode_avg_ms=4.8188, encode_max_ms=6.29641, write_avg_ms=0.062088, write_max_ms=0.512766, total_avg_ms=33.5621, total_max_ms=43.3955, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 11800 to RTSP (MPP encoded, size=310 bytes)
+[IMX415] total=11880, fps=29.7671, read_avg_ms=2.7193 ms, read_max_ms=4.54927 ms, dqbuf_avg_ms=0.012824, dqbuf_max_ms=0.02246, cvt_avg_ms=2.46929, cvt_max_ms=4.20976, qbuf_avg_ms=0.228354, qbuf_max_ms=0.682813
+[RTSP_WORKER] total=11880, fps=29.7512, wait_avg_ms=18.4303, wait_max_ms=24.6411, clone_avg_ms=1.19607, clone_max_ms=1.75893, draw_avg_ms=0.671703, draw_max_ms=1.31458, resize_avg_ms=7.99662, resize_max_ms=16.3184, last_clone_avg_ms=0.462073, last_clone_max_ms=0.971781, encode_avg_ms=4.77749, encode_max_ms=6.29378, write_avg_ms=0.0609311, write_max_ms=0.507224, total_avg_ms=33.6054, total_max_ms=44.0116, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 11900 to RTSP (MPP encoded, size=304 bytes)
+[IMX415] total=11970, fps=29.7821, read_avg_ms=2.59263 ms, read_max_ms=4.3238 ms, dqbuf_avg_ms=0.0127074, dqbuf_max_ms=0.021584, cvt_avg_ms=2.36189, cvt_max_ms=3.97962, qbuf_avg_ms=0.209522, qbuf_max_ms=0.410388
+[RTSP_WORKER] total=11970, fps=29.7516, wait_avg_ms=18.2188, wait_max_ms=26.919, clone_avg_ms=1.17785, clone_max_ms=2.59137, draw_avg_ms=0.654837, draw_max_ms=1.05645, resize_avg_ms=8.23231, resize_max_ms=14.447, last_clone_avg_ms=0.436474, last_clone_max_ms=0.889903, encode_avg_ms=4.81167, encode_max_ms=6.05227, write_avg_ms=0.0620492, write_max_ms=0.401638, total_avg_ms=33.6048, total_max_ms=47.0279, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 12000 to RTSP (MPP encoded, size=301 bytes)
+[IMX415] total=12060, fps=29.778, read_avg_ms=2.45819 ms, read_max_ms=3.83291 ms, dqbuf_avg_ms=0.0121207, dqbuf_max_ms=0.018959, cvt_avg_ms=2.23674, cvt_max_ms=3.54999, qbuf_avg_ms=0.200805, qbuf_max_ms=0.508099
+[RTSP_WORKER] total=12060, fps=29.7806, wait_avg_ms=18.0743, wait_max_ms=24.315, clone_avg_ms=1.22612, clone_max_ms=1.84547, draw_avg_ms=0.645463, draw_max_ms=1.15737, resize_avg_ms=8.21726, resize_max_ms=15.5116, last_clone_avg_ms=0.459176, last_clone_max_ms=0.748148, encode_avg_ms=4.87349, encode_max_ms=6.26461, write_avg_ms=0.0646321, write_max_ms=0.513933, total_avg_ms=33.5712, total_max_ms=42.9025, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 12100 to RTSP (MPP encoded, size=384 bytes)
+[IMX415] total=12150, fps=29.7321, read_avg_ms=2.56058 ms, read_max_ms=4.91824 ms, dqbuf_avg_ms=0.0123736, dqbuf_max_ms=0.019251, cvt_avg_ms=2.3272, cvt_max_ms=4.5761, qbuf_avg_ms=0.212172, qbuf_max_ms=0.347386
+[RTSP_WORKER] total=12150, fps=29.7111, wait_avg_ms=18.7126, wait_max_ms=23.673, clone_avg_ms=1.11754, clone_max_ms=1.65468, draw_avg_ms=0.592701, draw_max_ms=1.01882, resize_avg_ms=7.83308, resize_max_ms=12.6141, last_clone_avg_ms=0.451954, last_clone_max_ms=0.967489, encode_avg_ms=4.86658, encode_max_ms=6.78009, write_avg_ms=0.0660289, write_max_ms=0.823109, total_avg_ms=33.6506, total_max_ms=41.144, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 12200 to RTSP (MPP encoded, size=399 bytes)
+[IMX415] total=12240, fps=29.7439, read_avg_ms=2.66755 ms, read_max_ms=5.17462 ms, dqbuf_avg_ms=0.0135856, dqbuf_max_ms=0.03121, cvt_avg_ms=2.42417, cvt_max_ms=4.90599, qbuf_avg_ms=0.220878, qbuf_max_ms=0.421763
+[RTSP_WORKER] total=12240, fps=29.785, wait_avg_ms=18.4446, wait_max_ms=24.5695, clone_avg_ms=1.21456, clone_max_ms=2.30261, draw_avg_ms=0.647995, draw_max_ms=1.16145, resize_avg_ms=7.91846, resize_max_ms=18.5086, last_clone_avg_ms=0.4506, last_clone_max_ms=0.979155, encode_avg_ms=4.81309, encode_max_ms=6.77942, write_avg_ms=0.0660678, write_max_ms=0.422638, total_avg_ms=33.5657, total_max_ms=44.7918, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 12300 to RTSP (MPP encoded, size=534 bytes)
+[IMX415] total=12330, fps=29.7541, read_avg_ms=2.67051 ms, read_max_ms=5.47096 ms, dqbuf_avg_ms=0.0128564, dqbuf_max_ms=0.022168, cvt_avg_ms=2.44176, cvt_max_ms=5.13904, qbuf_avg_ms=0.207333, qbuf_max_ms=0.432264
+[RTSP_WORKER] total=12330, fps=29.7177, wait_avg_ms=18.6848, wait_max_ms=23.3263, clone_avg_ms=1.18986, clone_max_ms=1.89823, draw_avg_ms=0.6322, draw_max_ms=1.28337, resize_avg_ms=7.81835, resize_max_ms=16.2888, last_clone_avg_ms=0.442463, last_clone_max_ms=0.921988, encode_avg_ms=4.79109, encode_max_ms=7.00518, write_avg_ms=0.0727763, write_max_ms=0.893986, total_avg_ms=33.642, total_max_ms=42.8312, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 12400 to RTSP (MPP encoded, size=325 bytes)
+[IMX415] total=12420, fps=29.7004, read_avg_ms=2.4941 ms, read_max_ms=6.74367 ms, dqbuf_avg_ms=0.0119102, dqbuf_max_ms=0.021584, cvt_avg_ms=2.28044, cvt_max_ms=6.49575, qbuf_avg_ms=0.193674, qbuf_max_ms=0.333094
+[RTSP_WORKER] total=12420, fps=29.7367, wait_avg_ms=18.5955, wait_max_ms=24.279, clone_avg_ms=1.21806, clone_max_ms=2.35645, draw_avg_ms=0.655947, draw_max_ms=1.51555, resize_avg_ms=7.78381, resize_max_ms=12.1063, last_clone_avg_ms=0.468802, last_clone_max_ms=0.779941, encode_avg_ms=4.82585, encode_max_ms=5.99381, write_avg_ms=0.0632182, write_max_ms=0.710731, total_avg_ms=33.6218, total_max_ms=43.6598, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 12500 to RTSP (MPP encoded, size=376 bytes)
+[IMX415] total=12510, fps=29.763, read_avg_ms=2.6314 ms, read_max_ms=4.89899 ms, dqbuf_avg_ms=0.0125378, dqbuf_max_ms=0.02275, cvt_avg_ms=2.39433, cvt_max_ms=4.44368, qbuf_avg_ms=0.215836, qbuf_max_ms=0.418263
+[RTSP_WORKER] total=12510, fps=29.7755, wait_avg_ms=18.4968, wait_max_ms=25.9047, clone_avg_ms=1.25223, clone_max_ms=2.23757, draw_avg_ms=0.666094, draw_max_ms=1.16787, resize_avg_ms=7.84046, resize_max_ms=13.5292, last_clone_avg_ms=0.454792, last_clone_max_ms=0.994032, encode_avg_ms=4.78816, encode_max_ms=6.14153, write_avg_ms=0.0682522, write_max_ms=0.720439, total_avg_ms=33.5779, total_max_ms=41.6148, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=12600, fps=29.7385, read_avg_ms=2.53236 ms, read_max_ms=5.40825 ms, dqbuf_avg_ms=0.0123508, dqbuf_max_ms=0.023042, cvt_avg_ms=2.30846, cvt_max_ms=5.12066, qbuf_avg_ms=0.203334, qbuf_max_ms=0.58306
+Added frame to streaming queue, queue size: 1
+Sent frame 12600 to RTSP (MPP encoded, size=539 bytes)
+[RTSP_WORKER] total=12600, fps=29.7302, wait_avg_ms=18.6316, wait_max_ms=25.091, clone_avg_ms=1.15378, clone_max_ms=2.01898, draw_avg_ms=0.656819, draw_max_ms=1.13141, resize_avg_ms=7.82075, resize_max_ms=13.9423, last_clone_avg_ms=0.450937, last_clone_max_ms=0.722772, encode_avg_ms=4.83203, encode_max_ms=6.26257, write_avg_ms=0.0722546, write_max_ms=0.542226, total_avg_ms=33.6284, total_max_ms=47.9443, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=12690, fps=29.7639, read_avg_ms=2.67594 ms, read_max_ms=5.79747 ms, dqbuf_avg_ms=0.013781, dqbuf_max_ms=0.065918, cvt_avg_ms=2.44373, cvt_max_ms=5.57843, qbuf_avg_ms=0.209754, qbuf_max_ms=0.446264
+[RTSP_WORKER] total=12690, fps=29.7569, wait_avg_ms=18.1304, wait_max_ms=25.2684, clone_avg_ms=1.28016, clone_max_ms=2.47487, draw_avg_ms=0.7229, draw_max_ms=1.1737, resize_avg_ms=8.0378, resize_max_ms=15.8641, last_clone_avg_ms=0.470046, last_clone_max_ms=1.07599, encode_avg_ms=4.88092, encode_max_ms=6.36978, write_avg_ms=0.0664664, write_max_ms=0.672021, total_avg_ms=33.5995, total_max_ms=44.7147, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 12700 to RTSP (MPP encoded, size=347 bytes)
+[IMX415] total=12780, fps=29.7195, read_avg_ms=2.76222 ms, read_max_ms=4.64319 ms, dqbuf_avg_ms=0.0127189, dqbuf_max_ms=0.021584, cvt_avg_ms=2.52334, cvt_max_ms=4.36201, qbuf_avg_ms=0.217317, qbuf_max_ms=0.449181
+[RTSP_WORKER] total=12780, fps=29.6831, wait_avg_ms=18.4578, wait_max_ms=23.8152, clone_avg_ms=1.22087, clone_max_ms=1.75122, draw_avg_ms=0.644861, draw_max_ms=1.18712, resize_avg_ms=8.005, resize_max_ms=14.3978, last_clone_avg_ms=0.474459, last_clone_max_ms=1.05528, encode_avg_ms=4.80638, encode_max_ms=6.20657, write_avg_ms=0.061764, write_max_ms=0.314718, total_avg_ms=33.6817, total_max_ms=42.5413, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 12800 to RTSP (MPP encoded, size=763 bytes)
+[IMX415] total=12870, fps=29.8108, read_avg_ms=2.70758 ms, read_max_ms=5.41846 ms, dqbuf_avg_ms=0.0132388, dqbuf_max_ms=0.085169, cvt_avg_ms=2.46934, cvt_max_ms=5.08216, qbuf_avg_ms=0.216033, qbuf_max_ms=0.481265
+[RTSP_WORKER] total=12870, fps=29.8412, wait_avg_ms=17.7538, wait_max_ms=25.3414, clone_avg_ms=1.23643, clone_max_ms=1.76568, draw_avg_ms=0.667664, draw_max_ms=1.18041, resize_avg_ms=8.45103, resize_max_ms=19.8406, last_clone_avg_ms=0.474456, last_clone_max_ms=0.884361, encode_avg_ms=4.83944, encode_max_ms=6.35824, write_avg_ms=0.0694179, write_max_ms=0.782858, total_avg_ms=33.5026, total_max_ms=44.5754, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 12900 to RTSP (MPP encoded, size=556 bytes)
+[IMX415] total=12960, fps=29.7025, read_avg_ms=2.64248 ms, read_max_ms=5.90594 ms, dqbuf_avg_ms=0.0119976, dqbuf_max_ms=0.021293, cvt_avg_ms=2.42138, cvt_max_ms=5.62789, qbuf_avg_ms=0.200658, qbuf_max_ms=0.413596
+[RTSP_WORKER] total=12960, fps=29.63, wait_avg_ms=18.1275, wait_max_ms=24.4268, clone_avg_ms=1.18511, clone_max_ms=1.92419, draw_avg_ms=0.635597, draw_max_ms=1.84747, resize_avg_ms=8.44727, resize_max_ms=15.8704, last_clone_avg_ms=0.447334, last_clone_max_ms=1.02787, encode_avg_ms=4.822, encode_max_ms=6.46179, write_avg_ms=0.067309, write_max_ms=0.555059, total_avg_ms=33.7427, total_max_ms=44.8694, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 13000 to RTSP (MPP encoded, size=366 bytes)
+[IMX415] total=13050, fps=29.8101, read_avg_ms=2.60529 ms, read_max_ms=4.20976 ms, dqbuf_avg_ms=0.0133198, dqbuf_max_ms=0.022459, cvt_avg_ms=2.37788, cvt_max_ms=3.935, qbuf_avg_ms=0.205008, qbuf_max_ms=0.412429
+[RTSP_WORKER] total=13050, fps=29.9138, wait_avg_ms=18.4721, wait_max_ms=24.2648, clone_avg_ms=1.17887, clone_max_ms=2.05602, draw_avg_ms=0.631033, draw_max_ms=1.31021, resize_avg_ms=7.8759, resize_max_ms=13.9545, last_clone_avg_ms=0.434446, last_clone_max_ms=0.905362, encode_avg_ms=4.75429, encode_max_ms=6.2329, write_avg_ms=0.0653517, write_max_ms=0.539017, total_avg_ms=33.4224, total_max_ms=42.4105, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 13100 to RTSP (MPP encoded, size=388 bytes)
+[IMX415] total=13140, fps=29.7115, read_avg_ms=2.72698 ms, read_max_ms=4.3941 ms, dqbuf_avg_ms=0.0130282, dqbuf_max_ms=0.023626, cvt_avg_ms=2.48533, cvt_max_ms=4.11642, qbuf_avg_ms=0.219476, qbuf_max_ms=0.476598
+[RTSP_WORKER] total=13140, fps=29.6681, wait_avg_ms=17.997, wait_max_ms=24.881, clone_avg_ms=1.30731, clone_max_ms=2.48883, draw_avg_ms=0.684983, draw_max_ms=1.1737, resize_avg_ms=8.23502, resize_max_ms=18.3444, last_clone_avg_ms=0.479238, last_clone_max_ms=0.991407, encode_avg_ms=4.91688, encode_max_ms=6.3252, write_avg_ms=0.0671762, write_max_ms=0.489723, total_avg_ms=33.6989, total_max_ms=43.7497, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 13200 to RTSP (MPP encoded, size=321 bytes)
+[IMX415] total=13230, fps=29.7644, read_avg_ms=2.62379 ms, read_max_ms=4.35384 ms, dqbuf_avg_ms=0.0124676, dqbuf_max_ms=0.028585, cvt_avg_ms=2.39784, cvt_max_ms=3.98838, qbuf_avg_ms=0.205081, qbuf_max_ms=0.401929
+[RTSP_WORKER] total=13230, fps=29.7945, wait_avg_ms=18.3954, wait_max_ms=23.7557, clone_avg_ms=1.15048, clone_max_ms=1.98165, draw_avg_ms=0.585653, draw_max_ms=1.14804, resize_avg_ms=8.17839, resize_max_ms=17.3783, last_clone_avg_ms=0.435333, last_clone_max_ms=0.728315, encode_avg_ms=4.7369, encode_max_ms=6.03273, write_avg_ms=0.0625904, write_max_ms=0.347386, total_avg_ms=33.555, total_max_ms=44.7961, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 13300 to RTSP (MPP encoded, size=340 bytes)
+[IMX415] total=13320, fps=29.7893, read_avg_ms=2.71713 ms, read_max_ms=4.65194 ms, dqbuf_avg_ms=0.0127976, dqbuf_max_ms=0.025667, cvt_avg_ms=2.48345, cvt_max_ms=4.31593, qbuf_avg_ms=0.211925, qbuf_max_ms=0.405721
+[RTSP_WORKER] total=13320, fps=29.7051, wait_avg_ms=18.1013, wait_max_ms=26.9695, clone_avg_ms=1.19187, clone_max_ms=1.73626, draw_avg_ms=0.657638, draw_max_ms=1.15912, resize_avg_ms=8.36926, resize_max_ms=16.3511, last_clone_avg_ms=0.454824, last_clone_max_ms=0.909445, encode_avg_ms=4.80343, encode_max_ms=6.63388, write_avg_ms=0.0674832, write_max_ms=0.818443, total_avg_ms=33.6568, total_max_ms=43.0424, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 13400 to RTSP (MPP encoded, size=376 bytes)
+[IMX415] total=13410, fps=29.7786, read_avg_ms=2.67893 ms, read_max_ms=4.33409 ms, dqbuf_avg_ms=0.0130412, dqbuf_max_ms=0.036459, cvt_avg_ms=2.4502, cvt_max_ms=3.99625, qbuf_avg_ms=0.207117, qbuf_max_ms=0.412721
+[RTSP_WORKER] total=13410, fps=29.8566, wait_avg_ms=17.7915, wait_max_ms=25.9219, clone_avg_ms=1.1938, clone_max_ms=1.9831, draw_avg_ms=0.645858, draw_max_ms=1.52547, resize_avg_ms=8.42321, resize_max_ms=17.0266, last_clone_avg_ms=0.454624, last_clone_max_ms=0.866277, encode_avg_ms=4.89599, encode_max_ms=6.79921, write_avg_ms=0.0701318, write_max_ms=0.478932, total_avg_ms=33.4855, total_max_ms=51.8233, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=13500, fps=29.7662, read_avg_ms=2.63475 ms, read_max_ms=5.00691 ms, dqbuf_avg_ms=0.0121985, dqbuf_max_ms=0.023917, cvt_avg_ms=2.40604, cvt_max_ms=4.6534, qbuf_avg_ms=0.207763, qbuf_max_ms=0.448598
+Added frame to streaming queue, queue size: 1
+Sent frame 13500 to RTSP (MPP encoded, size=352 bytes)
+[RTSP_WORKER] total=13500, fps=29.7327, wait_avg_ms=18.3875, wait_max_ms=24.0694, clone_avg_ms=1.23839, clone_max_ms=1.73972, draw_avg_ms=0.664069, draw_max_ms=1.18083, resize_avg_ms=7.97839, resize_max_ms=14.5349, last_clone_avg_ms=0.446236, last_clone_max_ms=0.781691, encode_avg_ms=4.833, encode_max_ms=6.5412, write_avg_ms=0.0666804, write_max_ms=0.53085, total_avg_ms=33.6253, total_max_ms=42.6766, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=13590, fps=29.7748, read_avg_ms=2.52983 ms, read_max_ms=5.39192 ms, dqbuf_avg_ms=0.0128546, dqbuf_max_ms=0.026542, cvt_avg_ms=2.29957, cvt_max_ms=5.05416, qbuf_avg_ms=0.208863, qbuf_max_ms=0.44043
+[RTSP_WORKER] total=13590, fps=29.7965, wait_avg_ms=18.013, wait_max_ms=24.3646, clone_avg_ms=1.20196, clone_max_ms=1.94373, draw_avg_ms=0.654425, draw_max_ms=1.18195, resize_avg_ms=8.33329, resize_max_ms=17.3675, last_clone_avg_ms=0.448476, last_clone_max_ms=0.719564, encode_avg_ms=4.83024, encode_max_ms=6.41466, write_avg_ms=0.0613459, write_max_ms=0.317052, total_avg_ms=33.5541, total_max_ms=49.1656, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 13600 to RTSP (MPP encoded, size=390 bytes)
+[IMX415] total=13680, fps=29.7606, read_avg_ms=2.56537 ms, read_max_ms=3.88221 ms, dqbuf_avg_ms=0.0131286, dqbuf_max_ms=0.021584, cvt_avg_ms=2.33006, cvt_max_ms=3.5949, qbuf_avg_ms=0.213644, qbuf_max_ms=0.413304
+[RTSP_WORKER] total=13680, fps=29.7747, wait_avg_ms=18.3512, wait_max_ms=23.4893, clone_avg_ms=1.21463, clone_max_ms=1.95685, draw_avg_ms=0.647199, draw_max_ms=1.88189, resize_avg_ms=8.0264, resize_max_ms=13.2167, last_clone_avg_ms=0.452462, last_clone_max_ms=0.761274, encode_avg_ms=4.80673, encode_max_ms=6.6855, write_avg_ms=0.0681096, write_max_ms=0.558851, total_avg_ms=33.5773, total_max_ms=41.6201, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 13700 to RTSP (MPP encoded, size=369 bytes)
+[IMX415] total=13770, fps=29.7207, read_avg_ms=2.60352 ms, read_max_ms=4.79148 ms, dqbuf_avg_ms=0.0135953, dqbuf_max_ms=0.116671, cvt_avg_ms=2.36551, cvt_max_ms=4.45022, qbuf_avg_ms=0.215634, qbuf_max_ms=0.414179
+[RTSP_WORKER] total=13770, fps=29.7203, wait_avg_ms=18.2076, wait_max_ms=24.0257, clone_avg_ms=1.22169, clone_max_ms=2.36782, draw_avg_ms=0.63828, draw_max_ms=1.17312, resize_avg_ms=8.13596, resize_max_ms=15.2843, last_clone_avg_ms=0.476461, last_clone_max_ms=1.26016, encode_avg_ms=4.88591, encode_max_ms=6.23674, write_avg_ms=0.0627038, write_max_ms=0.344761, total_avg_ms=33.6399, total_max_ms=46.7506, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 13800 to RTSP (MPP encoded, size=343 bytes)
+[IMX415] total=13860, fps=29.7695, read_avg_ms=2.68874 ms, read_max_ms=4.95149 ms, dqbuf_avg_ms=0.0126166, dqbuf_max_ms=0.022751, cvt_avg_ms=2.45368, cvt_max_ms=4.59973, qbuf_avg_ms=0.213863, qbuf_max_ms=0.420305
+[RTSP_WORKER] total=13860, fps=29.7392, wait_avg_ms=17.9727, wait_max_ms=24.8303, clone_avg_ms=1.18549, clone_max_ms=1.81481, draw_avg_ms=0.612402, draw_max_ms=1.08737, resize_avg_ms=8.4348, resize_max_ms=17.3845, last_clone_avg_ms=0.472051, last_clone_max_ms=1.18158, encode_avg_ms=4.85953, encode_max_ms=6.50583, write_avg_ms=0.0714864, write_max_ms=0.581602, total_avg_ms=33.6191, total_max_ms=45.7125, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 13900 to RTSP (MPP encoded, size=418 bytes)
+[IMX415] total=13950, fps=29.7287, read_avg_ms=2.53723 ms, read_max_ms=4.58019 ms, dqbuf_avg_ms=0.0120721, dqbuf_max_ms=0.024209, cvt_avg_ms=2.30987, cvt_max_ms=4.36026, qbuf_avg_ms=0.206764, qbuf_max_ms=0.947071
+[RTSP_WORKER] total=13950, fps=29.7159, wait_avg_ms=18.4883, wait_max_ms=24.7208, clone_avg_ms=1.20674, clone_max_ms=2.50199, draw_avg_ms=0.641737, draw_max_ms=1.35425, resize_avg_ms=7.8222, resize_max_ms=17.9069, last_clone_avg_ms=0.476631, last_clone_max_ms=1.32888, encode_avg_ms=4.92847, encode_max_ms=6.90513, write_avg_ms=0.0683462, write_max_ms=0.646937, total_avg_ms=33.6435, total_max_ms=44.5404, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 14000 to RTSP (MPP encoded, size=458 bytes)
+[IMX415] total=14040, fps=29.7606, read_avg_ms=2.56167 ms, read_max_ms=3.80695 ms, dqbuf_avg_ms=0.0123217, dqbuf_max_ms=0.025376, cvt_avg_ms=2.33972, cvt_max_ms=3.45403, qbuf_avg_ms=0.201176, qbuf_max_ms=0.377429
+[RTSP_WORKER] total=14040, fps=29.8056, wait_avg_ms=18.0632, wait_max_ms=22.7475, clone_avg_ms=1.22573, clone_max_ms=2.03806, draw_avg_ms=0.688577, draw_max_ms=1.18041, resize_avg_ms=8.0155, resize_max_ms=12.6611, last_clone_avg_ms=0.476365, last_clone_max_ms=1.03007, encode_avg_ms=4.93201, encode_max_ms=7.04631, write_avg_ms=0.130162, write_max_ms=0.946488, total_avg_ms=33.5427, total_max_ms=40.6556, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 14100 to RTSP (MPP encoded, size=6196 bytes)
+[IMX415] total=14130, fps=29.7756, read_avg_ms=2.63958 ms, read_max_ms=6.44662 ms, dqbuf_avg_ms=0.0120041, dqbuf_max_ms=0.024792, cvt_avg_ms=2.41892, cvt_max_ms=6.21357, qbuf_avg_ms=0.200012, qbuf_max_ms=0.322301
+[RTSP_WORKER] total=14130, fps=29.6985, wait_avg_ms=17.9086, wait_max_ms=23.8823, clone_avg_ms=1.28426, clone_max_ms=2.66008, draw_avg_ms=0.707308, draw_max_ms=1.18208, resize_avg_ms=8.1778, resize_max_ms=13.3426, last_clone_avg_ms=0.452918, last_clone_max_ms=0.903612, encode_avg_ms=4.97501, encode_max_ms=6.30586, write_avg_ms=0.147759, write_max_ms=0.568768, total_avg_ms=33.6648, total_max_ms=42.5714, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 14200 to RTSP (MPP encoded, size=14145 bytes)
+[IMX415] total=14220, fps=29.7722, read_avg_ms=2.70208 ms, read_max_ms=6.56696 ms, dqbuf_avg_ms=0.0128758, dqbuf_max_ms=0.030917, cvt_avg_ms=2.46986, cvt_max_ms=6.22715, qbuf_avg_ms=0.209927, qbuf_max_ms=0.328136
+[RTSP_WORKER] total=14220, fps=29.8472, wait_avg_ms=17.7208, wait_max_ms=26.328, clone_avg_ms=1.27374, clone_max_ms=2.13857, draw_avg_ms=0.696871, draw_max_ms=1.17925, resize_avg_ms=8.21852, resize_max_ms=15.8973, last_clone_avg_ms=0.475516, last_clone_max_ms=0.98324, encode_avg_ms=4.94523, encode_max_ms=5.94248, write_avg_ms=0.152572, write_max_ms=0.30626, total_avg_ms=33.4959, total_max_ms=46.3525, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 14300 to RTSP (MPP encoded, size=15439 bytes)
+[IMX415] total=14310, fps=29.7755, read_avg_ms=2.76938 ms, read_max_ms=4.61194 ms, dqbuf_avg_ms=0.0125096, dqbuf_max_ms=0.020126, cvt_avg_ms=2.53491, cvt_max_ms=4.36226, qbuf_avg_ms=0.212782, qbuf_max_ms=0.345636
+[RTSP_WORKER] total=14310, fps=29.7829, wait_avg_ms=17.6092, wait_max_ms=24.1649, clone_avg_ms=1.25165, clone_max_ms=2.15723, draw_avg_ms=0.68409, draw_max_ms=1.35688, resize_avg_ms=8.55439, resize_max_ms=18.3022, last_clone_avg_ms=0.464939, last_clone_max_ms=0.740273, encode_avg_ms=4.85434, encode_max_ms=6.30107, write_avg_ms=0.138757, write_max_ms=0.625936, total_avg_ms=33.5683, total_max_ms=45.0878, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=14400, fps=29.7797, read_avg_ms=2.55225 ms, read_max_ms=4.1383 ms, dqbuf_avg_ms=0.0125452, dqbuf_max_ms=0.022751, cvt_avg_ms=2.31867, cvt_max_ms=3.79354, qbuf_avg_ms=0.212387, qbuf_max_ms=0.416513
+Added frame to streaming queue, queue size: 1
+Sent frame 14400 to RTSP (MPP encoded, size=11468 bytes)
+[RTSP_WORKER] total=14400, fps=29.7756, wait_avg_ms=17.9985, wait_max_ms=24.7383, clone_avg_ms=1.22081, clone_max_ms=1.7451, draw_avg_ms=0.66986, draw_max_ms=1.05674, resize_avg_ms=8.18712, resize_max_ms=15.6667, last_clone_avg_ms=0.446691, last_clone_max_ms=0.733857, encode_avg_ms=4.92832, encode_max_ms=6.28503, write_avg_ms=0.115212, write_max_ms=0.492057, total_avg_ms=33.5773, total_max_ms=43.1386, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=14490, fps=29.7914, read_avg_ms=2.62878 ms, read_max_ms=4.76015 ms, dqbuf_avg_ms=0.012406, dqbuf_max_ms=0.031792, cvt_avg_ms=2.39664, cvt_max_ms=4.50902, qbuf_avg_ms=0.210935, qbuf_max_ms=0.43343
+[RTSP_WORKER] total=14490, fps=29.7322, wait_avg_ms=18.0214, wait_max_ms=24.7077, clone_avg_ms=1.25163, clone_max_ms=3.00514, draw_avg_ms=0.662237, draw_max_ms=1.67422, resize_avg_ms=8.03575, resize_max_ms=14.0122, last_clone_avg_ms=0.485076, last_clone_max_ms=0.923321, encode_avg_ms=5.02088, encode_max_ms=6.64233, write_avg_ms=0.138982, write_max_ms=1.15533, total_avg_ms=33.6271, total_max_ms=44.4436, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 14500 to RTSP (MPP encoded, size=4171 bytes)
+[IMX415] total=14580, fps=29.7747, read_avg_ms=2.62623 ms, read_max_ms=4.9967 ms, dqbuf_avg_ms=0.0124285, dqbuf_max_ms=0.021292, cvt_avg_ms=2.39072, cvt_max_ms=4.71056, qbuf_avg_ms=0.21388, qbuf_max_ms=0.422346
+[RTSP_WORKER] total=14580, fps=29.8349, wait_avg_ms=18.5518, wait_max_ms=24.4457, clone_avg_ms=1.20843, clone_max_ms=1.9656, draw_avg_ms=0.653912, draw_max_ms=1.36008, resize_avg_ms=7.74523, resize_max_ms=13.6001, last_clone_avg_ms=0.421733, last_clone_max_ms=0.895445, encode_avg_ms=4.78505, encode_max_ms=6.78163, write_avg_ms=0.133445, write_max_ms=0.403387, total_avg_ms=33.5104, total_max_ms=42.4358, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 14600 to RTSP (MPP encoded, size=2308 bytes)
+[IMX415] total=14670, fps=29.7867, read_avg_ms=2.60011 ms, read_max_ms=4.31943 ms, dqbuf_avg_ms=0.0122536, dqbuf_max_ms=0.034418, cvt_avg_ms=2.37046, cvt_max_ms=3.95192, qbuf_avg_ms=0.208619, qbuf_max_ms=0.427888
+[RTSP_WORKER] total=14670, fps=29.7844, wait_avg_ms=17.9534, wait_max_ms=25.3915, clone_avg_ms=1.21957, clone_max_ms=1.88385, draw_avg_ms=0.664792, draw_max_ms=1.25596, resize_avg_ms=8.28345, resize_max_ms=13.3617, last_clone_avg_ms=0.451911, last_clone_max_ms=1.02028, encode_avg_ms=4.86307, encode_max_ms=6.0764, write_avg_ms=0.120278, write_max_ms=0.563226, total_avg_ms=33.5673, total_max_ms=40.1826, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 14700 to RTSP (MPP encoded, size=760 bytes)
+[IMX415] total=14760, fps=29.7441, read_avg_ms=2.55379 ms, read_max_ms=5.10929 ms, dqbuf_avg_ms=0.0126911, dqbuf_max_ms=0.029751, cvt_avg_ms=2.31976, cvt_max_ms=4.67236, qbuf_avg_ms=0.212385, qbuf_max_ms=0.481557
+[RTSP_WORKER] total=14760, fps=29.7511, wait_avg_ms=18.0781, wait_max_ms=24.6118, clone_avg_ms=1.19883, clone_max_ms=1.86848, draw_avg_ms=0.639519, draw_max_ms=1.26879, resize_avg_ms=8.21596, resize_max_ms=16.8699, last_clone_avg_ms=0.458947, last_clone_max_ms=0.924612, encode_avg_ms=4.8848, encode_max_ms=5.9531, write_avg_ms=0.118385, write_max_ms=1.02932, total_avg_ms=33.6054, total_max_ms=49.5414, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 14800 to RTSP (MPP encoded, size=6883 bytes)
+[IMX415] total=14850, fps=29.677, read_avg_ms=2.63267 ms, read_max_ms=4.13355 ms, dqbuf_avg_ms=0.0126944, dqbuf_max_ms=0.022167, cvt_avg_ms=2.39712, cvt_max_ms=3.95162, qbuf_avg_ms=0.214029, qbuf_max_ms=0.418555
+[RTSP_WORKER] total=14850, fps=29.5877, wait_avg_ms=18.4767, wait_max_ms=24.6678, clone_avg_ms=1.14483, clone_max_ms=1.7906, draw_avg_ms=0.586781, draw_max_ms=1.04391, resize_avg_ms=8.17155, resize_max_ms=16.6772, last_clone_avg_ms=0.447742, last_clone_max_ms=0.777608, encode_avg_ms=4.82182, encode_max_ms=6.29028, write_avg_ms=0.130549, write_max_ms=0.633519, total_avg_ms=33.7909, total_max_ms=43.9665, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 14900 to RTSP (MPP encoded, size=2585 bytes)
+[IMX415] total=14940, fps=29.8066, read_avg_ms=2.65625 ms, read_max_ms=5.48788 ms, dqbuf_avg_ms=0.0124454, dqbuf_max_ms=0.036751, cvt_avg_ms=2.43623, cvt_max_ms=5.12941, qbuf_avg_ms=0.198544, qbuf_max_ms=0.373637
+[RTSP_WORKER] total=14940, fps=29.9074, wait_avg_ms=18.654, wait_max_ms=22.7244, clone_avg_ms=1.12922, clone_max_ms=1.79906, draw_avg_ms=0.591715, draw_max_ms=1.16845, resize_avg_ms=7.69675, resize_max_ms=12.7277, last_clone_avg_ms=0.422673, last_clone_max_ms=0.905362, encode_avg_ms=4.81053, encode_max_ms=6.04111, write_avg_ms=0.114561, write_max_ms=0.428472, total_avg_ms=33.4297, total_max_ms=40.6732, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 15000 to RTSP (MPP encoded, size=519 bytes)
+[IMX415] total=15030, fps=29.7355, read_avg_ms=2.52868 ms, read_max_ms=4.10971 ms, dqbuf_avg_ms=0.0122179, dqbuf_max_ms=0.01925, cvt_avg_ms=2.30801, cvt_max_ms=3.80549, qbuf_avg_ms=0.199716, qbuf_max_ms=0.318219
+[RTSP_WORKER] total=15030, fps=29.7042, wait_avg_ms=18.2849, wait_max_ms=25.6564, clone_avg_ms=1.21584, clone_max_ms=1.79656, draw_avg_ms=0.670353, draw_max_ms=1.34083, resize_avg_ms=8.02809, resize_max_ms=14.8757, last_clone_avg_ms=0.470785, last_clone_max_ms=1.04799, encode_avg_ms=4.90792, encode_max_ms=6.1707, write_avg_ms=0.0694934, write_max_ms=0.560601, total_avg_ms=33.6579, total_max_ms=44.4889, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 15100 to RTSP (MPP encoded, size=397 bytes)
+[IMX415] total=15120, fps=29.7483, read_avg_ms=2.55922 ms, read_max_ms=4.32409 ms, dqbuf_avg_ms=0.0124481, dqbuf_max_ms=0.024209, cvt_avg_ms=2.32863, cvt_max_ms=3.97846, qbuf_avg_ms=0.209606, qbuf_max_ms=0.456765
+[RTSP_WORKER] total=15120, fps=29.7435, wait_avg_ms=18.2878, wait_max_ms=24.1851, clone_avg_ms=1.17552, clone_max_ms=2.01606, draw_avg_ms=0.61621, draw_max_ms=1.24371, resize_avg_ms=8.03899, resize_max_ms=13.7726, last_clone_avg_ms=0.466517, last_clone_max_ms=1.04916, encode_avg_ms=4.94535, encode_max_ms=6.72954, write_avg_ms=0.0714625, write_max_ms=0.893694, total_avg_ms=33.6124, total_max_ms=43.3567, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 15200 to RTSP (MPP encoded, size=320 bytes)
+[IMX415] total=15210, fps=29.753, read_avg_ms=2.72361 ms, read_max_ms=5.29913 ms, dqbuf_avg_ms=0.0155172, dqbuf_max_ms=0.14438, cvt_avg_ms=2.47569, cvt_max_ms=5.01737, qbuf_avg_ms=0.223395, qbuf_max_ms=0.463473
+[RTSP_WORKER] total=15210, fps=29.6702, wait_avg_ms=18.4188, wait_max_ms=23.735, clone_avg_ms=1.18256, clone_max_ms=1.80022, draw_avg_ms=0.647253, draw_max_ms=1.36475, resize_avg_ms=8.15885, resize_max_ms=15.3267, last_clone_avg_ms=0.453255, last_clone_max_ms=0.766649, encode_avg_ms=4.7547, encode_max_ms=6.0619, write_avg_ms=0.0712231, write_max_ms=0.838568, total_avg_ms=33.6971, total_max_ms=43.7238, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=15300, fps=29.7469, read_avg_ms=2.56669 ms, read_max_ms=4.35793 ms, dqbuf_avg_ms=0.0122958, dqbuf_max_ms=0.024792, cvt_avg_ms=2.33995, cvt_max_ms=4.00821, qbuf_avg_ms=0.206035, qbuf_max_ms=0.415929
+Added frame to streaming queue, queue size: 1
+Sent frame 15300 to RTSP (MPP encoded, size=414 bytes)
+[RTSP_WORKER] total=15300, fps=29.8877, wait_avg_ms=17.9981, wait_max_ms=23.5867, clone_avg_ms=1.19106, clone_max_ms=1.98602, draw_avg_ms=0.63535, draw_max_ms=1.23612, resize_avg_ms=8.19392, resize_max_ms=15.827, last_clone_avg_ms=0.469208, last_clone_max_ms=0.881445, encode_avg_ms=4.87647, encode_max_ms=6.19182, write_avg_ms=0.0730194, write_max_ms=0.799483, total_avg_ms=33.4479, total_max_ms=42.4973, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=15390, fps=29.7344, read_avg_ms=2.63649 ms, read_max_ms=5.28867 ms, dqbuf_avg_ms=0.0128111, dqbuf_max_ms=0.076128, cvt_avg_ms=2.4146, cvt_max_ms=4.9407, qbuf_avg_ms=0.20046, qbuf_max_ms=0.47689
+[RTSP_WORKER] total=15390, fps=29.6944, wait_avg_ms=18.4335, wait_max_ms=25.3031, clone_avg_ms=1.25486, clone_max_ms=2.42033, draw_avg_ms=0.674656, draw_max_ms=1.20345, resize_avg_ms=7.9681, resize_max_ms=16.216, last_clone_avg_ms=0.458051, last_clone_max_ms=1.00366, encode_avg_ms=4.80271, encode_max_ms=6.28591, write_avg_ms=0.0669136, write_max_ms=0.540475, total_avg_ms=33.6696, total_max_ms=41.1292, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 15400 to RTSP (MPP encoded, size=276 bytes)
+[IMX415] total=15480, fps=29.7007, read_avg_ms=2.71374 ms, read_max_ms=5.92948 ms, dqbuf_avg_ms=0.0130184, dqbuf_max_ms=0.04871, cvt_avg_ms=2.47494, cvt_max_ms=5.46396, qbuf_avg_ms=0.217337, qbuf_max_ms=0.646354
+[RTSP_WORKER] total=15480, fps=29.6738, wait_avg_ms=18.0363, wait_max_ms=26.9022, clone_avg_ms=1.27012, clone_max_ms=2.32961, draw_avg_ms=0.724863, draw_max_ms=1.24458, resize_avg_ms=8.26741, resize_max_ms=16.2091, last_clone_avg_ms=0.454805, last_clone_max_ms=1.07512, encode_avg_ms=4.86507, encode_max_ms=6.58692, write_avg_ms=0.0626098, write_max_ms=0.31676, total_avg_ms=33.6919, total_max_ms=44.1925, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 15500 to RTSP (MPP encoded, size=325 bytes)
+[IMX415] total=15570, fps=29.809, read_avg_ms=2.57275 ms, read_max_ms=9.54218 ms, dqbuf_avg_ms=0.0119716, dqbuf_max_ms=0.030626, cvt_avg_ms=2.35003, cvt_max_ms=9.10816, qbuf_avg_ms=0.202438, qbuf_max_ms=0.406013
+[RTSP_WORKER] total=15570, fps=29.8167, wait_avg_ms=18.0514, wait_max_ms=25.1626, clone_avg_ms=1.19828, clone_max_ms=3.18977, draw_avg_ms=0.661312, draw_max_ms=1.6573, resize_avg_ms=8.11493, resize_max_ms=14.9686, last_clone_avg_ms=0.48172, last_clone_max_ms=1.14608, encode_avg_ms=4.93555, encode_max_ms=5.95573, write_avg_ms=0.0740241, write_max_ms=0.84761, total_avg_ms=33.5303, total_max_ms=46.7268, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 15600 to RTSP (MPP encoded, size=435 bytes)
+[IMX415] total=15660, fps=29.7615, read_avg_ms=2.6635 ms, read_max_ms=5.38113 ms, dqbuf_avg_ms=0.0127884, dqbuf_max_ms=0.021584, cvt_avg_ms=2.43744, cvt_max_ms=5.04541, qbuf_avg_ms=0.204885, qbuf_max_ms=0.343594
+[RTSP_WORKER] total=15660, fps=29.767, wait_avg_ms=18.1329, wait_max_ms=24.0643, clone_avg_ms=1.17716, clone_max_ms=2.00827, draw_avg_ms=0.630805, draw_max_ms=1.15329, resize_avg_ms=8.30275, resize_max_ms=15.2274, last_clone_avg_ms=0.457531, last_clone_max_ms=0.735024, encode_avg_ms=4.8027, encode_max_ms=5.86735, write_avg_ms=0.0715513, write_max_ms=0.506932, total_avg_ms=33.586, total_max_ms=42.0352, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 15700 to RTSP (MPP encoded, size=396 bytes)
+[IMX415] total=15750, fps=29.7571, read_avg_ms=2.67649 ms, read_max_ms=6.19199 ms, dqbuf_avg_ms=0.0126371, dqbuf_max_ms=0.019834, cvt_avg_ms=2.44898, cvt_max_ms=5.9076, qbuf_avg_ms=0.206256, qbuf_max_ms=0.378304
+[RTSP_WORKER] total=15750, fps=29.7746, wait_avg_ms=18.7566, wait_max_ms=26.0156, clone_avg_ms=1.24803, clone_max_ms=1.7836, draw_avg_ms=0.655799, draw_max_ms=1.26162, resize_avg_ms=7.56333, resize_max_ms=12.9667, last_clone_avg_ms=0.464673, last_clone_max_ms=0.879695, encode_avg_ms=4.81034, encode_max_ms=6.35416, write_avg_ms=0.0656141, write_max_ms=0.507224, total_avg_ms=33.5785, total_max_ms=43.3632, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 15800 to RTSP (MPP encoded, size=1358 bytes)
+[IMX415] total=15840, fps=29.7123, read_avg_ms=2.6362 ms, read_max_ms=5.38734 ms, dqbuf_avg_ms=0.0121962, dqbuf_max_ms=0.021875, cvt_avg_ms=2.41002, cvt_max_ms=5.09595, qbuf_avg_ms=0.205095, qbuf_max_ms=0.402221
+[RTSP_WORKER] total=15840, fps=29.6715, wait_avg_ms=18.2505, wait_max_ms=23.775, clone_avg_ms=1.20136, clone_max_ms=1.8121, draw_avg_ms=0.649573, draw_max_ms=1.16874, resize_avg_ms=8.24019, resize_max_ms=16.2282, last_clone_avg_ms=0.445368, last_clone_max_ms=0.724523, encode_avg_ms=4.82858, encode_max_ms=6.07619, write_avg_ms=0.069474, write_max_ms=0.507516, total_avg_ms=33.6951, total_max_ms=46.3364, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 15900 to RTSP (MPP encoded, size=433 bytes)
+[IMX415] total=15930, fps=29.7381, read_avg_ms=2.6803 ms, read_max_ms=4.57339 ms, dqbuf_avg_ms=0.0130134, dqbuf_max_ms=0.023626, cvt_avg_ms=2.44561, cvt_max_ms=4.29309, qbuf_avg_ms=0.213189, qbuf_max_ms=0.438681
+[RTSP_WORKER] total=15930, fps=29.7893, wait_avg_ms=18.4441, wait_max_ms=25.6948, clone_avg_ms=1.21797, clone_max_ms=2.99522, draw_avg_ms=0.66272, draw_max_ms=1.21541, resize_avg_ms=7.78574, resize_max_ms=12.8536, last_clone_avg_ms=0.466165, last_clone_max_ms=0.75369, encode_avg_ms=4.90104, encode_max_ms=6.37603, write_avg_ms=0.0733824, write_max_ms=0.551559, total_avg_ms=33.5622, total_max_ms=40.9681, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 16000 to RTSP (MPP encoded, size=327 bytes)
+[IMX415] total=16020, fps=29.744, read_avg_ms=2.51887 ms, read_max_ms=4.12925 ms, dqbuf_avg_ms=0.0124999, dqbuf_max_ms=0.022167, cvt_avg_ms=2.28888, cvt_max_ms=3.7212, qbuf_avg_ms=0.209143, qbuf_max_ms=0.417971
+[RTSP_WORKER] total=16020, fps=29.7081, wait_avg_ms=18.3568, wait_max_ms=24.5889, clone_avg_ms=1.15808, clone_max_ms=2.36928, draw_avg_ms=0.634493, draw_max_ms=1.26296, resize_avg_ms=8.10702, resize_max_ms=14.3639, last_clone_avg_ms=0.469674, last_clone_max_ms=0.965614, encode_avg_ms=4.85154, encode_max_ms=7.31902, write_avg_ms=0.0652187, write_max_ms=0.455598, total_avg_ms=33.6538, total_max_ms=44.9709, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 16100 to RTSP (MPP encoded, size=352 bytes)
+[IMX415] total=16110, fps=29.7646, read_avg_ms=2.56641 ms, read_max_ms=4.02046 ms, dqbuf_avg_ms=0.0124273, dqbuf_max_ms=0.024209, cvt_avg_ms=2.3387, cvt_max_ms=3.67337, qbuf_avg_ms=0.206858, qbuf_max_ms=0.413304
+[RTSP_WORKER] total=16110, fps=29.7381, wait_avg_ms=18.2763, wait_max_ms=24.6492, clone_avg_ms=1.22368, clone_max_ms=1.9271, draw_avg_ms=0.684066, draw_max_ms=1.47734, resize_avg_ms=8.00399, resize_max_ms=13.1967, last_clone_avg_ms=0.463885, last_clone_max_ms=0.81115, encode_avg_ms=4.89026, encode_max_ms=6.15728, write_avg_ms=0.0654197, write_max_ms=0.431972, total_avg_ms=33.6192, total_max_ms=43.7971, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=16200, fps=29.7357, read_avg_ms=2.7762 ms, read_max_ms=4.76719 ms, dqbuf_avg_ms=0.0126944, dqbuf_max_ms=0.02275, cvt_avg_ms=2.54371, cvt_max_ms=4.57819, qbuf_avg_ms=0.210923, qbuf_max_ms=0.418264
+Added frame to streaming queue, queue size: 1
+Sent frame 16200 to RTSP (MPP encoded, size=301 bytes)
+[RTSP_WORKER] total=16200, fps=29.746, wait_avg_ms=17.9522, wait_max_ms=24.8002, clone_avg_ms=1.31787, clone_max_ms=3.02497, draw_avg_ms=0.666491, draw_max_ms=1.40092, resize_avg_ms=8.2067, resize_max_ms=15.728, last_clone_avg_ms=0.484741, last_clone_max_ms=0.948613, encode_avg_ms=4.90157, encode_max_ms=6.81851, write_avg_ms=0.0696878, write_max_ms=0.504308, total_avg_ms=33.6103, total_max_ms=43.3079, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=16290, fps=29.8465, read_avg_ms=2.54463 ms, read_max_ms=4.44922 ms, dqbuf_avg_ms=0.012124, dqbuf_max_ms=0.022751, cvt_avg_ms=2.32262, cvt_max_ms=4.00413, qbuf_avg_ms=0.20153, qbuf_max_ms=0.455306
+[RTSP_WORKER] total=16290, fps=29.8706, wait_avg_ms=18.3974, wait_max_ms=25.1846, clone_avg_ms=1.13432, clone_max_ms=1.87927, draw_avg_ms=0.565408, draw_max_ms=1.09612, resize_avg_ms=8.06316, resize_max_ms=14.8215, last_clone_avg_ms=0.458304, last_clone_max_ms=0.803275, encode_avg_ms=4.78038, encode_max_ms=6.25674, write_avg_ms=0.0613459, write_max_ms=0.398429, total_avg_ms=33.4713, total_max_ms=48.0773, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 16300 to RTSP (MPP encoded, size=316 bytes)
+[IMX415] total=16380, fps=29.7502, read_avg_ms=2.54592 ms, read_max_ms=4.75432 ms, dqbuf_avg_ms=0.0136212, dqbuf_max_ms=0.059502, cvt_avg_ms=2.31218, cvt_max_ms=4.54431, qbuf_avg_ms=0.211227, qbuf_max_ms=0.415055
+[RTSP_WORKER] total=16380, fps=29.7433, wait_avg_ms=18.1007, wait_max_ms=24.4754, clone_avg_ms=1.2219, clone_max_ms=1.90581, draw_avg_ms=0.658383, draw_max_ms=1.17895, resize_avg_ms=8.19816, resize_max_ms=17.6783, last_clone_avg_ms=0.464978, last_clone_max_ms=0.774399, encode_avg_ms=4.88612, encode_max_ms=6.56241, write_avg_ms=0.0719889, write_max_ms=0.940946, total_avg_ms=33.6129, total_max_ms=44.3309, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 16400 to RTSP (MPP encoded, size=888 bytes)
+[IMX415] total=16470, fps=29.7494, read_avg_ms=2.61353 ms, read_max_ms=5.31317 ms, dqbuf_avg_ms=0.0130073, dqbuf_max_ms=0.022459, cvt_avg_ms=2.37659, cvt_max_ms=4.9687, qbuf_avg_ms=0.21471, qbuf_max_ms=0.416221
+[RTSP_WORKER] total=16470, fps=29.7686, wait_avg_ms=18.2925, wait_max_ms=26.2018, clone_avg_ms=1.23369, clone_max_ms=1.83181, draw_avg_ms=0.637856, draw_max_ms=1.01795, resize_avg_ms=8.13026, resize_max_ms=12.929, last_clone_avg_ms=0.450638, last_clone_max_ms=0.850235, encode_avg_ms=4.76404, encode_max_ms=5.98798, write_avg_ms=0.0653539, write_max_ms=0.539226, total_avg_ms=33.5852, total_max_ms=44.6969, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 16500 to RTSP (MPP encoded, size=351 bytes)
+[IMX415] total=16560, fps=29.7748, read_avg_ms=2.57981 ms, read_max_ms=4.79194 ms, dqbuf_avg_ms=0.0129148, dqbuf_max_ms=0.025084, cvt_avg_ms=2.34266, cvt_max_ms=4.31243, qbuf_avg_ms=0.215667, qbuf_max_ms=0.443639
+[RTSP_WORKER] total=16560, fps=29.7973, wait_avg_ms=18.6505, wait_max_ms=25.8216, clone_avg_ms=1.08845, clone_max_ms=1.65643, draw_avg_ms=0.526183, draw_max_ms=0.966614, resize_avg_ms=7.91797, resize_max_ms=13.5381, last_clone_avg_ms=0.457641, last_clone_max_ms=0.895445, encode_avg_ms=4.83591, encode_max_ms=6.22407, write_avg_ms=0.0655025, write_max_ms=0.394054, total_avg_ms=33.5523, total_max_ms=42.2453, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 16600 to RTSP (MPP encoded, size=356 bytes)
+[IMX415] total=16650, fps=29.7691, read_avg_ms=2.67022 ms, read_max_ms=4.38826 ms, dqbuf_avg_ms=0.0131448, dqbuf_max_ms=0.031209, cvt_avg_ms=2.44071, cvt_max_ms=4.03621, qbuf_avg_ms=0.207568, qbuf_max_ms=0.442181
+[RTSP_WORKER] total=16650, fps=29.7343, wait_avg_ms=18.5757, wait_max_ms=24.096, clone_avg_ms=1.08189, clone_max_ms=1.79293, draw_avg_ms=0.533303, draw_max_ms=1.12266, resize_avg_ms=8.07554, resize_max_ms=13.4524, last_clone_avg_ms=0.439048, last_clone_max_ms=0.721898, encode_avg_ms=4.84174, encode_max_ms=6.14473, write_avg_ms=0.0655299, write_max_ms=0.719856, total_avg_ms=33.6229, total_max_ms=41.1377, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 16700 to RTSP (MPP encoded, size=3039 bytes)
+[IMX415] total=16740, fps=29.7886, read_avg_ms=2.63298 ms, read_max_ms=5.02837 ms, dqbuf_avg_ms=0.0124351, dqbuf_max_ms=0.018667, cvt_avg_ms=2.40681, cvt_max_ms=4.67981, qbuf_avg_ms=0.204899, qbuf_max_ms=0.328718
+[RTSP_WORKER] total=16740, fps=29.7702, wait_avg_ms=18.3513, wait_max_ms=24.7828, clone_avg_ms=1.23699, clone_max_ms=1.79089, draw_avg_ms=0.639804, draw_max_ms=1.25304, resize_avg_ms=8.02717, resize_max_ms=16.0188, last_clone_avg_ms=0.449267, last_clone_max_ms=0.753399, encode_avg_ms=4.80131, encode_max_ms=5.93706, write_avg_ms=0.0670141, write_max_ms=0.54135, total_avg_ms=33.5832, total_max_ms=42.0634, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 16800 to RTSP (MPP encoded, size=405 bytes)
+[IMX415] total=16830, fps=29.8242, read_avg_ms=2.53715 ms, read_max_ms=4.76452 ms, dqbuf_avg_ms=0.012098, dqbuf_max_ms=0.027126, cvt_avg_ms=2.31822, cvt_max_ms=4.47927, qbuf_avg_ms=0.19866, qbuf_max_ms=0.408346
+[RTSP_WORKER] total=16830, fps=29.8669, wait_avg_ms=18.0684, wait_max_ms=23.6122, clone_avg_ms=1.19816, clone_max_ms=1.82443, draw_avg_ms=0.627041, draw_max_ms=1.09203, resize_avg_ms=8.18885, resize_max_ms=14.841, last_clone_avg_ms=0.469958, last_clone_max_ms=0.865527, encode_avg_ms=4.84385, encode_max_ms=6.04177, write_avg_ms=0.0673044, write_max_ms=0.48564, total_avg_ms=33.4744, total_max_ms=45.1626, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 16900 to RTSP (MPP encoded, size=534 bytes)
+[IMX415] total=16920, fps=29.7429, read_avg_ms=2.58586 ms, read_max_ms=3.82737 ms, dqbuf_avg_ms=0.0127365, dqbuf_max_ms=0.021876, cvt_avg_ms=2.35528, cvt_max_ms=3.57711, qbuf_avg_ms=0.208996, qbuf_max_ms=0.417679
+[RTSP_WORKER] total=16920, fps=29.7411, wait_avg_ms=18.0504, wait_max_ms=22.7288, clone_avg_ms=1.19944, clone_max_ms=1.79214, draw_avg_ms=0.664382, draw_max_ms=2.01277, resize_avg_ms=8.31776, resize_max_ms=13.6536, last_clone_avg_ms=0.464909, last_clone_max_ms=0.950572, encode_avg_ms=4.83242, encode_max_ms=5.92802, write_avg_ms=0.0751306, write_max_ms=0.962822, total_avg_ms=33.6154, total_max_ms=40.7103, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 17000 to RTSP (MPP encoded, size=14283 bytes)
+[IMX415] total=17010, fps=29.6885, read_avg_ms=2.55427 ms, read_max_ms=4.52856 ms, dqbuf_avg_ms=0.0124254, dqbuf_max_ms=0.024209, cvt_avg_ms=2.32968, cvt_max_ms=4.27888, qbuf_avg_ms=0.20384, qbuf_max_ms=0.399888
+[RTSP_WORKER] total=17010, fps=29.6156, wait_avg_ms=17.807, wait_max_ms=23.1721, clone_avg_ms=1.25683, clone_max_ms=2.24115, draw_avg_ms=0.672632, draw_max_ms=1.25421, resize_avg_ms=8.40378, resize_max_ms=15.372, last_clone_avg_ms=0.470403, last_clone_max_ms=0.894278, encode_avg_ms=4.96585, encode_max_ms=6.74734, write_avg_ms=0.170649, write_max_ms=0.569351, total_avg_ms=33.7584, total_max_ms=43.5404, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=17100, fps=29.8021, read_avg_ms=2.58981 ms, read_max_ms=4.02338 ms, dqbuf_avg_ms=0.0129908, dqbuf_max_ms=0.035001, cvt_avg_ms=2.35123, cvt_max_ms=3.74541, qbuf_avg_ms=0.216829, qbuf_max_ms=0.413013
+Added frame to streaming queue, queue size: 1
+Sent frame 17100 to RTSP (MPP encoded, size=14889 bytes)
+[RTSP_WORKER] total=17100, fps=29.8625, wait_avg_ms=18.0693, wait_max_ms=23.5988, clone_avg_ms=1.19337, clone_max_ms=1.88335, draw_avg_ms=0.602437, draw_max_ms=1.27287, resize_avg_ms=8.113, resize_max_ms=12.0963, last_clone_avg_ms=0.472036, last_clone_max_ms=1.06578, encode_avg_ms=4.89427, encode_max_ms=5.89302, write_avg_ms=0.124178, write_max_ms=0.472515, total_avg_ms=33.4793, total_max_ms=40.768, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=17190, fps=29.747, read_avg_ms=2.7019 ms, read_max_ms=5.47467 ms, dqbuf_avg_ms=0.012905, dqbuf_max_ms=0.025084, cvt_avg_ms=2.47051, cvt_max_ms=5.25125, qbuf_avg_ms=0.210071, qbuf_max_ms=0.427889
+[RTSP_WORKER] total=17190, fps=29.689, wait_avg_ms=18.0347, wait_max_ms=23.9741, clone_avg_ms=1.19963, clone_max_ms=1.80197, draw_avg_ms=0.654679, draw_max_ms=2.37395, resize_avg_ms=8.31959, resize_max_ms=13.5644, last_clone_avg_ms=0.455114, last_clone_max_ms=0.856069, encode_avg_ms=4.86532, encode_max_ms=6.12315, write_avg_ms=0.135276, write_max_ms=0.340094, total_avg_ms=33.6752, total_max_ms=41.915, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 17200 to RTSP (MPP encoded, size=2752 bytes)
+[IMX415] total=17280, fps=29.7468, read_avg_ms=2.6045 ms, read_max_ms=4.18963 ms, dqbuf_avg_ms=0.0128694, dqbuf_max_ms=0.021584, cvt_avg_ms=2.36932, cvt_max_ms=3.95017, qbuf_avg_ms=0.213583, qbuf_max_ms=0.437806
+[RTSP_WORKER] total=17280, fps=29.8017, wait_avg_ms=18.5519, wait_max_ms=24.921, clone_avg_ms=1.25056, clone_max_ms=2.0384, draw_avg_ms=0.656171, draw_max_ms=1.03049, resize_avg_ms=7.71935, resize_max_ms=13.2795, last_clone_avg_ms=0.429037, last_clone_max_ms=0.877361, encode_avg_ms=4.79421, encode_max_ms=6.42095, write_avg_ms=0.13479, write_max_ms=0.514516, total_avg_ms=33.5472, total_max_ms=41.5064, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 17300 to RTSP (MPP encoded, size=7088 bytes)
+[IMX415] total=17370, fps=29.7537, read_avg_ms=2.5837 ms, read_max_ms=4.49531 ms, dqbuf_avg_ms=0.0130444, dqbuf_max_ms=0.024501, cvt_avg_ms=2.35499, cvt_max_ms=4.24826, qbuf_avg_ms=0.206856, qbuf_max_ms=0.418846
+[RTSP_WORKER] total=17370, fps=29.786, wait_avg_ms=18.0864, wait_max_ms=26.1148, clone_avg_ms=1.21706, clone_max_ms=1.9761, draw_avg_ms=0.628056, draw_max_ms=1.49076, resize_avg_ms=8.27231, resize_max_ms=18.7451, last_clone_avg_ms=0.430905, last_clone_max_ms=0.760983, encode_avg_ms=4.79304, encode_max_ms=6.41016, write_avg_ms=0.123081, write_max_ms=0.41943, total_avg_ms=33.5663, total_max_ms=47.5975, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 17400 to RTSP (MPP encoded, size=1505 bytes)
+[IMX415] total=17460, fps=29.7122, read_avg_ms=2.66901 ms, read_max_ms=3.86966 ms, dqbuf_avg_ms=0.0121985, dqbuf_max_ms=0.018667, cvt_avg_ms=2.43779, cvt_max_ms=3.61824, qbuf_avg_ms=0.21053, qbuf_max_ms=0.415346
+[RTSP_WORKER] total=17460, fps=29.6641, wait_avg_ms=18.4691, wait_max_ms=24.5003, clone_avg_ms=1.16142, clone_max_ms=1.79177, draw_avg_ms=0.573673, draw_max_ms=1.08445, resize_avg_ms=8.13266, resize_max_ms=13.727, last_clone_avg_ms=0.456115, last_clone_max_ms=1.02232, encode_avg_ms=4.7962, encode_max_ms=5.87931, write_avg_ms=0.103242, write_max_ms=0.879403, total_avg_ms=33.7038, total_max_ms=44.6384, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 17500 to RTSP (MPP encoded, size=2273 bytes)
+[IMX415] total=17550, fps=29.792, read_avg_ms=2.67382 ms, read_max_ms=5.10724 ms, dqbuf_avg_ms=0.0123434, dqbuf_max_ms=0.025084, cvt_avg_ms=2.44577, cvt_max_ms=4.88995, qbuf_avg_ms=0.204231, qbuf_max_ms=0.366053
+[RTSP_WORKER] total=17550, fps=29.7904, wait_avg_ms=17.7877, wait_max_ms=24.1303, clone_avg_ms=1.21809, clone_max_ms=2.27507, draw_avg_ms=0.643966, draw_max_ms=1.41579, resize_avg_ms=8.48552, resize_max_ms=13.5706, last_clone_avg_ms=0.460446, last_clone_max_ms=0.803276, encode_avg_ms=4.81481, encode_max_ms=5.97019, write_avg_ms=0.140277, write_max_ms=0.977406, total_avg_ms=33.5613, total_max_ms=40.7262, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 17600 to RTSP (MPP encoded, size=2307 bytes)
+[IMX415] total=17640, fps=29.7994, read_avg_ms=2.76961 ms, read_max_ms=9.13558 ms, dqbuf_avg_ms=0.0123258, dqbuf_max_ms=0.024501, cvt_avg_ms=2.54034, cvt_max_ms=8.78761, qbuf_avg_ms=0.208263, qbuf_max_ms=0.411554
+[RTSP_WORKER] total=17640, fps=29.8064, wait_avg_ms=18.2699, wait_max_ms=26.0578, clone_avg_ms=1.21831, clone_max_ms=2.1479, draw_avg_ms=0.616385, draw_max_ms=1.12674, resize_avg_ms=8.04104, resize_max_ms=16.9435, last_clone_avg_ms=0.463495, last_clone_max_ms=0.991698, encode_avg_ms=4.82122, encode_max_ms=6.63504, write_avg_ms=0.101417, write_max_ms=0.574893, total_avg_ms=33.5424, total_max_ms=41.0278, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 17700 to RTSP (MPP encoded, size=594 bytes)
+[IMX415] total=17730, fps=29.8266, read_avg_ms=2.56383 ms, read_max_ms=4.58194 ms, dqbuf_avg_ms=0.0130897, dqbuf_max_ms=0.112003, cvt_avg_ms=2.33966, cvt_max_ms=4.13626, qbuf_avg_ms=0.202785, qbuf_max_ms=0.415346
+[RTSP_WORKER] total=17730, fps=29.8324, wait_avg_ms=18.2398, wait_max_ms=24.661, clone_avg_ms=1.19856, clone_max_ms=2.10502, draw_avg_ms=0.607167, draw_max_ms=1.1392, resize_avg_ms=8.10452, resize_max_ms=16.7364, last_clone_avg_ms=0.462482, last_clone_max_ms=0.731232, encode_avg_ms=4.825, encode_max_ms=5.8066, write_avg_ms=0.0662396, write_max_ms=0.514516, total_avg_ms=33.514, total_max_ms=45.7121, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 17800 to RTSP (MPP encoded, size=406 bytes)
+[IMX415] total=17820, fps=29.7281, read_avg_ms=2.68169 ms, read_max_ms=4.49198 ms, dqbuf_avg_ms=0.0124319, dqbuf_max_ms=0.024209, cvt_avg_ms=2.45215, cvt_max_ms=4.16209, qbuf_avg_ms=0.208879, qbuf_max_ms=0.333678
+[RTSP_WORKER] total=17820, fps=29.7404, wait_avg_ms=18.4874, wait_max_ms=25.4287, clone_avg_ms=1.17923, clone_max_ms=1.99915, draw_avg_ms=0.618426, draw_max_ms=1.14716, resize_avg_ms=8.12686, resize_max_ms=17.1732, last_clone_avg_ms=0.42525, last_clone_max_ms=0.850527, encode_avg_ms=4.70807, encode_max_ms=5.82827, write_avg_ms=0.0618709, write_max_ms=0.557684, total_avg_ms=33.6171, total_max_ms=43.486, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 17900 to RTSP (MPP encoded, size=261 bytes)
+[IMX415] total=17910, fps=29.8089, read_avg_ms=2.57657 ms, read_max_ms=4.51581 ms, dqbuf_avg_ms=0.0136139, dqbuf_max_ms=0.027709, cvt_avg_ms=2.33623, cvt_max_ms=4.22413, qbuf_avg_ms=0.218218, qbuf_max_ms=0.970697
+[RTSP_WORKER] total=17910, fps=29.7872, wait_avg_ms=18.4401, wait_max_ms=24.0164, clone_avg_ms=1.1436, clone_max_ms=1.86527, draw_avg_ms=0.597571, draw_max_ms=1.191, resize_avg_ms=8.21218, resize_max_ms=13.3833, last_clone_avg_ms=0.39925, last_clone_max_ms=0.723939, encode_avg_ms=4.69982, encode_max_ms=6.08786, write_avg_ms=0.0620913, write_max_ms=0.498182, total_avg_ms=33.5644, total_max_ms=42.7849, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=18000, fps=29.7546, read_avg_ms=2.61328 ms, read_max_ms=5.01858 ms, dqbuf_avg_ms=0.0123443, dqbuf_max_ms=0.021875, cvt_avg_ms=2.38163, cvt_max_ms=4.73244, qbuf_avg_ms=0.210464, qbuf_max_ms=0.414763
+Added frame to streaming queue, queue size: 1
+Sent frame 18000 to RTSP (MPP encoded, size=406 bytes)
+[RTSP_WORKER] total=18000, fps=29.7698, wait_avg_ms=18.2065, wait_max_ms=23.042, clone_avg_ms=1.24808, clone_max_ms=1.77747, draw_avg_ms=0.692351, draw_max_ms=1.20725, resize_avg_ms=8.04516, resize_max_ms=16.4432, last_clone_avg_ms=0.463709, last_clone_max_ms=1.09378, encode_avg_ms=4.85291, encode_max_ms=6.33424, write_avg_ms=0.0647034, write_max_ms=0.517141, total_avg_ms=33.584, total_max_ms=42.7863, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=18090, fps=29.7713, read_avg_ms=2.67175 ms, read_max_ms=4.72107 ms, dqbuf_avg_ms=0.0158555, dqbuf_max_ms=0.263092, cvt_avg_ms=2.44073, cvt_max_ms=4.3556, qbuf_avg_ms=0.206805, qbuf_max_ms=0.417388
+[RTSP_WORKER] total=18090, fps=29.745, wait_avg_ms=18.196, wait_max_ms=25.3063, clone_avg_ms=1.16268, clone_max_ms=1.96473, draw_avg_ms=0.652689, draw_max_ms=1.03603, resize_avg_ms=8.22713, resize_max_ms=13.4416, last_clone_avg_ms=0.455933, last_clone_max_ms=0.920238, encode_avg_ms=4.8446, encode_max_ms=6.13248, write_avg_ms=0.0622413, write_max_ms=0.564101, total_avg_ms=33.6116, total_max_ms=46.2396, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 18100 to RTSP (MPP encoded, size=249 bytes)
+[IMX415] total=18180, fps=29.7202, read_avg_ms=2.7295 ms, read_max_ms=8.04063 ms, dqbuf_avg_ms=0.0133037, dqbuf_max_ms=0.025376, cvt_avg_ms=2.48998, cvt_max_ms=7.70345, qbuf_avg_ms=0.217376, qbuf_max_ms=0.471057
+[RTSP_WORKER] total=18180, fps=29.7299, wait_avg_ms=18.0818, wait_max_ms=24.9265, clone_avg_ms=1.19906, clone_max_ms=1.8221, draw_avg_ms=0.677007, draw_max_ms=1.13608, resize_avg_ms=8.24463, resize_max_ms=21.1602, last_clone_avg_ms=0.470989, last_clone_max_ms=0.929863, encode_avg_ms=4.88249, encode_max_ms=6.09778, write_avg_ms=0.0631186, write_max_ms=0.50285, total_avg_ms=33.63, total_max_ms=47.7831, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 18200 to RTSP (MPP encoded, size=254 bytes)
+[IMX415] total=18270, fps=29.7126, read_avg_ms=2.65544 ms, read_max_ms=4.74382 ms, dqbuf_avg_ms=0.012837, dqbuf_max_ms=0.030042, cvt_avg_ms=2.41348, cvt_max_ms=4.46789, qbuf_avg_ms=0.220309, qbuf_max_ms=0.415346
+[RTSP_WORKER] total=18270, fps=29.7102, wait_avg_ms=18.6428, wait_max_ms=24.6726, clone_avg_ms=1.20401, clone_max_ms=1.88131, draw_avg_ms=0.61104, draw_max_ms=1.06374, resize_avg_ms=7.8507, resize_max_ms=11.9753, last_clone_avg_ms=0.465997, last_clone_max_ms=0.730565, encode_avg_ms=4.79675, encode_max_ms=6.08523, write_avg_ms=0.0694828, write_max_ms=0.523849, total_avg_ms=33.6513, total_max_ms=42.8188, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 18300 to RTSP (MPP encoded, size=318 bytes)
+[IMX415] total=18360, fps=29.7927, read_avg_ms=2.70929 ms, read_max_ms=5.64684 ms, dqbuf_avg_ms=0.0123314, dqbuf_max_ms=0.019834, cvt_avg_ms=2.47319, cvt_max_ms=5.19241, qbuf_avg_ms=0.214972, qbuf_max_ms=0.420013
+[RTSP_WORKER] total=18360, fps=29.7833, wait_avg_ms=18.3106, wait_max_ms=24.9891, clone_avg_ms=1.23519, clone_max_ms=1.92769, draw_avg_ms=0.634847, draw_max_ms=1.13987, resize_avg_ms=8.01717, resize_max_ms=15.1981, last_clone_avg_ms=0.450813, last_clone_max_ms=0.73444, encode_avg_ms=4.84325, encode_max_ms=5.87085, write_avg_ms=0.067267, write_max_ms=0.755441, total_avg_ms=33.5696, total_max_ms=47.524, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 18400 to RTSP (MPP encoded, size=281 bytes)
+[IMX415] total=18450, fps=29.7497, read_avg_ms=2.64298 ms, read_max_ms=5.02049 ms, dqbuf_avg_ms=0.0128551, dqbuf_max_ms=0.023043, cvt_avg_ms=2.40715, cvt_max_ms=4.66915, qbuf_avg_ms=0.214231, qbuf_max_ms=0.412138
+[RTSP_WORKER] total=18450, fps=29.7539, wait_avg_ms=18.2631, wait_max_ms=25.4793, clone_avg_ms=1.19275, clone_max_ms=2.08986, draw_avg_ms=0.637944, draw_max_ms=1.11099, resize_avg_ms=8.10106, resize_max_ms=16.8775, last_clone_avg_ms=0.46567, last_clone_max_ms=0.735898, encode_avg_ms=4.8667, encode_max_ms=6.33724, write_avg_ms=0.064002, write_max_ms=0.425846, total_avg_ms=33.6016, total_max_ms=43.9793, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 18500 to RTSP (MPP encoded, size=253 bytes)
+[IMX415] total=18540, fps=29.7091, read_avg_ms=2.61606 ms, read_max_ms=4.7934 ms, dqbuf_avg_ms=0.013563, dqbuf_max_ms=0.056586, cvt_avg_ms=2.37785, cvt_max_ms=4.33605, qbuf_avg_ms=0.215548, qbuf_max_ms=0.420304
+[RTSP_WORKER] total=18540, fps=29.6952, wait_avg_ms=18.4652, wait_max_ms=23.0911, clone_avg_ms=1.16668, clone_max_ms=1.81014, draw_avg_ms=0.628119, draw_max_ms=1.18945, resize_avg_ms=7.98608, resize_max_ms=13.4185, last_clone_avg_ms=0.452345, last_clone_max_ms=0.735314, encode_avg_ms=4.88981, encode_max_ms=6.21303, write_avg_ms=0.0686837, write_max_ms=0.499933, total_avg_ms=33.6674, total_max_ms=43.3055, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 18600 to RTSP (MPP encoded, size=248 bytes)
+[IMX415] total=18630, fps=29.7688, read_avg_ms=2.63546 ms, read_max_ms=4.6426 ms, dqbuf_avg_ms=0.0124869, dqbuf_max_ms=0.029459, cvt_avg_ms=2.41701, cvt_max_ms=4.38593, qbuf_avg_ms=0.197623, qbuf_max_ms=0.416513
+[RTSP_WORKER] total=18630, fps=29.7748, wait_avg_ms=18.8605, wait_max_ms=24.4723, clone_avg_ms=1.21671, clone_max_ms=2.00381, draw_avg_ms=0.625672, draw_max_ms=1.23729, resize_avg_ms=7.54561, resize_max_ms=17.8719, last_clone_avg_ms=0.45282, last_clone_max_ms=0.882319, encode_avg_ms=4.79874, encode_max_ms=6.74734, write_avg_ms=0.0663044, write_max_ms=0.519183, total_avg_ms=33.5778, total_max_ms=44.6699, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 18700 to RTSP (MPP encoded, size=596 bytes)
+[IMX415] total=18720, fps=29.7693, read_avg_ms=2.6694 ms, read_max_ms=5.07633 ms, dqbuf_avg_ms=0.0123833, dqbuf_max_ms=0.038793, cvt_avg_ms=2.4507, cvt_max_ms=4.55948, qbuf_avg_ms=0.197668, qbuf_max_ms=0.483307
+[RTSP_WORKER] total=18720, fps=29.7811, wait_avg_ms=18.1507, wait_max_ms=24.0581, clone_avg_ms=1.27507, clone_max_ms=1.8151, draw_avg_ms=0.688676, draw_max_ms=1.35263, resize_avg_ms=7.99239, resize_max_ms=13.6058, last_clone_avg_ms=0.489047, last_clone_max_ms=0.966322, encode_avg_ms=4.8971, encode_max_ms=6.23624, write_avg_ms=0.0666803, write_max_ms=0.505766, total_avg_ms=33.5707, total_max_ms=42.7006, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 18800 to RTSP (MPP encoded, size=333 bytes)
+[IMX415] total=18810, fps=29.7283, read_avg_ms=2.5857 ms, read_max_ms=5.79443 ms, dqbuf_avg_ms=0.0122796, dqbuf_max_ms=0.023334, cvt_avg_ms=2.35753, cvt_max_ms=5.52288, qbuf_avg_ms=0.207352, qbuf_max_ms=0.485932
+[RTSP_WORKER] total=18810, fps=29.6981, wait_avg_ms=18.3297, wait_max_ms=26.566, clone_avg_ms=1.22796, clone_max_ms=1.79177, draw_avg_ms=0.697846, draw_max_ms=1.14891, resize_avg_ms=7.92193, resize_max_ms=18.9511, last_clone_avg_ms=0.495328, last_clone_max_ms=1.34229, encode_avg_ms=4.91101, encode_max_ms=5.88281, write_avg_ms=0.070185, write_max_ms=0.515099, total_avg_ms=33.6654, total_max_ms=48.289, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=18900, fps=29.7834, read_avg_ms=2.58373 ms, read_max_ms=7.28723 ms, dqbuf_avg_ms=0.0127917, dqbuf_max_ms=0.023918, cvt_avg_ms=2.35143, cvt_max_ms=7.01276, qbuf_avg_ms=0.211355, qbuf_max_ms=0.487098
+Added frame to streaming queue, queue size: 1
+Sent frame 18900 to RTSP (MPP encoded, size=278 bytes)
+[RTSP_WORKER] total=18900, fps=29.8303, wait_avg_ms=18.6184, wait_max_ms=24.2527, clone_avg_ms=1.15468, clone_max_ms=2.3302, draw_avg_ms=0.619787, draw_max_ms=1.15499, resize_avg_ms=7.85916, resize_max_ms=12.3084, last_clone_avg_ms=0.433581, last_clone_max_ms=0.810568, encode_avg_ms=4.75387, encode_max_ms=6.08398, write_avg_ms=0.0634052, write_max_ms=0.432264, total_avg_ms=33.5145, total_max_ms=42.0303, reuse_last=0, encode_ok=90, write_ok=90
+[IMX415] total=18990, fps=29.7051, read_avg_ms=2.63726 ms, read_max_ms=4.3941 ms, dqbuf_avg_ms=0.012918, dqbuf_max_ms=0.022168, cvt_avg_ms=2.39921, cvt_max_ms=3.94637, qbuf_avg_ms=0.216545, qbuf_max_ms=0.413305
+[RTSP_WORKER] total=18990, fps=29.6706, wait_avg_ms=18.1353, wait_max_ms=24.379, clone_avg_ms=1.24652, clone_max_ms=1.8186, draw_avg_ms=0.670835, draw_max_ms=1.14104, resize_avg_ms=8.36112, resize_max_ms=17.4175, last_clone_avg_ms=0.435068, last_clone_max_ms=0.834776, encode_avg_ms=4.77316, encode_max_ms=6.04148, write_avg_ms=0.0646243, write_max_ms=0.533767, total_avg_ms=33.6971, total_max_ms=46.5755, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 19000 to RTSP (MPP encoded, size=332 bytes)
+[IMX415] total=19080, fps=29.7647, read_avg_ms=2.80277 ms, read_max_ms=5.15391 ms, dqbuf_avg_ms=0.0126579, dqbuf_max_ms=0.023043, cvt_avg_ms=2.5702, cvt_max_ms=4.93428, qbuf_avg_ms=0.211226, qbuf_max_ms=0.424389
+[RTSP_WORKER] total=19080, fps=29.7961, wait_avg_ms=18.0947, wait_max_ms=25.8293, clone_avg_ms=1.22454, clone_max_ms=1.73781, draw_avg_ms=0.648711, draw_max_ms=1.19733, resize_avg_ms=8.29376, resize_max_ms=13.9242, last_clone_avg_ms=0.441626, last_clone_max_ms=0.91557, encode_avg_ms=4.77106, encode_max_ms=6.11032, write_avg_ms=0.0690883, write_max_ms=0.721898, total_avg_ms=33.5543, total_max_ms=40.3961, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 19100 to RTSP (MPP encoded, size=347 bytes)
+[IMX415] total=19170, fps=29.7366, read_avg_ms=2.73177 ms, read_max_ms=7.36919 ms, dqbuf_avg_ms=0.0134495, dqbuf_max_ms=0.048127, cvt_avg_ms=2.50171, cvt_max_ms=7.10056, qbuf_avg_ms=0.207796, qbuf_max_ms=0.420889
+[RTSP_WORKER] total=19170, fps=29.7725, wait_avg_ms=18.0782, wait_max_ms=24.3839, clone_avg_ms=1.19556, clone_max_ms=2.68458, draw_avg_ms=0.637134, draw_max_ms=1.28612, resize_avg_ms=8.17523, resize_max_ms=13.9643, last_clone_avg_ms=0.47504, last_clone_max_ms=1.01728, encode_avg_ms=4.90864, encode_max_ms=7.4459, write_avg_ms=0.101873, write_max_ms=3.62699, total_avg_ms=33.5819, total_max_ms=43.0109, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 19200 to RTSP (MPP encoded, size=282 bytes)
+[IMX415] total=19260, fps=29.7475, read_avg_ms=2.74116 ms, read_max_ms=5.05678 ms, dqbuf_avg_ms=0.0127365, dqbuf_max_ms=0.026834, cvt_avg_ms=2.50919, cvt_max_ms=4.64019, qbuf_avg_ms=0.210699, qbuf_max_ms=0.410388
+[RTSP_WORKER] total=19260, fps=29.6786, wait_avg_ms=18.1466, wait_max_ms=23.7455, clone_avg_ms=1.18446, clone_max_ms=2.30482, draw_avg_ms=0.617502, draw_max_ms=1.16495, resize_avg_ms=8.37411, resize_max_ms=13.9013, last_clone_avg_ms=0.464638, last_clone_max_ms=0.99374, encode_avg_ms=4.82551, encode_max_ms=6.89901, write_avg_ms=0.064253, write_max_ms=0.42818, total_avg_ms=33.6875, total_max_ms=42.3792, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 19300 to RTSP (MPP encoded, size=301 bytes)
+[IMX415] total=19350, fps=29.7579, read_avg_ms=2.67698 ms, read_max_ms=5.61109 ms, dqbuf_avg_ms=0.0131417, dqbuf_max_ms=0.025376, cvt_avg_ms=2.438, cvt_max_ms=5.37163, qbuf_avg_ms=0.217132, qbuf_max_ms=0.430805
+[RTSP_WORKER] total=19350, fps=29.7889, wait_avg_ms=18.2894, wait_max_ms=23.4402, clone_avg_ms=1.17707, clone_max_ms=2.65492, draw_avg_ms=0.619262, draw_max_ms=1.19441, resize_avg_ms=8.2313, resize_max_ms=16.2964, last_clone_avg_ms=0.42514, last_clone_max_ms=0.756898, encode_avg_ms=4.745, encode_max_ms=6.32732, write_avg_ms=0.0640682, write_max_ms=0.499349, total_avg_ms=33.5615, total_max_ms=47.6434, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 19400 to RTSP (MPP encoded, size=222 bytes)
+[IMX415] total=19440, fps=29.7288, read_avg_ms=2.64504 ms, read_max_ms=5.17404 ms, dqbuf_avg_ms=0.0129657, dqbuf_max_ms=0.020125, cvt_avg_ms=2.4061, cvt_max_ms=4.91824, qbuf_avg_ms=0.216686, qbuf_max_ms=0.337178
+[RTSP_WORKER] total=19440, fps=29.7231, wait_avg_ms=18.3137, wait_max_ms=24.2616, clone_avg_ms=1.27399, clone_max_ms=2.3617, draw_avg_ms=0.680073, draw_max_ms=1.31196, resize_avg_ms=7.94687, resize_max_ms=13.7778, last_clone_avg_ms=0.478809, last_clone_max_ms=0.950155, encode_avg_ms=4.865, encode_max_ms=5.96915, write_avg_ms=0.0668669, write_max_ms=0.743774, total_avg_ms=33.6365, total_max_ms=44.0251, reuse_last=0, encode_ok=90, write_ok=90
+Added frame to streaming queue, queue size: 1
+Sent frame 19500 to RTSP (MPP encoded, size=272 bytes)
+[IMX415] total=19530, fps=29.7566, read_avg_ms=2.60636 ms, read_max_ms=4.53964 ms, dqbuf_avg_ms=0.0128629, dqbuf_max_ms=0.032668, cvt_avg_ms=2.36545, cvt_max_ms=4.25322, qbuf_avg_ms=0.219193, qbuf_max_ms=0.474265
+[RTSP_WORKER] total=19530, fps=29.7594, wait_avg_ms=18.2097, wait_max_ms=24.1181, clone_avg_ms=1.20832, clone_max_ms=1.98835, draw_avg_ms=0.62765, draw_max_ms=1.43621, resize_avg_ms=8.09091, resize_max_ms=17.7476, last_clone_avg_ms=0.480143, last_clone_max_ms=0.89282, encode_avg_ms=4.89596, encode_max_ms=6.28649, write_avg_ms=0.0706753, write_max_ms=0.773816, total_avg_ms=33.5944, total_max_ms=47.0741, reuse_last=0, encode_ok=90, write_ok=90
